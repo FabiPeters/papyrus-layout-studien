@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type='main'>Testbilder</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>tranScriptorium</publisher>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl><publisher>TRP document creator: fabianpeters@mailbox.org</publisher></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<facsimile xml:id='facs_1'>
+		<surface ulx='0' uly='0' lrx='3773' lry='3255'>
+			<graphic url='P_09095_R_3_001.jpg' width='3773px' height='3255px'/>
+			<zone points='132,120 2293,115 2418,3533 257,3538' rendition='TextRegion' subtype='other' xml:id='facs_1_region_1745852480632_22'>
+			</zone>
+			<zone points='184,933 2012,909 1934,2974 252,2967' rendition='TextRegion' subtype='paragraph' xml:id='facs_1_region_1745852679923_56'>
+				<zone points='216,939 1993,921 1993,971 216,989' rendition='Line' xml:id='facs_1_line_1745852757429_61'/>
+				<zone points='290,1042 1992,1028 1992,1078 290,1092' rendition='Line' xml:id='facs_1_line_1745852765906_66'/>
+				<zone points='312,1158 1986,1141 1986,1191 312,1208' rendition='Line' xml:id='facs_1_line_1745852773024_71'/>
+				<zone points='220,1261 1980,1249 1980,1299 220,1311' rendition='Line' xml:id='facs_1_line_1745852779773_76'/>
+				<zone points='217,1380 1992,1356 1993,1406 218,1430' rendition='Line' xml:id='facs_1_line_1745852786224_81'/>
+				<zone points='217,1502 1966,1470 1967,1520 218,1552' rendition='Line' xml:id='facs_1_line_1745852792527_86'/>
+				<zone points='227,1619 1966,1584 1967,1634 228,1669' rendition='Line' xml:id='facs_1_line_1745852799983_91'/>
+				<zone points='228,1744 1950,1710 1951,1760 229,1794' rendition='Line' xml:id='facs_1_line_1745852805970_96'/>
+				<zone points='236,1853 1945,1833 1946,1883 237,1903' rendition='Line' xml:id='facs_1_line_1745852814905_101'/>
+				<zone points='236,1975 1941,1940 1942,1990 237,2025' rendition='Line' xml:id='facs_1_line_1745852820523_106'/>
+				<zone points='265,2086 1946,2049 1947,2099 266,2136' rendition='Line' xml:id='facs_1_line_1745852826744_111'/>
+				<zone points='278,2204 1953,2179 1954,2229 279,2254' rendition='Line' xml:id='facs_1_line_1745852834767_116'/>
+				<zone points='252,2319 1905,2292 1906,2342 253,2369' rendition='Line' xml:id='facs_1_line_1745852844794_121'/>
+				<zone points='260,2437 1781,2426 1781,2476 260,2487' rendition='Line' xml:id='facs_1_line_1745852852000_126'/>
+				<zone points='279,2558 1931,2546 1931,2596 279,2608' rendition='Line' xml:id='facs_1_line_1745852859135_131'/>
+				<zone points='252,2674 1859,2670 1859,2720 252,2724' rendition='Line' xml:id='facs_1_line_1745852865465_136'/>
+				<zone points='294,2791 1829,2779 1829,2829 294,2841' rendition='Line' xml:id='facs_1_line_1745852872036_141'/>
+				<zone points='305,2908 1827,2924 1827,2974 305,2958' rendition='Line' xml:id='facs_1_line_1745852881108_146'/>
+			</zone>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div>
+				<pb facs='#facs_1' n='1'/>
+				<p facs='#facs_1_region_1745852679923_56'>
+					<lb facs='#facs_1_line_1745852757429_61' n='N001'/>
+					<lb facs='#facs_1_line_1745852765906_66' n='N002'/>
+					<lb facs='#facs_1_line_1745852773024_71' n='N003'/>
+					<lb facs='#facs_1_line_1745852779773_76' n='N004'/>
+					<lb facs='#facs_1_line_1745852786224_81' n='N005'/>
+					<lb facs='#facs_1_line_1745852792527_86' n='N006'/>
+					<lb facs='#facs_1_line_1745852799983_91' n='N007'/>
+					<lb facs='#facs_1_line_1745852805970_96' n='N008'/>
+					<lb facs='#facs_1_line_1745852814905_101' n='N009'/>
+					<lb facs='#facs_1_line_1745852820523_106' n='N010'/>
+					<lb facs='#facs_1_line_1745852826744_111' n='N011'/>
+					<lb facs='#facs_1_line_1745852834767_116' n='N012'/>
+					<lb facs='#facs_1_line_1745852844794_121' n='N013'/>
+					<lb facs='#facs_1_line_1745852852000_126' n='N014'/>
+					<lb facs='#facs_1_line_1745852859135_131' n='N015'/>
+					<lb facs='#facs_1_line_1745852865465_136' n='N016'/>
+					<lb facs='#facs_1_line_1745852872036_141' n='N017'/>
+					<lb facs='#facs_1_line_1745852881108_146' n='N018'/>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
