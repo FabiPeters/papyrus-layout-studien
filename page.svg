@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="399.3" height="579.7">
+   <polygon points="33,12.8 386.6,19.5 380.2,546 31.2,543.2"
+            fill="none"
+            stroke="red"
+            stroke-width="1"
+            opacity="1"/>
+   <polygon points="87.4,35.6 375.4,42.6 367.4,454 88.5,454"
+            fill="rgba(100, 150, 200, 0.3)"
+            stroke="rgb(50, 100, 150)"
+            stroke-width="0.2"/>
+   <text x="229.675"
+         y="246.55"
+         text-anchor="middle"
+         dominant-baseline="central"
+         font-family="Arial, sans-serif"
+         font-size="20"
+         fill="rgb(50, 100, 150)"
+         font-weight="bold">1</text>
+   <text x="229.675"
+         y="266.55"
+         text-anchor="middle"
+         dominant-baseline="central"
+         font-family="Arial, sans-serif"
+         font-size="12"
+         fill="rgb(50, 100, 150)">11,761,548 px²
+                    </text>
+   <polygon points="184.3,476.6 355.1,485.4 349.9,526.5 179.8,518.7"
+            fill="rgba(100, 150, 200, 0.3)"
+            stroke="rgb(50, 100, 150)"
+            stroke-width="0.2"/>
+   <text x="267.275"
+         y="501.8"
+         text-anchor="middle"
+         dominant-baseline="central"
+         font-family="Arial, sans-serif"
+         font-size="20"
+         fill="rgb(50, 100, 150)"
+         font-weight="bold">2</text>
+   <text x="267.275"
+         y="521.8"
+         text-anchor="middle"
+         dominant-baseline="central"
+         font-family="Arial, sans-serif"
+         font-size="12"
+         fill="rgb(50, 100, 150)">713,098 px²
+                    </text>
+   <g transform="translate(20, 539.7)">
+      <rect x="0"
+            y="0"
+            width="150"
+            height="30"
+            fill="white"
+            stroke="red"
+            stroke-width="1"
+            opacity="0.9"/>
+      <text x="10"
+            y="15"
+            font-family="Arial, sans-serif"
+            font-size="12"
+            font-weight="bold"
+            fill="red">Fragment area:</text>
+      <text x="10"
+            y="25"
+            font-family="Arial, sans-serif"
+            font-size="11"
+            fill="red">18,566,396 px²
+                    </text>
+   </g>
+   <g transform="translate(20, 20)">
+      <rect x="0"
+            y="0"
+            width="200"
+            height="80"
+            fill="white"
+            stroke="black"
+            stroke-width="1"
+            opacity="0.9"/>
+      <text x="10"
+            y="20"
+            font-family="Arial, sans-serif"
+            font-size="14"
+            font-weight="bold">Legend:</text>
+      <rect x="10"
+            y="30"
+            width="20"
+            height="15"
+            fill="rgba(100, 150, 200, 0.3)"
+            stroke="rgb(50, 100, 150)"
+            stroke-width="2"/>
+      <text x="35" y="42" font-family="Arial, sans-serif" font-size="12">Paragraphs</text>
+      <line x1="10"
+            y1="55"
+            x2="30"
+            y2="55"
+            stroke="red"
+            stroke-width="3"/>
+      <text x="35" y="60" font-family="Arial, sans-serif" font-size="12">Fragment boundary</text>
+   </g>
+</svg>

@@ -3,6 +3,9 @@
 
     <xsl:output indent="yes"/>
 
+    <xsl:variable name="imageWidth" select="//p:Page/@imageWidth"/>
+    <xsl:variable name="imageHeight" select="//p:Page/@imageHeight"/>
+
     <xsl:variable name="fragment">
         <xsl:variable name="points_string" select="//p:TextRegion[contains(@custom, 'page')]/p:Coords/@points"/>
         <xsl:call-template name="get_values">
@@ -22,15 +25,71 @@
     </xsl:variable>
 
     <xsl:template match="/">
-        <paragraphs>
-            <xsl:copy-of select="$paragraphs//area"/>
-        </paragraphs>
-        <fragment>
-            <xsl:copy-of select="$fragment//area"/>
-        </fragment>
+        <xsl:copy-of select="$paragraphs"/>
+        <xsl:copy-of select="$fragment"/>
         <empty_space>
             <xsl:value-of select="format-number((1 - sum($paragraphs//area) div $fragment/area), '##.#%')"/>
         </empty_space>
+
+        <xsl:result-document href="page.svg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="{$imageWidth div 10}" height="{$imageHeight div 10}">
+                <!-- Fragment outline (main papyrus boundary) -->
+                <polygon points="{string-join($fragment//point/concat(x div 10, ',', y div 10), ' ')}" 
+                         fill="none" 
+                         stroke="red" 
+                         stroke-width="1"
+                         opacity="1"/>
+                
+                <!-- Paragraph regions -->
+                <xsl:for-each select="$paragraphs/paragraph">
+                    <polygon points="{string-join(.//point/concat(x div 10, ',', y div 10), ' ')}" 
+                             fill="rgba(100, 150, 200, 0.3)" 
+                             stroke="rgb(50, 100, 150)" 
+                             stroke-width="0.2"/>
+                    
+                    <!-- Add paragraph number and area label at centroid -->
+                    <xsl:variable name="centroid_x" select="sum(.//point/x) div count(.//point) div 10"/>
+                    <xsl:variable name="centroid_y" select="sum(.//point/y) div count(.//point) div 10"/>
+                    <text x="{$centroid_x}" y="{$centroid_y}" 
+                          text-anchor="middle" 
+                          dominant-baseline="central"
+                          font-family="Arial, sans-serif" 
+                          font-size="20" 
+                          fill="rgb(50, 100, 150)"
+                          font-weight="bold">
+                        <xsl:value-of select="@n"/>
+                    </text>
+                    <!-- Add area value below the number -->
+                    <text x="{$centroid_x}" y="{$centroid_y + 20}" 
+                          text-anchor="middle" 
+                          dominant-baseline="central"
+                          font-family="Arial, sans-serif" 
+                          font-size="12" 
+                          fill="rgb(50, 100, 150)">
+                        <xsl:value-of select="format-number(area, '#,###')"/> px²
+                    </text>
+                </xsl:for-each>
+                
+                <!-- Fragment area display in lower left -->
+                <g transform="translate(20, {$imageHeight div 10 - 40})">
+                    <rect x="0" y="0" width="150" height="30" fill="white" stroke="red" stroke-width="1" opacity="0.9"/>
+                    <text x="10" y="15" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="red">Fragment area:</text>
+                    <text x="10" y="25" font-family="Arial, sans-serif" font-size="11" fill="red">
+                        <xsl:value-of select="format-number($fragment/area, '#,###')"/> px²
+                    </text>
+                </g>
+                
+                <!-- Legend -->
+                <g transform="translate(20, 20)">
+                    <rect x="0" y="0" width="200" height="80" fill="white" stroke="black" stroke-width="1" opacity="0.9"/>
+                    <text x="10" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Legend:</text>
+                    <rect x="10" y="30" width="20" height="15" fill="rgba(100, 150, 200, 0.3)" stroke="rgb(50, 100, 150)" stroke-width="2"/>
+                    <text x="35" y="42" font-family="Arial, sans-serif" font-size="12">Paragraphs</text>
+                    <line x1="10" y1="55" x2="30" y2="55" stroke="red" stroke-width="3"/>
+                    <text x="35" y="60" font-family="Arial, sans-serif" font-size="12">Fragment boundary</text>
+                </g>
+            </svg>
+        </xsl:result-document>
     </xsl:template>
 
     <xsl:template name="get_values">
@@ -42,13 +101,13 @@
                 <xsl:with-param name="points_string" select="$points_string"/>
             </xsl:call-template>
         </xsl:variable>
-        <!--<xsl:copy-of select="$points"/>-->
+        <xsl:copy-of select="$points"/>
 
         <!-- calculate area of the polygon -->
         <xsl:call-template name="get_polygon_area">
             <xsl:with-param name="points" select="$points"/>
         </xsl:call-template>
-        
+
     </xsl:template>
 
     <!-- extract point values from string -->
