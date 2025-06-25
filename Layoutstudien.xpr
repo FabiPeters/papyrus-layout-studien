@@ -59,7 +59,7 @@
                                     <String>${pdu}/area.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/Testbilder/Testbilder/page/P_10520_R_001.xml</String>
+                                    <String>${pdu}/svg_test/page/P_10520_R_001.xml</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>

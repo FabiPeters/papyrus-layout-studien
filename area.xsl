@@ -3,126 +3,113 @@
 
     <xsl:output indent="yes"/>
 
-    <xsl:variable name="coords">
-        <xsl:variable name="coords_string" select="//p:TextRegion[@id = 'r2']/p:Coords/@points"/>
-        <xsl:for-each select="tokenize($coords_string, ' ')">
-            <point n="{position()}">
-                <x>
-                    <xsl:value-of select="tokenize(., ',')[1]"/>
-                </x>
-                <y>
-                    <xsl:value-of select="tokenize(., ',')[2]"/>
-                </y>
-            </point>
+    <xsl:variable name="fragment">
+        <xsl:variable name="points_string" select="//p:TextRegion[contains(@custom, 'page')]/p:Coords/@points"/>
+        <xsl:call-template name="get_values">
+            <xsl:with-param name="points_string" select="$points_string"/>
+        </xsl:call-template>
+    </xsl:variable>
+
+    <xsl:variable name="paragraphs">
+        <xsl:for-each select="//p:TextRegion[contains(@custom, 'paragraph')]">
+            <xsl:variable name="points_string" select="./p:Coords/@points"/>
+            <paragraph n="{position()}">
+                <xsl:call-template name="get_values">
+                    <xsl:with-param name="points_string" select="$points_string"/>
+                </xsl:call-template>
+            </paragraph>
         </xsl:for-each>
     </xsl:variable>
-    
-    <xsl:variable name="paragraph_area">
-        <xsl:for-each select="$coords/point">
-            <xsl:choose>
-                <xsl:when test="position() != last()">
-                    <xsl:variable name="x1" select="./x" as="xs:integer"/>
-                    <xsl:variable name="y1" select="./y" as="xs:integer"/>
-                    <xsl:variable name="x2" select="./following::x[1]" as="xs:integer"/>
-                    <xsl:variable name="y2" select="./following::y[1]" as="xs:integer"/>
-                    
-                    <xsl:variable name="x1y2" select="$x1 * $y2"/>
-                    <xsl:variable name="y1x2" select="$y1 * $x2"/>
-                    
-                    <xsl:variable name="x1y2-y1x2" select="$x1y2 - $y1x2" as="xs:integer"/>
-                    
-                    <value n="{position()}"><xsl:value-of select="$x1y2-y1x2"/></value>
-                    
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:variable name="x1" select="./x" as="xs:integer"/>
-                    <xsl:variable name="y1" select="./y" as="xs:integer"/>
-                    <xsl:variable name="x2" select="/point[1]/x" as="xs:integer"/>
-                    <xsl:variable name="y2" select="/point[1]/y" as="xs:integer"/>
-                    
-                    <xsl:variable name="x1y2" select="$x1 * $y2"/>
-                    <xsl:variable name="y1x2" select="$y1 * $x2"/>
-                    
-                    <xsl:variable name="x1y2-y1x2" select="$x1y2 - $y1x2" as="xs:integer"/>
-                    
-                    <value n="{position()}"><xsl:value-of select="$x1y2-y1x2"/></value>
-                    
-                </xsl:otherwise>
-            </xsl:choose>
-            
-            
-        </xsl:for-each>
-        
-    </xsl:variable>
-    
-    <xsl:variable name="coords2">
-        <xsl:variable name="coords_string2" select="//p:TextRegion[@id = 'r1']/p:Coords/@points"/>
-        <xsl:for-each select="tokenize($coords_string2, ' ')">
-            <point n="{position()}">
-                <x>
-                    <xsl:value-of select="tokenize(., ',')[1]"/>
-                </x>
-                <y>
-                    <xsl:value-of select="tokenize(., ',')[2]"/>
-                </y>
-            </point>
-        </xsl:for-each>
-    </xsl:variable>
-    
-    <xsl:variable name="paragraph_area2">
-        <xsl:for-each select="$coords2/point">
-            <xsl:choose>
-                <xsl:when test="position() != last()">
-                    <xsl:variable name="x1" select="./x"/>
-                    <xsl:variable name="y1" select="./y"/>
-                    <xsl:variable name="x2" select="./following::x[1]"/>
-                    <xsl:variable name="y2" select="./following::y[1]"/>
-                    
-                    <xsl:variable name="x1y2" select="$x1 * $y2"/>
-                    <xsl:variable name="y1x2" select="$y1 * $x2"/>
-                    
-                    <xsl:variable name="x1y2-y1x2" select="$x1y2 - $y1x2"/>
-                    
-                    <value n="{position()}"><xsl:value-of select="$x1y2-y1x2"/></value>
-                    
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:variable name="x1" select="./x"/>
-                    <xsl:variable name="y1" select="./y"/>
-                    <xsl:variable name="x2" select="/point[1]/x"/>
-                    <xsl:variable name="y2" select="/point[1]/y"/>
-                    
-                    <xsl:variable name="x1y2" select="$x1 * $y2"/>
-                    <xsl:variable name="y1x2" select="$y1 * $x2"/>
-                    
-                    <xsl:variable name="x1y2-y1x2" select="$x1y2 - $y1x2"/>
-                    
-                    <value n="{position()}"><xsl:value-of select="$x1y2-y1x2"/></value>
-                    
-                </xsl:otherwise>
-            </xsl:choose>
-            
-            
-        </xsl:for-each>
-        
-    </xsl:variable>
-    
+
     <xsl:template match="/">
-        <xsl:copy-of select="$paragraph_area"/>
-        
-        <xsl:variable name="sum" select="sum($paragraph_area/value)"/>
-            
-        <xsl:value-of select="$sum div 2"/>
-        
-        <xsl:copy-of select="$paragraph_area2"/>
-        
-        <xsl:variable name="sum2" select="sum($paragraph_area2/value)"/>
-        
-        <xsl:value-of select="$sum2 div 2"/>
-        
-        Prozentzahl: <xsl:value-of select="format-number($sum div $sum2 * 100, '###')"/>%
+        <paragraphs>
+            <xsl:copy-of select="$paragraphs//area"/>
+        </paragraphs>
+        <fragment>
+            <xsl:copy-of select="$fragment//area"/>
+        </fragment>
+        <empty_space>
+            <xsl:value-of select="format-number((1 - sum($paragraphs//area) div $fragment/area), '##.#%')"/>
+        </empty_space>
+    </xsl:template>
+
+    <xsl:template name="get_values">
+        <xsl:param name="points_string"/>
+
+        <!-- extract point values from string -->
+        <xsl:variable name="points">
+            <xsl:call-template name="get_points">
+                <xsl:with-param name="points_string" select="$points_string"/>
+            </xsl:call-template>
+        </xsl:variable>
+        <!--<xsl:copy-of select="$points"/>-->
+
+        <!-- calculate area of the polygon -->
+        <xsl:call-template name="get_polygon_area">
+            <xsl:with-param name="points" select="$points"/>
+        </xsl:call-template>
         
     </xsl:template>
 
+    <!-- extract point values from string -->
+    <xsl:template name="get_points">
+        <xsl:param name="points_string"/>
+        <xsl:for-each select="tokenize($points_string, ' ')">
+            <point n="{position()}">
+                <x>
+                    <xsl:value-of select="tokenize(., ',')[1]"/>
+                </x>
+                <y>
+                    <xsl:value-of select="tokenize(., ',')[2]"/>
+                </y>
+            </point>
+        </xsl:for-each>
+    </xsl:template>
+
+    <!-- calculate area of the polygon -->
+    <xsl:template name="get_polygon_area">
+        <xsl:param name="points"/>
+        <xsl:variable name="scalar">
+            <xsl:for-each select="$points/point">
+                <xsl:choose>
+                    <xsl:when test="position() != last()">
+                        <xsl:variable name="x1" select="./x"/>
+                        <xsl:variable name="y1" select="./y"/>
+                        <xsl:variable name="x2" select="./following::x[1]"/>
+                        <xsl:variable name="y2" select="./following::y[1]"/>
+
+                        <xsl:variable name="x1y2" select="$x1 * $y2"/>
+                        <xsl:variable name="y1x2" select="$y1 * $x2"/>
+
+                        <xsl:variable name="x1y2-y1x2" select="$x1y2 - $y1x2"/>
+
+                        <value n="{position()}">
+                            <xsl:value-of select="$x1y2-y1x2"/>
+                        </value>
+
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:variable name="x1" select="./x"/>
+                        <xsl:variable name="y1" select="./y"/>
+                        <xsl:variable name="x2" select="/point[1]/x"/>
+                        <xsl:variable name="y2" select="/point[1]/y"/>
+
+                        <xsl:variable name="x1y2" select="$x1 * $y2"/>
+                        <xsl:variable name="y1x2" select="$y1 * $x2"/>
+
+                        <xsl:variable name="x1y2-y1x2" select="$x1y2 - $y1x2"/>
+
+                        <value n="{position()}">
+                            <xsl:value-of select="$x1y2-y1x2"/>
+                        </value>
+
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:variable>
+        <area unit="px">
+            <xsl:value-of select="format-number(sum($scalar/value) div 2, '#')"/>
+        </area>
+    </xsl:template>
 
 </xsl:stylesheet>
