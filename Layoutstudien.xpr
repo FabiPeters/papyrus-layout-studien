@@ -10,7 +10,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>area.xsl</String>
+                                    <String>Testbilder/Testbilder/page/P_10520_R_001.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -19,7 +19,27 @@
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
-                                        <String>XML</String>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Testbilder/Testbilder_tei.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>area</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
@@ -56,10 +76,10 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/area.xsl</String>
+                                    <String>file:/C:/2_Areas/papyrus-layout-studien/area.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
-                                    <String>${pdu}/svg_test/page/P_10520_R_001.xml</String>
+                                    <String>${currentFileURL}</String>
                                 </field>
                                 <field name="defaultScenario">
                                     <Boolean>false</Boolean>
@@ -68,7 +88,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="type">
-                                    <String>XML</String>
+                                    <String>XSL</String>
                                 </field>
                                 <field name="saveAs">
                                     <Boolean>true</Boolean>
