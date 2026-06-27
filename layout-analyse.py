@@ -1,5 +1,6 @@
 from pathlib import Path
 import xml.etree.ElementTree as ET
+import fragment_mask
 
 ns = {"page": "http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"}
 
