@@ -1,1 +1,7 @@
+__pycache__/
+page_xml*
+images/
+Beispielbilder/
+obsolet/
 .DS_Store
+*.code-workspace
