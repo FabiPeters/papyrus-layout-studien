@@ -1,0 +1,601 @@
+{
+  "source": "xml/TM_62580.xml (papyri.info / TEI)",
+  "papyrus": "P. 9782 (TM 62580)",
+  "generated": "2026-06-25",
+  "description": "Zuordnung der TEI-Kolumnennummern (subtype=column) zu Platten ueber die corresp-FR-IDs in custodialHist.",
+  "main_edition_columns_total": 75,
+  "columns": [
+    {
+      "col": 1,
+      "fr": "FR7070",
+      "plate": "A"
+    },
+    {
+      "col": 2,
+      "fr": "FR7071",
+      "plate": "A"
+    },
+    {
+      "col": 3,
+      "fr": "FR7072",
+      "plate": "A"
+    },
+    {
+      "col": 4,
+      "fr": "FR7073",
+      "plate": "A"
+    },
+    {
+      "col": 5,
+      "fr": "FR7074",
+      "plate": "A"
+    },
+    {
+      "col": 6,
+      "fr": "FR7075",
+      "plate": "A"
+    },
+    {
+      "col": 7,
+      "fr": "FR7076",
+      "plate": "B"
+    },
+    {
+      "col": 8,
+      "fr": "FR7077",
+      "plate": "B"
+    },
+    {
+      "col": 9,
+      "fr": "FR7078",
+      "plate": "B"
+    },
+    {
+      "col": 10,
+      "fr": "FR7079",
+      "plate": "B"
+    },
+    {
+      "col": 11,
+      "fr": "FR7080",
+      "plate": "C"
+    },
+    {
+      "col": 12,
+      "fr": "FR7081",
+      "plate": "C"
+    },
+    {
+      "col": 13,
+      "fr": "FR7082",
+      "plate": "C"
+    },
+    {
+      "col": 14,
+      "fr": "FR7083",
+      "plate": "C"
+    },
+    {
+      "col": 15,
+      "fr": "FR7084",
+      "plate": "D"
+    },
+    {
+      "col": 16,
+      "fr": "FR7085",
+      "plate": "D"
+    },
+    {
+      "col": 17,
+      "fr": "FR7086",
+      "plate": "D"
+    },
+    {
+      "col": 18,
+      "fr": "FR7087",
+      "plate": "D"
+    },
+    {
+      "col": 19,
+      "fr": "FR7088",
+      "plate": "E"
+    },
+    {
+      "col": 20,
+      "fr": "FR7089",
+      "plate": "E"
+    },
+    {
+      "col": 21,
+      "fr": "FR7090",
+      "plate": "E"
+    },
+    {
+      "col": 22,
+      "fr": "FR7091",
+      "plate": "E"
+    },
+    {
+      "col": 23,
+      "fr": "FR7092",
+      "plate": "F"
+    },
+    {
+      "col": 24,
+      "fr": "FR7093",
+      "plate": "F"
+    },
+    {
+      "col": 25,
+      "fr": "FR7094",
+      "plate": "F"
+    },
+    {
+      "col": 26,
+      "fr": "FR7095",
+      "plate": "F"
+    },
+    {
+      "col": 27,
+      "fr": "FR7096",
+      "plate": null
+    },
+    {
+      "col": 28,
+      "fr": "FR7097",
+      "plate": null
+    },
+    {
+      "col": 29,
+      "fr": "FR7098",
+      "plate": null
+    },
+    {
+      "col": 30,
+      "fr": "FR7099",
+      "plate": null
+    },
+    {
+      "col": 31,
+      "fr": "FR7100",
+      "plate": null
+    },
+    {
+      "col": 32,
+      "fr": "FR7101",
+      "plate": null
+    },
+    {
+      "col": 33,
+      "fr": "FR7102",
+      "plate": null
+    },
+    {
+      "col": 34,
+      "fr": "FR7103",
+      "plate": null
+    },
+    {
+      "col": 35,
+      "fr": "FR7104",
+      "plate": null
+    },
+    {
+      "col": 36,
+      "fr": "FR7105",
+      "plate": null
+    },
+    {
+      "col": 37,
+      "fr": "FR7106",
+      "plate": null
+    },
+    {
+      "col": 38,
+      "fr": "FR7107",
+      "plate": null
+    },
+    {
+      "col": 39,
+      "fr": "FR7108",
+      "plate": null
+    },
+    {
+      "col": 40,
+      "fr": "FR7109",
+      "plate": null
+    },
+    {
+      "col": 41,
+      "fr": "FR7110",
+      "plate": null
+    },
+    {
+      "col": 42,
+      "fr": "FR7111",
+      "plate": "H"
+    },
+    {
+      "col": 43,
+      "fr": "FR7112",
+      "plate": "H"
+    },
+    {
+      "col": 44,
+      "fr": "FR7113",
+      "plate": "H"
+    },
+    {
+      "col": 45,
+      "fr": "FR7114",
+      "plate": "H"
+    },
+    {
+      "col": 46,
+      "fr": "FR7115",
+      "plate": "H"
+    },
+    {
+      "col": 47,
+      "fr": "FR7116",
+      "plate": "H"
+    },
+    {
+      "col": 48,
+      "fr": "FR7501",
+      "plate": "H"
+    },
+    {
+      "col": 49,
+      "fr": "FR7502",
+      "plate": "H"
+    },
+    {
+      "col": 50,
+      "fr": "FR7503",
+      "plate": "H"
+    },
+    {
+      "col": 51,
+      "fr": "FR7504",
+      "plate": "H"
+    },
+    {
+      "col": 52,
+      "fr": "FR7505",
+      "plate": "H"
+    },
+    {
+      "col": 53,
+      "fr": "FR7506",
+      "plate": null
+    },
+    {
+      "col": 54,
+      "fr": "FR7507",
+      "plate": null
+    },
+    {
+      "col": 55,
+      "fr": "FR7508",
+      "plate": "O"
+    },
+    {
+      "col": 56,
+      "fr": "FR7509",
+      "plate": "O"
+    },
+    {
+      "col": 57,
+      "fr": "FR7510",
+      "plate": "O"
+    },
+    {
+      "col": 58,
+      "fr": "FR7511",
+      "plate": "O"
+    },
+    {
+      "col": 59,
+      "fr": "FR7512",
+      "plate": "P"
+    },
+    {
+      "col": 60,
+      "fr": "FR7513",
+      "plate": "P"
+    },
+    {
+      "col": 61,
+      "fr": "FR7514",
+      "plate": "P"
+    },
+    {
+      "col": 62,
+      "fr": "FR7515",
+      "plate": "P"
+    },
+    {
+      "col": 63,
+      "fr": "FR7516",
+      "plate": "Q"
+    },
+    {
+      "col": 64,
+      "fr": "FR7517",
+      "plate": "Q"
+    },
+    {
+      "col": 65,
+      "fr": "FR7518",
+      "plate": "Q"
+    },
+    {
+      "col": 66,
+      "fr": "FR7519",
+      "plate": "Q"
+    },
+    {
+      "col": 67,
+      "fr": "FR7520",
+      "plate": "R"
+    },
+    {
+      "col": 68,
+      "fr": "FR7521",
+      "plate": "R"
+    },
+    {
+      "col": 69,
+      "fr": "FR7522",
+      "plate": "R"
+    },
+    {
+      "col": 70,
+      "fr": "FR7523",
+      "plate": "R"
+    },
+    {
+      "col": 71,
+      "fr": "FR7524",
+      "plate": "R"
+    },
+    {
+      "col": 72,
+      "fr": "FR7525",
+      "plate": null
+    },
+    {
+      "col": 73,
+      "fr": "FR7526",
+      "plate": "S"
+    },
+    {
+      "col": 74,
+      "fr": "FR7527",
+      "plate": "S"
+    },
+    {
+      "col": 75,
+      "fr": "FR7528",
+      "plate": "S"
+    }
+  ],
+  "by_plate": {
+    "A": {
+      "columns": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "range": "1–6",
+      "n_tei": 6,
+      "n_transkribus": 6,
+      "match": true
+    },
+    "B": {
+      "columns": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "range": "7–10",
+      "n_tei": 4,
+      "n_transkribus": 4,
+      "match": true
+    },
+    "C": {
+      "columns": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "range": "11–14",
+      "n_tei": 4,
+      "n_transkribus": 4,
+      "match": true
+    },
+    "D": {
+      "columns": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "range": "15–18",
+      "n_tei": 4,
+      "n_transkribus": 4,
+      "match": true
+    },
+    "E": {
+      "columns": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "range": "19–22",
+      "n_tei": 4,
+      "n_transkribus": 4,
+      "match": true
+    },
+    "F": {
+      "columns": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "range": "23–26",
+      "n_tei": 4,
+      "n_transkribus": 4,
+      "match": true
+    },
+    "H": {
+      "columns": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "range": "42–52",
+      "n_tei": 11,
+      "n_transkribus": 11,
+      "match": true
+    },
+    "O": {
+      "columns": [
+        55,
+        56,
+        57,
+        58
+      ],
+      "range": "55–58",
+      "n_tei": 4,
+      "n_transkribus": 4,
+      "match": true
+    },
+    "P": {
+      "columns": [
+        59,
+        60,
+        61,
+        62
+      ],
+      "range": "59–62",
+      "n_tei": 4,
+      "n_transkribus": 4,
+      "match": true
+    },
+    "Q": {
+      "columns": [
+        63,
+        64,
+        65,
+        66
+      ],
+      "range": "63–66",
+      "n_tei": 4,
+      "n_transkribus": 4,
+      "match": true
+    },
+    "R": {
+      "columns": [
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "range": "67–71",
+      "n_tei": 5,
+      "n_transkribus": 5,
+      "match": true
+    },
+    "S": {
+      "columns": [
+        73,
+        74,
+        75
+      ],
+      "range": "73–75",
+      "n_tei": 3,
+      "n_transkribus": 3,
+      "match": true
+    }
+  },
+  "unassigned": {
+    "columns": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      53,
+      54,
+      72
+    ],
+    "frs": [
+      "FR7096",
+      "FR7097",
+      "FR7098",
+      "FR7099",
+      "FR7100",
+      "FR7101",
+      "FR7102",
+      "FR7103",
+      "FR7104",
+      "FR7105",
+      "FR7106",
+      "FR7107",
+      "FR7108",
+      "FR7109",
+      "FR7110",
+      "FR7506",
+      "FR7507",
+      "FR7525"
+    ],
+    "note": "FR-IDs ohne graphic-Verknuepfung in custodialHist; keine Platte zuordenbar."
+  },
+  "plates_in_transkribus_not_in_custodialhist": [
+    "G1",
+    "N2",
+    "T"
+  ],
+  "plates_in_custodialhist": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "H",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S"
+  ]
+}
