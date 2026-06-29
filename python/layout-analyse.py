@@ -15,7 +15,10 @@ def get_columns(element: ET.Element) -> list[tuple]:
 def get_lines(element: ET.Element) -> list[tuple]:
     pass
 
-page_xml_path = Path("page_xml/")
+# Skript liegt in python/; page_xml liegt in der Projektwurzel (eine Ebene hoeher).
+# Pfad robust relativ zum Skript aufloesen, unabhaengig vom Arbeitsverzeichnis.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+page_xml_path = PROJECT_ROOT / "page_xml"
 
 page_xml_list = list(page_xml_path.glob("**/page/*.xml"))
 
