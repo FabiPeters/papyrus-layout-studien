@@ -198,6 +198,7 @@ MEASUREMENT_KEYS = (
     "bbox_origin", "bbox_w", "bbox_h", "bbox_w_cm", "bbox_h_cm", "bbox_area_px",
     "extant_area_px", "coverage_pct",
     "margin_top", "margin_right", "margin_bottom", "margin_left",
+    "n_mask_components",
 )
 
 
@@ -349,6 +350,7 @@ def process_entry(key: str, entry: dict, project_root: Path, masks_dir: Path,
     if use_manual_bbox:
         if verbose:
             print(f"  Measurement mode: MANUAL (using bbox_manual data)")
+        binary = None  # im manuellen Modus keine Maske
         meas = compute_measurements(entry=entry, img_dims=(img_w, img_h))
     else:
         # Vorhandene Maske wiederverwenden, falls Überschreiben deaktiviert ist
@@ -369,6 +371,15 @@ def process_entry(key: str, entry: dict, project_root: Path, masks_dir: Path,
     # Streubereich -> Hoehe/Breite sind nicht aussagekraeftig und werden unterdrueckt.
     if len(entry.get('fragment_data', [])) > 1:
         meas['bbox_w_cm'] = meas['bbox_h_cm'] = None
+
+    # Fragmentierungsmaß: Zahl zusammenhaengender Maskenteile (nach Filterung).
+    # 1 = zusammenhaengendes Blatt, >1 = physisch getrennte Stuecke. Im manuellen
+    # Modus (keine Maske) nicht bestimmbar -> None.
+    if binary is not None:
+        n_labels, _ = cv2.connectedComponents(binary, connectivity=8)
+        meas['n_mask_components'] = int(n_labels) - 1  # ohne Hintergrund
+    else:
+        meas['n_mask_components'] = None
 
     merge_measurements(entry, meas)
 
