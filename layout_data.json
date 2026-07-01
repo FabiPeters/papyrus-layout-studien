@@ -8,7 +8,7 @@
     "column_data": [
       {
         "usable": false,
-        "polygon": "132,489 435,506 351,3371 60,3376",
+        "polygon": "132,495 431,505 351,3371 60,3376",
         "lines": [
           {
             "usable": true,
@@ -135,30 +135,7 @@
             "polygon": "283,3351 344,3351 344,3321 283,3321",
             "baseline": "283,3351 344,3351"
           }
-        ],
-        "metrics": {
-          "height_px": 2876.0,
-          "height_cm": 19.41,
-          "width_px": 297.0,
-          "width_cm": 2.0,
-          "area_px": 854640,
-          "area_cm2": 38.91,
-          "margin_top_px": 420.5,
-          "margin_top_cm": 2.84,
-          "margin_bottom_px": 1012.5,
-          "margin_bottom_cm": 6.83,
-          "schriftspiegel_height_ratio": 0.667,
-          "schriftspiegel_area_ratio": 0.03,
-          "to_next": {
-            "intercolumn_px": 387.8,
-            "intercolumn_cm": 2.62,
-            "col2col_width_px": 684.9,
-            "col2col_width_cm": 4.62,
-            "col2col_area_px": 2028788,
-            "col2col_area_cm2": 92.37,
-            "both_usable": false
-          }
-        }
+        ]
       },
       {
         "usable": true,
@@ -424,30 +401,7 @@
             "polygon": "729,3524 1489,3536 1488,3575 728,3563",
             "baseline": "728,3558 1488,3570"
           }
-        ],
-        "metrics": {
-          "height_px": 3037.0,
-          "height_cm": 20.49,
-          "width_px": 790.5,
-          "width_cm": 5.33,
-          "area_px": 2403380,
-          "area_cm2": 109.43,
-          "margin_top_px": 458.5,
-          "margin_top_cm": 3.09,
-          "margin_bottom_px": 813.5,
-          "margin_bottom_cm": 5.49,
-          "schriftspiegel_height_ratio": 0.705,
-          "schriftspiegel_area_ratio": 0.085,
-          "to_next": {
-            "intercolumn_px": 402.8,
-            "intercolumn_cm": 2.72,
-            "col2col_width_px": 1194.0,
-            "col2col_width_cm": 8.06,
-            "col2col_area_px": 3636850,
-            "col2col_area_cm2": 165.59,
-            "both_usable": true
-          }
-        }
+        ]
       },
       {
         "usable": true,
@@ -718,30 +672,7 @@
             "polygon": "1897,3567 2697,3567 2697,3606 1895,3610",
             "baseline": "1903,3596 2697,3601"
           }
-        ],
-        "metrics": {
-          "height_px": 3052.5,
-          "height_cm": 20.6,
-          "width_px": 807.5,
-          "width_cm": 5.45,
-          "area_px": 2464535,
-          "area_cm2": 112.21,
-          "margin_top_px": 477.0,
-          "margin_top_cm": 3.22,
-          "margin_bottom_px": 779.5,
-          "margin_bottom_cm": 5.26,
-          "schriftspiegel_height_ratio": 0.708,
-          "schriftspiegel_area_ratio": 0.087,
-          "to_next": {
-            "intercolumn_px": 391.5,
-            "intercolumn_cm": 2.64,
-            "col2col_width_px": 1198.8,
-            "col2col_width_cm": 8.09,
-            "col2col_area_px": 3674488,
-            "col2col_area_cm2": 167.3,
-            "both_usable": true
-          }
-        }
+        ]
       },
       {
         "usable": true,
@@ -1007,30 +938,7 @@
             "polygon": "3088,3569 3921,3565 3921,3615 3088,3619",
             "baseline": "3088,3614 3921,3610"
           }
-        ],
-        "metrics": {
-          "height_px": 3073.0,
-          "height_cm": 20.74,
-          "width_px": 809.5,
-          "width_cm": 5.46,
-          "area_px": 2488798,
-          "area_cm2": 113.32,
-          "margin_top_px": 469.0,
-          "margin_top_cm": 3.16,
-          "margin_bottom_px": 767.0,
-          "margin_bottom_cm": 5.18,
-          "schriftspiegel_height_ratio": 0.713,
-          "schriftspiegel_area_ratio": 0.088,
-          "to_next": {
-            "intercolumn_px": 387.1,
-            "intercolumn_cm": 2.61,
-            "col2col_width_px": 1196.9,
-            "col2col_width_cm": 8.08,
-            "col2col_area_px": 3673438,
-            "col2col_area_cm2": 167.25,
-            "both_usable": true
-          }
-        }
+        ]
       },
       {
         "usable": true,
@@ -1281,30 +1189,7 @@
             "polygon": "4297,3555 5084,3557 5084,3607 4297,3605",
             "baseline": "4297,3600 5084,3602"
           }
-        ],
-        "metrics": {
-          "height_px": 3050.5,
-          "height_cm": 20.58,
-          "width_px": 813.0,
-          "width_cm": 5.49,
-          "area_px": 2481624,
-          "area_cm2": 112.99,
-          "margin_top_px": 480.0,
-          "margin_top_cm": 3.24,
-          "margin_bottom_px": 778.5,
-          "margin_bottom_cm": 5.25,
-          "schriftspiegel_height_ratio": 0.708,
-          "schriftspiegel_area_ratio": 0.087,
-          "to_next": {
-            "intercolumn_px": 402.7,
-            "intercolumn_cm": 2.72,
-            "col2col_width_px": 1216.4,
-            "col2col_width_cm": 8.21,
-            "col2col_area_px": 3675784,
-            "col2col_area_cm2": 167.36,
-            "both_usable": true
-          }
-        }
+        ]
       },
       {
         "usable": true,
@@ -1545,22 +1430,7 @@
             "polygon": "5498,3512 6307,3557 6305,3607 5496,3562",
             "baseline": "5496,3557 6305,3602"
           }
-        ],
-        "metrics": {
-          "height_px": 3001.0,
-          "height_cm": 20.25,
-          "width_px": 812.5,
-          "width_cm": 5.48,
-          "area_px": 2442800,
-          "area_cm2": 111.22,
-          "margin_top_px": 509.5,
-          "margin_top_cm": 3.44,
-          "margin_bottom_px": 798.5,
-          "margin_bottom_cm": 5.39,
-          "schriftspiegel_height_ratio": 0.696,
-          "schriftspiegel_area_ratio": 0.086,
-          "to_next": null
-        }
+        ]
       }
     ],
     "bbox_origin": [
@@ -1578,7 +1448,15 @@
     "margin_left": 89,
     "fragment_data": [],
     "bbox_w_cm": 44.48,
-    "bbox_h_cm": 29.08
+    "bbox_h_cm": 29.08,
+    "tilt_reference": {
+      "plate_skew_deg": 0.842,
+      "baseline_skew_deg": 1.136,
+      "n_columns_used": 5,
+      "n_columns_with_baseline": 5
+    },
+    "n_mask_components": 1,
+    "dpi": 376.4
   },
   "0002_P_09782-Pl-B_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0002_P_09782-Pl-B_R_001.xml",
@@ -1816,30 +1694,7 @@
             "polygon": "255,4140 1180,4139 1180,4189 255,4190",
             "baseline": "255,4185 1180,4184"
           }
-        ],
-        "metrics": {
-          "height_px": 3430.5,
-          "height_cm": 20.41,
-          "width_px": 947.5,
-          "width_cm": 5.64,
-          "area_px": 3251640,
-          "area_cm2": 115.07,
-          "margin_top_px": 666.0,
-          "margin_top_cm": 3.96,
-          "margin_bottom_px": 815.5,
-          "margin_bottom_cm": 4.85,
-          "schriftspiegel_height_ratio": 0.698,
-          "schriftspiegel_area_ratio": 0.116,
-          "to_next": {
-            "intercolumn_px": 434.9,
-            "intercolumn_cm": 2.59,
-            "col2col_width_px": 1382.8,
-            "col2col_width_cm": 8.23,
-            "col2col_area_px": 4721517,
-            "col2col_area_cm2": 167.09,
-            "both_usable": true
-          }
-        }
+        ]
       },
       {
         "usable": true,
@@ -2075,30 +1930,7 @@
             "polygon": "1651,4127 2556,4132 2556,4182 1651,4177",
             "baseline": "1651,4172 2556,4177"
           }
-        ],
-        "metrics": {
-          "height_px": 3390.0,
-          "height_cm": 20.17,
-          "width_px": 913.0,
-          "width_cm": 5.43,
-          "area_px": 3098094,
-          "area_cm2": 109.64,
-          "margin_top_px": 696.0,
-          "margin_top_cm": 4.14,
-          "margin_bottom_px": 826.0,
-          "margin_bottom_cm": 4.91,
-          "schriftspiegel_height_ratio": 0.69,
-          "schriftspiegel_area_ratio": 0.11,
-          "to_next": {
-            "intercolumn_px": 430.9,
-            "intercolumn_cm": 2.56,
-            "col2col_width_px": 1344.8,
-            "col2col_width_cm": 8.0,
-            "col2col_area_px": 4568398,
-            "col2col_area_cm2": 161.67,
-            "both_usable": true
-          }
-        }
+        ]
       },
       {
         "usable": true,
@@ -2324,30 +2156,7 @@
             "polygon": "2982,4123 3886,4150 3885,4200 2981,4173",
             "baseline": "2981,4168 3885,4195"
           }
-        ],
-        "metrics": {
-          "height_px": 3394.0,
-          "height_cm": 20.19,
-          "width_px": 940.5,
-          "width_cm": 5.59,
-          "area_px": 3195162,
-          "area_cm2": 113.07,
-          "margin_top_px": 701.0,
-          "margin_top_cm": 4.17,
-          "margin_bottom_px": 817.0,
-          "margin_bottom_cm": 4.86,
-          "schriftspiegel_height_ratio": 0.691,
-          "schriftspiegel_area_ratio": 0.114,
-          "to_next": {
-            "intercolumn_px": 428.8,
-            "intercolumn_cm": 2.55,
-            "col2col_width_px": 1369.7,
-            "col2col_width_cm": 8.15,
-            "col2col_area_px": 4642798,
-            "col2col_area_cm2": 164.3,
-            "both_usable": true
-          }
-        }
+        ]
       },
       {
         "usable": true,
@@ -2573,22 +2382,7 @@
             "polygon": "4372,4097 5301,4134 5299,4184 4370,4147",
             "baseline": "4370,4142 5299,4179"
           }
-        ],
-        "metrics": {
-          "height_px": 3400.5,
-          "height_cm": 20.23,
-          "width_px": 956.0,
-          "width_cm": 5.69,
-          "area_px": 3255337,
-          "area_cm2": 115.2,
-          "margin_top_px": 670.5,
-          "margin_top_cm": 3.99,
-          "margin_bottom_px": 841.0,
-          "margin_bottom_cm": 5.0,
-          "schriftspiegel_height_ratio": 0.692,
-          "schriftspiegel_area_ratio": 0.116,
-          "to_next": null
-        }
+        ]
       }
     ],
     "bbox_origin": [
@@ -2606,7 +2400,15 @@
     "margin_left": 51,
     "fragment_data": [],
     "bbox_w_cm": 33.98,
-    "bbox_h_cm": 29.22
+    "bbox_h_cm": 29.22,
+    "tilt_reference": {
+      "plate_skew_deg": 0.909,
+      "baseline_skew_deg": 1.241,
+      "n_columns_used": 4,
+      "n_columns_with_baseline": 4
+    },
+    "n_mask_components": 1,
+    "dpi": 427.0
   },
   "0003_P_09782-Pl-C_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0003_P_09782-Pl-C_R_001.xml",
@@ -2618,347 +2420,22 @@
       {
         "usable": true,
         "polygon": "525,637 1446,651 1186,4052 276,4020",
-        "lines": [
-          {
-            "usable": true,
-            "polygon": "525,687 1406,693 1406,663 525,657",
-            "baseline": "525,687 1406,693"
-          },
-          {
-            "usable": true,
-            "polygon": "531,753 1432,763 1432,733 531,723",
-            "baseline": "531,753 1432,763"
-          },
-          {
-            "usable": true,
-            "polygon": "521,828 1401,856 1402,826 522,798",
-            "baseline": "521,828 1401,856"
-          },
-          {
-            "usable": true,
-            "polygon": "525,889 1424,911 1425,881 526,859",
-            "baseline": "525,889 1424,911"
-          },
-          {
-            "usable": true,
-            "polygon": "512,949 1393,966 1394,936 513,919",
-            "baseline": "512,949 1393,966"
-          },
-          {
-            "usable": true,
-            "polygon": "512,1002 1389,1028 1390,998 513,972",
-            "baseline": "512,1002 1389,1028"
-          },
-          {
-            "usable": true,
-            "polygon": "504,1064 1409,1092 1410,1062 505,1034",
-            "baseline": "505,1063 1409,1092"
-          },
-          {
-            "usable": true,
-            "polygon": "499,1127 1419,1152 1420,1122 500,1097",
-            "baseline": "499,1127 1419,1152"
-          },
-          {
-            "usable": true,
-            "polygon": "503,1200 1399,1218 1400,1188 504,1170",
-            "baseline": "503,1200 1399,1218"
-          },
-          {
-            "usable": true,
-            "polygon": "485,1264 1364,1293 1365,1263 486,1234",
-            "baseline": "485,1264 1364,1293"
-          },
-          {
-            "usable": true,
-            "polygon": "479,1334 1359,1355 1360,1325 480,1304",
-            "baseline": "479,1334 1359,1355"
-          },
-          {
-            "usable": true,
-            "polygon": "482,1399 1403,1422 1404,1392 483,1369",
-            "baseline": "482,1399 1403,1422"
-          },
-          {
-            "usable": true,
-            "polygon": "471,1461 1356,1490 1357,1460 472,1431",
-            "baseline": "471,1461 1356,1490"
-          },
-          {
-            "usable": true,
-            "polygon": "466,1525 1366,1544 1367,1514 467,1495",
-            "baseline": "466,1525 1366,1544"
-          },
-          {
-            "usable": true,
-            "polygon": "468,1591 1339,1613 1340,1583 469,1561",
-            "baseline": "468,1591 1339,1613"
-          },
-          {
-            "usable": true,
-            "polygon": "457,1662 1339,1680 1340,1650 458,1632",
-            "baseline": "457,1662 1339,1680"
-          },
-          {
-            "usable": true,
-            "polygon": "458,1733 1327,1751 1328,1721 459,1703",
-            "baseline": "458,1733 1327,1751"
-          },
-          {
-            "usable": true,
-            "polygon": "451,1800 1324,1813 1324,1783 451,1770",
-            "baseline": "451,1800 1324,1813"
-          },
-          {
-            "usable": true,
-            "polygon": "440,1874 1295,1887 1295,1857 440,1844",
-            "baseline": "440,1874 1295,1887"
-          },
-          {
-            "usable": true,
-            "polygon": "440,1944 1310,1962 1311,1932 441,1914",
-            "baseline": "440,1944 1310,1962"
-          },
-          {
-            "usable": true,
-            "polygon": "436,2015 1338,2033 1339,2003 437,1985",
-            "baseline": "436,2015 1338,2033"
-          },
-          {
-            "usable": true,
-            "polygon": "432,2081 1341,2107 1342,2077 433,2051",
-            "baseline": "432,2081 1341,2107"
-          },
-          {
-            "usable": true,
-            "polygon": "429,2162 1303,2171 1303,2141 429,2132",
-            "baseline": "426,2159 1303,2171"
-          },
-          {
-            "usable": true,
-            "polygon": "416,2223 1297,2241 1298,2211 417,2193",
-            "baseline": "416,2223 1297,2241"
-          },
-          {
-            "usable": true,
-            "polygon": "398,2301 1303,2318 1304,2288 399,2271",
-            "baseline": "398,2301 1303,2318"
-          },
-          {
-            "usable": true,
-            "polygon": "401,2371 1301,2391 1302,2361 402,2341",
-            "baseline": "401,2371 1301,2391"
-          },
-          {
-            "usable": true,
-            "polygon": "394,2441 1310,2470 1311,2440 395,2411",
-            "baseline": "394,2441 1310,2470"
-          },
-          {
-            "usable": true,
-            "polygon": "388,2518 1338,2546 1339,2516 389,2488",
-            "baseline": "387,2517 1338,2546"
-          },
-          {
-            "usable": true,
-            "polygon": "392,2588 1325,2627 1326,2597 393,2558",
-            "baseline": "392,2588 1325,2627"
-          },
-          {
-            "usable": true,
-            "polygon": "387,2658 1267,2690 1268,2660 388,2628",
-            "baseline": "387,2658 1267,2690"
-          },
-          {
-            "usable": true,
-            "polygon": "392,2731 1262,2763 1263,2733 393,2701",
-            "baseline": "392,2731 1262,2763"
-          },
-          {
-            "usable": true,
-            "polygon": "389,2796 1259,2827 1260,2797 390,2766",
-            "baseline": "389,2796 1259,2827"
-          },
-          {
-            "usable": true,
-            "polygon": "377,2872 1255,2923 1257,2893 379,2842",
-            "baseline": "377,2872 1255,2923"
-          },
-          {
-            "usable": true,
-            "polygon": "368,2950 1252,2996 1254,2966 370,2920",
-            "baseline": "368,2950 1252,2996"
-          },
-          {
-            "usable": true,
-            "polygon": "367,3016 1262,3069 1264,3039 369,2986",
-            "baseline": "367,3016 1262,3069"
-          },
-          {
-            "usable": true,
-            "polygon": "367,3101 1252,3143 1253,3113 368,3071",
-            "baseline": "367,3101 1252,3143"
-          },
-          {
-            "usable": true,
-            "polygon": "355,3177 1250,3219 1251,3189 356,3147",
-            "baseline": "355,3177 1250,3219"
-          },
-          {
-            "usable": true,
-            "polygon": "335,3253 1228,3293 1229,3263 336,3223",
-            "baseline": "335,3253 1228,3293"
-          },
-          {
-            "usable": true,
-            "polygon": "335,3325 1272,3373 1274,3343 337,3295",
-            "baseline": "335,3325 1272,3373"
-          },
-          {
-            "usable": true,
-            "polygon": "326,3406 1257,3440 1258,3410 327,3376",
-            "baseline": "326,3406 1257,3440"
-          },
-          {
-            "usable": true,
-            "polygon": "321,3481 1237,3516 1238,3486 322,3451",
-            "baseline": "321,3481 1237,3516"
-          },
-          {
-            "usable": true,
-            "polygon": "318,3552 1230,3591 1231,3561 319,3522",
-            "baseline": "318,3552 1230,3591"
-          },
-          {
-            "usable": true,
-            "polygon": "309,3623 1217,3667 1218,3637 310,3593",
-            "baseline": "309,3623 1217,3667"
-          },
-          {
-            "usable": true,
-            "polygon": "309,3699 1217,3739 1218,3709 310,3669",
-            "baseline": "309,3699 1217,3739"
-          },
-          {
-            "usable": true,
-            "polygon": "304,3780 1225,3812 1226,3782 305,3750",
-            "baseline": "304,3780 1225,3812"
-          },
-          {
-            "usable": true,
-            "polygon": "291,3856 1198,3891 1199,3861 292,3826",
-            "baseline": "291,3856 1198,3891"
-          },
-          {
-            "usable": true,
-            "polygon": "264,3930 1188,3964 1189,3934 265,3900",
-            "baseline": "264,3930 1188,3964"
-          },
-          {
-            "usable": true,
-            "polygon": "277,4018 1183,4049 1184,4019 278,3988",
-            "baseline": "277,4018 1183,4049"
-          }
-        ],
-        "metrics": {
-          "height_px": 3392.0,
-          "height_cm": 20.34,
-          "width_px": 915.5,
-          "width_cm": 5.49,
-          "area_px": 3111230,
-          "area_cm2": 111.83,
-          "margin_top_px": 629.0,
-          "margin_top_cm": 3.77,
-          "margin_bottom_px": 974.0,
-          "margin_bottom_cm": 5.84,
-          "schriftspiegel_height_ratio": 0.679,
-          "schriftspiegel_area_ratio": 0.108,
-          "to_next": {
-            "intercolumn_px": 452.4,
-            "intercolumn_cm": 2.71,
-            "col2col_width_px": 1369.6,
-            "col2col_width_cm": 8.21,
-            "col2col_area_px": 4642148,
-            "col2col_area_cm2": 166.85,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "1894,645 2794,649 2577,4053 1644,4041",
-        "lines": [],
-        "metrics": {
-          "height_px": 3400.0,
-          "height_cm": 20.38,
-          "width_px": 916.5,
-          "width_cm": 5.49,
-          "area_px": 3117968,
-          "area_cm2": 112.07,
-          "margin_top_px": 632.0,
-          "margin_top_cm": 3.79,
-          "margin_bottom_px": 963.0,
-          "margin_bottom_cm": 5.77,
-          "schriftspiegel_height_ratio": 0.681,
-          "schriftspiegel_area_ratio": 0.108,
-          "to_next": {
-            "intercolumn_px": 444.6,
-            "intercolumn_cm": 2.67,
-            "col2col_width_px": 1361.6,
-            "col2col_width_cm": 8.16,
-            "col2col_area_px": 4648660,
-            "col2col_area_cm2": 167.08,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "3255,629 4142,617 3943,4057 3006,4061",
-        "lines": [],
-        "metrics": {
-          "height_px": 3436.0,
-          "height_cm": 20.6,
-          "width_px": 912.0,
-          "width_cm": 5.47,
-          "area_px": 3131840,
-          "area_cm2": 112.57,
-          "margin_top_px": 608.0,
-          "margin_top_cm": 3.65,
-          "margin_bottom_px": 951.0,
-          "margin_bottom_cm": 5.7,
-          "schriftspiegel_height_ratio": 0.688,
-          "schriftspiegel_area_ratio": 0.109,
-          "to_next": {
-            "intercolumn_px": 437.4,
-            "intercolumn_cm": 2.62,
-            "col2col_width_px": 1349.0,
-            "col2col_width_cm": 8.09,
-            "col2col_area_px": 4635133,
-            "col2col_area_cm2": 166.6,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "4581,640 5521,653 5296,4108 4376,4080",
-        "lines": [],
-        "metrics": {
-          "height_px": 3447.5,
-          "height_cm": 20.67,
-          "width_px": 930.0,
-          "width_cm": 5.58,
-          "area_px": 3210582,
-          "area_cm2": 115.4,
-          "margin_top_px": 631.5,
-          "margin_top_cm": 3.79,
-          "margin_bottom_px": 916.0,
-          "margin_bottom_cm": 5.49,
-          "schriftspiegel_height_ratio": 0.69,
-          "schriftspiegel_area_ratio": 0.111,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "bbox_origin": [
@@ -2976,7 +2453,15 @@
     "margin_left": 32,
     "fragment_data": [],
     "bbox_w_cm": 34.57,
-    "bbox_h_cm": 29.95
+    "bbox_h_cm": 29.95,
+    "tilt_reference": {
+      "plate_skew_deg": 0.286,
+      "baseline_skew_deg": null,
+      "n_columns_used": 4,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 1,
+    "dpi": 423.7
   },
   "0004_P_09782-Pl-D_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0004_P_09782-Pl-D_R_001.xml",
@@ -2988,106 +2473,22 @@
       {
         "usable": true,
         "polygon": "497,699 1391,693 1242,4085 313,4084",
-        "lines": [],
-        "metrics": {
-          "height_px": 3388.5,
-          "height_cm": 20.55,
-          "width_px": 911.5,
-          "width_cm": 5.53,
-          "area_px": 3088202,
-          "area_cm2": 113.57,
-          "margin_top_px": 625.0,
-          "margin_top_cm": 3.79,
-          "margin_bottom_px": 952.5,
-          "margin_bottom_cm": 5.78,
-          "schriftspiegel_height_ratio": 0.682,
-          "schriftspiegel_area_ratio": 0.108,
-          "to_next": {
-            "intercolumn_px": 435.4,
-            "intercolumn_cm": 2.64,
-            "col2col_width_px": 1346.6,
-            "col2col_width_cm": 8.17,
-            "col2col_area_px": 4540378,
-            "col2col_area_cm2": 166.97,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "1860,695 2761,709 2558,4065 1645,4054",
-        "lines": [],
-        "metrics": {
-          "height_px": 3357.5,
-          "height_cm": 20.36,
-          "width_px": 907.0,
-          "width_cm": 5.5,
-          "area_px": 3047865,
-          "area_cm2": 112.09,
-          "margin_top_px": 631.0,
-          "margin_top_cm": 3.83,
-          "margin_bottom_px": 977.5,
-          "margin_bottom_cm": 5.93,
-          "schriftspiegel_height_ratio": 0.676,
-          "schriftspiegel_area_ratio": 0.106,
-          "to_next": {
-            "intercolumn_px": 441.6,
-            "intercolumn_cm": 2.68,
-            "col2col_width_px": 1349.3,
-            "col2col_width_cm": 8.18,
-            "col2col_area_px": 4520290,
-            "col2col_area_cm2": 166.24,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "3200,685 4099,692 3985,4041 3006,4026",
-        "lines": [],
-        "metrics": {
-          "height_px": 3345.0,
-          "height_cm": 20.29,
-          "width_px": 939.0,
-          "width_cm": 5.69,
-          "area_px": 3142649,
-          "area_cm2": 115.57,
-          "margin_top_px": 617.5,
-          "margin_top_cm": 3.74,
-          "margin_bottom_px": 1003.5,
-          "margin_bottom_cm": 6.09,
-          "schriftspiegel_height_ratio": 0.674,
-          "schriftspiegel_area_ratio": 0.11,
-          "to_next": {
-            "intercolumn_px": 424.1,
-            "intercolumn_cm": 2.57,
-            "col2col_width_px": 1363.4,
-            "col2col_width_cm": 8.27,
-            "col2col_area_px": 4540294,
-            "col2col_area_cm2": 166.97,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "4531,695 5443,677 5317,4015 4402,4014",
-        "lines": [],
-        "metrics": {
-          "height_px": 3328.5,
-          "height_cm": 20.18,
-          "width_px": 913.5,
-          "width_cm": 5.54,
-          "area_px": 3039501,
-          "area_cm2": 111.78,
-          "margin_top_px": 615.0,
-          "margin_top_cm": 3.73,
-          "margin_bottom_px": 1022.5,
-          "margin_bottom_cm": 6.2,
-          "schriftspiegel_height_ratio": 0.67,
-          "schriftspiegel_area_ratio": 0.106,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "bbox_origin": [
@@ -3105,7 +2506,15 @@
     "margin_left": 32,
     "fragment_data": [],
     "bbox_w_cm": 34.95,
-    "bbox_h_cm": 30.12
+    "bbox_h_cm": 30.12,
+    "tilt_reference": {
+      "plate_skew_deg": -0.045,
+      "baseline_skew_deg": null,
+      "n_columns_used": 4,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 1,
+    "dpi": 418.8
   },
   "0005_P_09782-Pl-E_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0005_P_09782-Pl-E_R_001.xml",
@@ -3117,106 +2526,22 @@
       {
         "usable": true,
         "polygon": "583,744 1493,737 1325,4141 400,4108",
-        "lines": [],
-        "metrics": {
-          "height_px": 3384.0,
-          "height_cm": 20.34,
-          "width_px": 917.5,
-          "width_cm": 5.51,
-          "area_px": 3107102,
-          "area_cm2": 112.21,
-          "margin_top_px": 695.5,
-          "margin_top_cm": 4.18,
-          "margin_bottom_px": 991.5,
-          "margin_bottom_cm": 5.96,
-          "schriftspiegel_height_ratio": 0.667,
-          "schriftspiegel_area_ratio": 0.108,
-          "to_next": {
-            "intercolumn_px": 430.3,
-            "intercolumn_cm": 2.59,
-            "col2col_width_px": 1348.5,
-            "col2col_width_cm": 8.1,
-            "col2col_area_px": 4554467,
-            "col2col_area_cm2": 164.49,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "1932,730 2829,726 2670,4138 1748,4121",
-        "lines": [],
-        "metrics": {
-          "height_px": 3401.5,
-          "height_cm": 20.44,
-          "width_px": 909.5,
-          "width_cm": 5.47,
-          "area_px": 3094779,
-          "area_cm2": 111.77,
-          "margin_top_px": 683.0,
-          "margin_top_cm": 4.1,
-          "margin_bottom_px": 986.5,
-          "margin_bottom_cm": 5.93,
-          "schriftspiegel_height_ratio": 0.671,
-          "schriftspiegel_area_ratio": 0.108,
-          "to_next": {
-            "intercolumn_px": 441.3,
-            "intercolumn_cm": 2.65,
-            "col2col_width_px": 1351.2,
-            "col2col_width_cm": 8.12,
-            "col2col_area_px": 4620406,
-            "col2col_area_cm2": 166.87,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "3288,705 4200,719 4027,4153 3094,4153",
-        "lines": [],
-        "metrics": {
-          "height_px": 3441.0,
-          "height_cm": 20.68,
-          "width_px": 922.5,
-          "width_cm": 5.54,
-          "area_px": 3175607,
-          "area_cm2": 114.69,
-          "margin_top_px": 667.0,
-          "margin_top_cm": 4.01,
-          "margin_bottom_px": 963.0,
-          "margin_bottom_cm": 5.79,
-          "schriftspiegel_height_ratio": 0.679,
-          "schriftspiegel_area_ratio": 0.111,
-          "to_next": {
-            "intercolumn_px": 441.8,
-            "intercolumn_cm": 2.66,
-            "col2col_width_px": 1364.6,
-            "col2col_width_cm": 8.2,
-            "col2col_area_px": 4693590,
-            "col2col_area_cm2": 169.51,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "4636,706 5550,716 5380,4151 4476,4137",
-        "lines": [],
-        "metrics": {
-          "height_px": 3433.0,
-          "height_cm": 20.63,
-          "width_px": 909.0,
-          "width_cm": 5.46,
-          "area_px": 3122577,
-          "area_cm2": 112.77,
-          "margin_top_px": 666.0,
-          "margin_top_cm": 4.0,
-          "margin_bottom_px": 972.0,
-          "margin_bottom_cm": 5.84,
-          "schriftspiegel_height_ratio": 0.677,
-          "schriftspiegel_area_ratio": 0.109,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "bbox_origin": [
@@ -3234,7 +2559,15 @@
     "margin_left": 64,
     "fragment_data": [],
     "bbox_w_cm": 33.97,
-    "bbox_h_cm": 30.47
+    "bbox_h_cm": 30.47,
+    "tilt_reference": {
+      "plate_skew_deg": 0.203,
+      "baseline_skew_deg": null,
+      "n_columns_used": 4,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 1,
+    "dpi": 422.7
   },
   "0006_P_09782-Pl-F_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0006_P_09782-Pl-F_R_001.xml",
@@ -3246,106 +2579,22 @@
       {
         "usable": true,
         "polygon": "513,683 1400,698 1284,4123 356,4121",
-        "lines": [],
-        "metrics": {
-          "height_px": 3431.5,
-          "height_cm": 20.87,
-          "width_px": 907.5,
-          "width_cm": 5.52,
-          "area_px": 3115246,
-          "area_cm2": 115.26,
-          "margin_top_px": 643.5,
-          "margin_top_cm": 3.91,
-          "margin_bottom_px": 927.0,
-          "margin_bottom_cm": 5.64,
-          "schriftspiegel_height_ratio": 0.686,
-          "schriftspiegel_area_ratio": 0.11,
-          "to_next": {
-            "intercolumn_px": 425.9,
-            "intercolumn_cm": 2.59,
-            "col2col_width_px": 1333.8,
-            "col2col_width_cm": 8.11,
-            "col2col_area_px": 4580132,
-            "col2col_area_cm2": 169.46,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "1834,705 2712,698 2603,4129 1701,4135",
-        "lines": [],
-        "metrics": {
-          "height_px": 3430.5,
-          "height_cm": 20.87,
-          "width_px": 890.0,
-          "width_cm": 5.41,
-          "area_px": 3052358,
-          "area_cm2": 112.94,
-          "margin_top_px": 654.5,
-          "margin_top_cm": 3.98,
-          "margin_bottom_px": 917.0,
-          "margin_bottom_cm": 5.58,
-          "schriftspiegel_height_ratio": 0.686,
-          "schriftspiegel_area_ratio": 0.107,
-          "to_next": {
-            "intercolumn_px": 442.8,
-            "intercolumn_cm": 2.69,
-            "col2col_width_px": 1332.6,
-            "col2col_width_cm": 8.11,
-            "col2col_area_px": 4555440,
-            "col2col_area_cm2": 168.55,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "3149,719 4080,717 3969,4142 3051,4126",
-        "lines": [],
-        "metrics": {
-          "height_px": 3416.0,
-          "height_cm": 20.78,
-          "width_px": 924.5,
-          "width_cm": 5.62,
-          "area_px": 3158824,
-          "area_cm2": 116.88,
-          "margin_top_px": 671.0,
-          "margin_top_cm": 4.08,
-          "margin_bottom_px": 915.0,
-          "margin_bottom_cm": 5.57,
-          "schriftspiegel_height_ratio": 0.683,
-          "schriftspiegel_area_ratio": 0.111,
-          "to_next": {
-            "intercolumn_px": 410.9,
-            "intercolumn_cm": 2.5,
-            "col2col_width_px": 1335.6,
-            "col2col_width_cm": 8.12,
-            "col2col_area_px": 4551178,
-            "col2col_area_cm2": 168.39,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "4495,707 5409,716 5257,4123 4377,4115",
-        "lines": [],
-        "metrics": {
-          "height_px": 3407.5,
-          "height_cm": 20.73,
-          "width_px": 897.0,
-          "width_cm": 5.46,
-          "area_px": 3057675,
-          "area_cm2": 113.13,
-          "margin_top_px": 664.5,
-          "margin_top_cm": 4.04,
-          "margin_bottom_px": 930.0,
-          "margin_bottom_cm": 5.66,
-          "schriftspiegel_height_ratio": 0.681,
-          "schriftspiegel_area_ratio": 0.108,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "bbox_origin": [
@@ -3363,7 +2612,15 @@
     "margin_left": 27,
     "fragment_data": [],
     "bbox_w_cm": 34.53,
-    "bbox_h_cm": 30.43
+    "bbox_h_cm": 30.43,
+    "tilt_reference": {
+      "plate_skew_deg": 0.238,
+      "baseline_skew_deg": null,
+      "n_columns_used": 4,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 1,
+    "dpi": 417.6
   },
   "0007_P_09782-Pl-G1_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0007_P_09782-Pl-G1_R_001.xml",
@@ -3375,78 +2632,17 @@
       {
         "usable": false,
         "polygon": "342,824 1394,792 1393,4781 289,4772",
-        "lines": [],
-        "metrics": {
-          "height_px": 3968.5,
-          "height_cm": 20.8,
-          "width_px": 1078.0,
-          "width_cm": 5.65,
-          "area_px": 4277732,
-          "area_cm2": 117.51,
-          "margin_top_px": 794.0,
-          "margin_top_cm": 4.16,
-          "margin_bottom_px": 1047.5,
-          "margin_bottom_cm": 5.49,
-          "schriftspiegel_height_ratio": 0.683,
-          "schriftspiegel_area_ratio": 0.151,
-          "to_next": {
-            "intercolumn_px": 521.0,
-            "intercolumn_cm": 2.73,
-            "col2col_width_px": 1598.9,
-            "col2col_width_cm": 8.38,
-            "col2col_area_px": 6330950,
-            "col2col_area_cm2": 173.91,
-            "both_usable": false
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "2004,810 3049,825 2958,4761 1825,4781",
-        "lines": [],
-        "metrics": {
-          "height_px": 3953.5,
-          "height_cm": 20.72,
-          "width_px": 1089.0,
-          "width_cm": 5.71,
-          "area_px": 4305024,
-          "area_cm2": 118.25,
-          "margin_top_px": 803.5,
-          "margin_top_cm": 4.21,
-          "margin_bottom_px": 1053.0,
-          "margin_bottom_cm": 5.52,
-          "schriftspiegel_height_ratio": 0.68,
-          "schriftspiegel_area_ratio": 0.152,
-          "to_next": {
-            "intercolumn_px": 471.4,
-            "intercolumn_cm": 2.47,
-            "col2col_width_px": 1560.2,
-            "col2col_width_cm": 8.18,
-            "col2col_area_px": 6145756,
-            "col2col_area_cm2": 168.82,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "3536,835 4580,842 4486,4747 3414,4742",
-        "lines": [],
-        "metrics": {
-          "height_px": 3906.0,
-          "height_cm": 20.47,
-          "width_px": 1058.0,
-          "width_cm": 5.55,
-          "area_px": 4133196,
-          "area_cm2": 113.53,
-          "margin_top_px": 824.5,
-          "margin_top_cm": 4.32,
-          "margin_bottom_px": 1079.5,
-          "margin_bottom_cm": 5.66,
-          "schriftspiegel_height_ratio": 0.672,
-          "schriftspiegel_area_ratio": 0.146,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "bbox_origin": [
@@ -3464,7 +2660,15 @@
     "margin_left": 44,
     "fragment_data": [],
     "bbox_w_cm": 25.61,
-    "bbox_h_cm": 30.45
+    "bbox_h_cm": 30.45,
+    "tilt_reference": {
+      "plate_skew_deg": 0.603,
+      "baseline_skew_deg": null,
+      "n_columns_used": 2,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 1,
+    "dpi": 484.6
   },
   "0008_P_09782-Pl-H_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0008_P_09782-Pl-H_R_001.xml",
@@ -3476,302 +2680,57 @@
       {
         "usable": true,
         "polygon": "268,452 670,447 605,1905 206,1911",
-        "lines": [],
-        "metrics": {
-          "height_px": 1458.5,
-          "height_cm": null,
-          "width_px": 400.5,
-          "width_cm": null,
-          "area_px": 583780,
-          "area_cm2": null,
-          "margin_top_px": 319.5,
-          "margin_top_cm": null,
-          "margin_bottom_px": 442.0,
-          "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.657,
-          "schriftspiegel_area_ratio": 0.041,
-          "to_next": {
-            "intercolumn_px": 184.0,
-            "intercolumn_cm": null,
-            "col2col_width_px": 584.9,
-            "col2col_width_cm": null,
-            "col2col_area_px": 666916,
-            "col2col_area_cm2": null,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "854,439 1248,433 1231,1249 818,1261",
-        "lines": [],
-        "metrics": {
-          "height_px": 819.0,
-          "height_cm": null,
-          "width_px": 403.5,
-          "width_cm": null,
-          "area_px": 330228,
-          "area_cm2": null,
-          "margin_top_px": 306.0,
-          "margin_top_cm": null,
-          "margin_bottom_px": 1095.0,
-          "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.369,
-          "schriftspiegel_area_ratio": 0.023,
-          "to_next": {
-            "intercolumn_px": 175.1,
-            "intercolumn_cm": null,
-            "col2col_width_px": 578.4,
-            "col2col_width_cm": null,
-            "col2col_area_px": 666592,
-            "col2col_area_cm2": null,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "1427,435 1829,423 1776,1913 1382,1912",
-        "lines": [],
-        "metrics": {
-          "height_px": 1483.5,
-          "height_cm": null,
-          "width_px": 398.0,
-          "width_cm": null,
-          "area_px": 590164,
-          "area_cm2": null,
-          "margin_top_px": 299.0,
-          "margin_top_cm": null,
-          "margin_bottom_px": 437.5,
-          "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.668,
-          "schriftspiegel_area_ratio": 0.041,
-          "to_next": {
-            "intercolumn_px": 177.7,
-            "intercolumn_cm": null,
-            "col2col_width_px": 575.5,
-            "col2col_width_cm": null,
-            "col2col_area_px": 852370,
-            "col2col_area_cm2": null,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "2012,432 2397,441 2335,1918 1948,1917",
-        "lines": [],
-        "metrics": {
-          "height_px": 1481.0,
-          "height_cm": null,
-          "width_px": 386.0,
-          "width_cm": null,
-          "area_px": 571981,
-          "area_cm2": null,
-          "margin_top_px": 306.5,
-          "margin_top_cm": null,
-          "margin_bottom_px": 432.5,
-          "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.667,
-          "schriftspiegel_area_ratio": 0.04,
-          "to_next": {
-            "intercolumn_px": 196.9,
-            "intercolumn_cm": null,
-            "col2col_width_px": 583.1,
-            "col2col_width_cm": null,
-            "col2col_area_px": 861540,
-            "col2col_area_cm2": null,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "2594,442 2986,437 2932,1915 2532,1912",
-        "lines": [],
-        "metrics": {
-          "height_px": 1474.0,
-          "height_cm": null,
-          "width_px": 396.0,
-          "width_cm": null,
-          "area_px": 583646,
-          "area_cm2": null,
-          "margin_top_px": 309.5,
-          "margin_top_cm": null,
-          "margin_bottom_px": 436.5,
-          "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.664,
-          "schriftspiegel_area_ratio": 0.041,
-          "to_next": {
-            "intercolumn_px": 188.5,
-            "intercolumn_cm": null,
-            "col2col_width_px": 584.4,
-            "col2col_width_cm": null,
-            "col2col_area_px": 853832,
-            "col2col_area_cm2": null,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "3178,449 3565,449 3527,1903 3117,1901",
-        "lines": [],
-        "metrics": {
-          "height_px": 1453.0,
-          "height_cm": null,
-          "width_px": 398.5,
-          "width_cm": null,
-          "area_px": 579070,
-          "area_cm2": null,
-          "margin_top_px": 319.0,
-          "margin_top_cm": null,
-          "margin_bottom_px": 448.0,
-          "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.655,
-          "schriftspiegel_area_ratio": 0.041,
-          "to_next": {
-            "intercolumn_px": 185.0,
-            "intercolumn_cm": null,
-            "col2col_width_px": 583.6,
-            "col2col_width_cm": null,
-            "col2col_area_px": 840034,
-            "col2col_area_cm2": null,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "3758,463 4159,470 4086,1889 3704,1890",
-        "lines": [],
-        "metrics": {
-          "height_px": 1423.0,
-          "height_cm": null,
-          "width_px": 391.5,
-          "width_cm": null,
-          "area_px": 557295,
-          "area_cm2": null,
-          "margin_top_px": 336.5,
-          "margin_top_cm": null,
-          "margin_bottom_px": 460.5,
-          "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.641,
-          "schriftspiegel_area_ratio": 0.039,
-          "to_next": {
-            "intercolumn_px": 191.7,
-            "intercolumn_cm": null,
-            "col2col_width_px": 583.3,
-            "col2col_width_cm": null,
-            "col2col_area_px": 837825,
-            "col2col_area_cm2": null,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "4344,472 4743,473 4682,1924 4283,1918",
-        "lines": [],
-        "metrics": {
-          "height_px": 1448.5,
-          "height_cm": null,
-          "width_px": 399.0,
-          "width_cm": null,
-          "area_px": 578165,
-          "area_cm2": null,
-          "margin_top_px": 342.5,
-          "margin_top_cm": null,
-          "margin_bottom_px": 429.0,
-          "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.652,
-          "schriftspiegel_area_ratio": 0.041,
-          "to_next": {
-            "intercolumn_px": 179.7,
-            "intercolumn_cm": null,
-            "col2col_width_px": 578.8,
-            "col2col_width_cm": null,
-            "col2col_area_px": 837286,
-            "col2col_area_cm2": null,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "4930,468 5336,473 5286,1928 4855,1915",
-        "lines": [],
-        "metrics": {
-          "height_px": 1451.0,
-          "height_cm": null,
-          "width_px": 418.5,
-          "width_cm": null,
-          "area_px": 607806,
-          "area_cm2": null,
-          "margin_top_px": 340.5,
-          "margin_top_cm": null,
-          "margin_bottom_px": 428.5,
-          "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.654,
-          "schriftspiegel_area_ratio": 0.043,
-          "to_next": {
-            "intercolumn_px": 155.9,
-            "intercolumn_cm": null,
-            "col2col_width_px": 574.9,
-            "col2col_width_cm": null,
-            "col2col_area_px": 833580,
-            "col2col_area_cm2": null,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "5493,485 5905,480 5860,1939 5440,1938",
-        "lines": [],
-        "metrics": {
-          "height_px": 1456.0,
-          "height_cm": null,
-          "width_px": 416.0,
-          "width_cm": null,
-          "area_px": 605598,
-          "area_cm2": null,
-          "margin_top_px": 352.5,
-          "margin_top_cm": null,
-          "margin_bottom_px": 411.5,
-          "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.656,
-          "schriftspiegel_area_ratio": 0.043,
-          "to_next": {
-            "intercolumn_px": 173.2,
-            "intercolumn_cm": null,
-            "col2col_width_px": 589.0,
-            "col2col_width_cm": null,
-            "col2col_area_px": 852324,
-            "col2col_area_cm2": null,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "6082,478 6489,476 6438,1906 6030,1919",
-        "lines": [],
-        "metrics": {
-          "height_px": 1435.5,
-          "height_cm": null,
-          "width_px": 407.5,
-          "width_cm": null,
-          "area_px": 584580,
-          "area_cm2": null,
-          "margin_top_px": 347.0,
-          "margin_top_cm": null,
-          "margin_bottom_px": 437.5,
-          "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.647,
-          "schriftspiegel_area_ratio": 0.041,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "excluded_margin": "0, 0, ",
@@ -3795,7 +2754,7 @@
     "coverage_pct": 100.0,
     "margin_top": 130,
     "margin_right": 164,
-    "margin_bottom": 156,
+    "margin_bottom": 436,
     "margin_left": 135,
     "background_sample": {
       "enabled": true,
@@ -3814,7 +2773,15 @@
     },
     "fragment_data": [],
     "bbox_w_cm": null,
-    "bbox_h_cm": null
+    "bbox_h_cm": null,
+    "tilt_reference": {
+      "plate_skew_deg": -0.165,
+      "baseline_skew_deg": null,
+      "n_columns_used": 11,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": null,
+    "dpi": null
   },
   "0009_P_09782-Pl-N2_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0009_P_09782-Pl-N2_R_001.xml",
@@ -3826,50 +2793,12 @@
       {
         "usable": true,
         "polygon": "525,1232 1781,1234 1605,5826 313,5812",
-        "lines": [],
-        "metrics": {
-          "height_px": 4586.0,
-          "height_cm": 19.92,
-          "width_px": 1274.0,
-          "width_cm": 5.53,
-          "area_px": 5844116,
-          "area_cm2": 110.28,
-          "margin_top_px": 1160.0,
-          "margin_top_cm": 5.04,
-          "margin_bottom_px": 1399.0,
-          "margin_bottom_cm": 6.08,
-          "schriftspiegel_height_ratio": 0.642,
-          "schriftspiegel_area_ratio": 0.206,
-          "to_next": {
-            "intercolumn_px": 603.3,
-            "intercolumn_cm": 2.62,
-            "col2col_width_px": 1877.7,
-            "col2col_width_cm": 8.16,
-            "col2col_area_px": 8684415,
-            "col2col_area_cm2": 163.88,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "2397,1214 3689,1191 3497,5937 2194,5884",
-        "lines": [],
-        "metrics": {
-          "height_px": 4708.0,
-          "height_cm": 20.45,
-          "width_px": 1297.5,
-          "width_cm": 5.64,
-          "area_px": 6111592,
-          "area_cm2": 115.33,
-          "margin_top_px": 1129.5,
-          "margin_top_cm": 4.91,
-          "margin_bottom_px": 1307.5,
-          "margin_bottom_cm": 5.68,
-          "schriftspiegel_height_ratio": 0.659,
-          "schriftspiegel_area_ratio": 0.215,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "bbox_origin": [
@@ -3887,7 +2816,15 @@
     "margin_left": 13,
     "fragment_data": [],
     "bbox_w_cm": 17.25,
-    "bbox_h_cm": 31.04
+    "bbox_h_cm": 31.04,
+    "tilt_reference": {
+      "plate_skew_deg": -0.464,
+      "baseline_skew_deg": null,
+      "n_columns_used": 2,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 2,
+    "dpi": 584.7
   },
   "0010_P_09782-Pl-O_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0010_P_09782-Pl-O_R_001.xml",
@@ -3899,106 +2836,22 @@
       {
         "usable": true,
         "polygon": "381,835 1288,851 1167,4195 234,4191",
-        "lines": [],
-        "metrics": {
-          "height_px": 3350.0,
-          "height_cm": 20.58,
-          "width_px": 920.0,
-          "width_cm": 5.65,
-          "area_px": 3083340,
-          "area_cm2": 116.34,
-          "margin_top_px": 683.0,
-          "margin_top_cm": 4.2,
-          "margin_bottom_px": 1095.0,
-          "margin_bottom_cm": 6.73,
-          "schriftspiegel_height_ratio": 0.653,
-          "schriftspiegel_area_ratio": 0.108,
-          "to_next": {
-            "intercolumn_px": 431.8,
-            "intercolumn_cm": 2.65,
-            "col2col_width_px": 1352.1,
-            "col2col_width_cm": 8.31,
-            "col2col_area_px": 4538438,
-            "col2col_area_cm2": 171.24,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "1731,826 2633,842 2503,4205 1589,4183",
-        "lines": [],
-        "metrics": {
-          "height_px": 3360.0,
-          "height_cm": 20.64,
-          "width_px": 908.0,
-          "width_cm": 5.58,
-          "area_px": 3053464,
-          "area_cm2": 115.21,
-          "margin_top_px": 674.0,
-          "margin_top_cm": 4.14,
-          "margin_bottom_px": 1094.0,
-          "margin_bottom_cm": 6.72,
-          "schriftspiegel_height_ratio": 0.655,
-          "schriftspiegel_area_ratio": 0.107,
-          "to_next": {
-            "intercolumn_px": 460.5,
-            "intercolumn_cm": 2.83,
-            "col2col_width_px": 1369.3,
-            "col2col_width_cm": 8.41,
-            "col2col_area_px": 4586296,
-            "col2col_area_cm2": 173.04,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "3086,853 3972,849 3831,4215 2971,4195",
-        "lines": [],
-        "metrics": {
-          "height_px": 3354.0,
-          "height_cm": 20.6,
-          "width_px": 873.0,
-          "width_cm": 5.36,
-          "area_px": 2929066,
-          "area_cm2": 110.51,
-          "margin_top_px": 691.0,
-          "margin_top_cm": 4.24,
-          "margin_bottom_px": 1083.0,
-          "margin_bottom_cm": 6.65,
-          "schriftspiegel_height_ratio": 0.654,
-          "schriftspiegel_area_ratio": 0.103,
-          "to_next": {
-            "intercolumn_px": 439.1,
-            "intercolumn_cm": 2.7,
-            "col2col_width_px": 1312.2,
-            "col2col_width_cm": 8.06,
-            "col2col_area_px": 4411838,
-            "col2col_area_cm2": 166.46,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "4394,871 5270,871 5172,4259 4285,4253",
-        "lines": [],
-        "metrics": {
-          "height_px": 3385.0,
-          "height_cm": 20.79,
-          "width_px": 881.5,
-          "width_cm": 5.41,
-          "area_px": 2984188,
-          "area_cm2": 112.59,
-          "margin_top_px": 711.0,
-          "margin_top_cm": 4.37,
-          "margin_bottom_px": 1032.0,
-          "margin_bottom_cm": 6.34,
-          "schriftspiegel_height_ratio": 0.66,
-          "schriftspiegel_area_ratio": 0.105,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "bbox_origin": [
@@ -4016,7 +2869,15 @@
     "margin_left": 0,
     "fragment_data": [],
     "bbox_w_cm": 34.11,
-    "bbox_h_cm": 31.5
+    "bbox_h_cm": 31.5,
+    "tilt_reference": {
+      "plate_skew_deg": 0.442,
+      "baseline_skew_deg": null,
+      "n_columns_used": 4,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 1,
+    "dpi": 413.5
   },
   "0011_P_09782-Pl-P_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0011_P_09782-Pl-P_R_001.xml",
@@ -4028,106 +2889,22 @@
       {
         "usable": true,
         "polygon": "339,619 1291,628 1153,4041 247,4042",
-        "lines": [],
-        "metrics": {
-          "height_px": 3418.0,
-          "height_cm": 20.54,
-          "width_px": 929.0,
-          "width_cm": 5.58,
-          "area_px": 3175782,
-          "area_cm2": 114.69,
-          "margin_top_px": 604.5,
-          "margin_top_cm": 3.63,
-          "margin_bottom_px": 1078.5,
-          "margin_bottom_cm": 6.48,
-          "schriftspiegel_height_ratio": 0.67,
-          "schriftspiegel_area_ratio": 0.111,
-          "to_next": {
-            "intercolumn_px": 433.1,
-            "intercolumn_cm": 2.6,
-            "col2col_width_px": 1362.1,
-            "col2col_width_cm": 8.19,
-            "col2col_area_px": 4654376,
-            "col2col_area_cm2": 168.09,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "1715,645 2675,660 2538,4046 1594,4056",
-        "lines": [],
-        "metrics": {
-          "height_px": 3398.5,
-          "height_cm": 20.42,
-          "width_px": 952.0,
-          "width_cm": 5.72,
-          "area_px": 3235694,
-          "area_cm2": 116.86,
-          "margin_top_px": 633.5,
-          "margin_top_cm": 3.81,
-          "margin_bottom_px": 1069.0,
-          "margin_bottom_cm": 6.42,
-          "schriftspiegel_height_ratio": 0.666,
-          "schriftspiegel_area_ratio": 0.113,
-          "to_next": {
-            "intercolumn_px": 425.2,
-            "intercolumn_cm": 2.56,
-            "col2col_width_px": 1377.3,
-            "col2col_width_cm": 8.28,
-            "col2col_area_px": 4713194,
-            "col2col_area_cm2": 170.22,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "3071,645 4010,647 3924,4067 2992,4078",
-        "lines": [],
-        "metrics": {
-          "height_px": 3426.5,
-          "height_cm": 20.59,
-          "width_px": 935.5,
-          "width_cm": 5.62,
-          "area_px": 3205120,
-          "area_cm2": 115.75,
-          "margin_top_px": 627.0,
-          "margin_top_cm": 3.77,
-          "margin_bottom_px": 1047.5,
-          "margin_bottom_cm": 6.3,
-          "schriftspiegel_height_ratio": 0.672,
-          "schriftspiegel_area_ratio": 0.112,
-          "to_next": {
-            "intercolumn_px": 426.8,
-            "intercolumn_cm": 2.57,
-            "col2col_width_px": 1362.2,
-            "col2col_width_cm": 8.19,
-            "col2col_area_px": 4654733,
-            "col2col_area_cm2": 168.11,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "4439,650 5369,650 5303,4074 4349,4051",
-        "lines": [],
-        "metrics": {
-          "height_px": 3412.5,
-          "height_cm": 20.51,
-          "width_px": 942.0,
-          "width_cm": 5.66,
-          "area_px": 3215472,
-          "area_cm2": 116.13,
-          "margin_top_px": 631.0,
-          "margin_top_cm": 3.79,
-          "margin_bottom_px": 1057.5,
-          "margin_bottom_cm": 6.36,
-          "schriftspiegel_height_ratio": 0.669,
-          "schriftspiegel_area_ratio": 0.112,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "bbox_origin": [
@@ -4145,7 +2922,15 @@
     "margin_left": 26,
     "fragment_data": [],
     "bbox_w_cm": 33.74,
-    "bbox_h_cm": 30.66
+    "bbox_h_cm": 30.66,
+    "tilt_reference": {
+      "plate_skew_deg": 0.39,
+      "baseline_skew_deg": null,
+      "n_columns_used": 4,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 1,
+    "dpi": 422.7
   },
   "0012_P_09782-Pl-Q_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0012_P_09782-Pl-Q_R_001.xml",
@@ -4157,106 +2942,22 @@
       {
         "usable": true,
         "polygon": "420,776 1271,791 1183,4157 322,4159",
-        "lines": [],
-        "metrics": {
-          "height_px": 3374.5,
-          "height_cm": 20.65,
-          "width_px": 856.0,
-          "width_cm": 5.24,
-          "area_px": 2889176,
-          "area_cm2": 108.21,
-          "margin_top_px": 651.5,
-          "margin_top_cm": 3.99,
-          "margin_bottom_px": 1069.0,
-          "margin_bottom_cm": 6.54,
-          "schriftspiegel_height_ratio": 0.662,
-          "schriftspiegel_area_ratio": 0.101,
-          "to_next": {
-            "intercolumn_px": 446.3,
-            "intercolumn_cm": 2.73,
-            "col2col_width_px": 1302.5,
-            "col2col_width_cm": 7.97,
-            "col2col_area_px": 4393832,
-            "col2col_area_cm2": 164.57,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "1717,802 2633,819 2545,4176 1629,4166",
-        "lines": [],
-        "metrics": {
-          "height_px": 3360.5,
-          "height_cm": 20.57,
-          "width_px": 916.0,
-          "width_cm": 5.61,
-          "area_px": 3079406,
-          "area_cm2": 115.34,
-          "margin_top_px": 678.5,
-          "margin_top_cm": 4.15,
-          "margin_bottom_px": 1056.0,
-          "margin_bottom_cm": 6.46,
-          "schriftspiegel_height_ratio": 0.66,
-          "schriftspiegel_area_ratio": 0.108,
-          "to_next": {
-            "intercolumn_px": 432.5,
-            "intercolumn_cm": 2.65,
-            "col2col_width_px": 1349.0,
-            "col2col_width_cm": 8.26,
-            "col2col_area_px": 4533942,
-            "col2col_area_cm2": 169.81,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "3090,849 3999,859 3844,4213 2951,4207",
-        "lines": [],
-        "metrics": {
-          "height_px": 3356.0,
-          "height_cm": 20.54,
-          "width_px": 901.0,
-          "width_cm": 5.51,
-          "area_px": 3024932,
-          "area_cm2": 113.3,
-          "margin_top_px": 722.0,
-          "margin_top_cm": 4.42,
-          "margin_bottom_px": 1017.0,
-          "margin_bottom_cm": 6.22,
-          "schriftspiegel_height_ratio": 0.659,
-          "schriftspiegel_area_ratio": 0.106,
-          "to_next": {
-            "intercolumn_px": 433.6,
-            "intercolumn_cm": 2.65,
-            "col2col_width_px": 1335.0,
-            "col2col_width_cm": 8.17,
-            "col2col_area_px": 4470984,
-            "col2col_area_cm2": 167.46,
-            "both_usable": true
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "4444,869 5321,876 5201,4232 4266,4209",
-        "lines": [],
-        "metrics": {
-          "height_px": 3348.0,
-          "height_cm": 20.49,
-          "width_px": 906.0,
-          "width_cm": 5.54,
-          "area_px": 3035523,
-          "area_cm2": 113.69,
-          "margin_top_px": 740.5,
-          "margin_top_cm": 4.53,
-          "margin_bottom_px": 1006.5,
-          "margin_bottom_cm": 6.16,
-          "schriftspiegel_height_ratio": 0.657,
-          "schriftspiegel_area_ratio": 0.106,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "bbox_origin": [
@@ -4274,7 +2975,15 @@
     "margin_left": 9,
     "fragment_data": [],
     "bbox_w_cm": 34.32,
-    "bbox_h_cm": 31.18
+    "bbox_h_cm": 31.18,
+    "tilt_reference": {
+      "plate_skew_deg": 0.79,
+      "baseline_skew_deg": null,
+      "n_columns_used": 4,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 1,
+    "dpi": 415.0
   },
   "0013_P_09782-Pl-R_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0013_P_09782-Pl-R_R_001.xml",
@@ -4286,134 +2995,27 @@
       {
         "usable": false,
         "polygon": "261,828 1063,820 1061,3851 263,3851",
-        "lines": [],
-        "metrics": {
-          "height_px": 3027.0,
-          "height_cm": 16.99,
-          "width_px": 800.0,
-          "width_cm": 4.49,
-          "area_px": 2421600,
-          "area_cm2": 76.26,
-          "margin_top_px": 757.0,
-          "margin_top_cm": 4.25,
-          "margin_bottom_px": 997.0,
-          "margin_bottom_cm": 5.59,
-          "schriftspiegel_height_ratio": 0.633,
-          "schriftspiegel_area_ratio": 0.084,
-          "to_next": {
-            "intercolumn_px": 398.0,
-            "intercolumn_cm": 2.23,
-            "col2col_width_px": 1197.9,
-            "col2col_width_cm": 6.72,
-            "col2col_area_px": 3639424,
-            "col2col_area_cm2": 114.61,
-            "both_usable": false
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "1481,808 2295,815 2234,3857 1439,3861",
-        "lines": [],
-        "metrics": {
-          "height_px": 3047.5,
-          "height_cm": 17.1,
-          "width_px": 804.5,
-          "width_cm": 4.51,
-          "area_px": 2451791,
-          "area_cm2": 77.21,
-          "margin_top_px": 744.5,
-          "margin_top_cm": 4.18,
-          "margin_bottom_px": 989.0,
-          "margin_bottom_cm": 5.55,
-          "schriftspiegel_height_ratio": 0.637,
-          "schriftspiegel_area_ratio": 0.085,
-          "to_next": {
-            "intercolumn_px": 391.4,
-            "intercolumn_cm": 2.2,
-            "col2col_width_px": 1191.3,
-            "col2col_width_cm": 6.68,
-            "col2col_area_px": 2767885,
-            "col2col_area_cm2": 87.16,
-            "both_usable": false
-          }
-        }
+        "lines": []
       },
       {
         "usable": false,
         "polygon": "2656,2284 3187,2286 3178,3877 2626,3873",
-        "lines": [],
-        "metrics": {
-          "height_px": 1590.0,
-          "height_cm": 8.92,
-          "width_px": 541.5,
-          "width_cm": 3.04,
-          "area_px": 861044,
-          "area_cm2": 27.12,
-          "margin_top_px": 2218.0,
-          "margin_top_cm": 12.45,
-          "margin_bottom_px": 973.0,
-          "margin_bottom_cm": 5.46,
-          "schriftspiegel_height_ratio": 0.333,
-          "schriftspiegel_area_ratio": 0.03,
-          "to_next": {
-            "intercolumn_px": 641.8,
-            "intercolumn_cm": 3.6,
-            "col2col_width_px": 1183.3,
-            "col2col_width_cm": 6.64,
-            "col2col_area_px": 2719272,
-            "col2col_area_cm2": 85.63,
-            "both_usable": false
-          }
-        }
+        "lines": []
       },
       {
         "usable": true,
         "polygon": "3847,874 4671,846 4622,3893 3816,3889",
-        "lines": [],
-        "metrics": {
-          "height_px": 3031.0,
-          "height_cm": 17.01,
-          "width_px": 815.0,
-          "width_cm": 4.57,
-          "area_px": 2469785,
-          "area_cm2": 77.78,
-          "margin_top_px": 793.0,
-          "margin_top_cm": 4.45,
-          "margin_bottom_px": 957.0,
-          "margin_bottom_cm": 5.37,
-          "schriftspiegel_height_ratio": 0.634,
-          "schriftspiegel_area_ratio": 0.086,
-          "to_next": {
-            "intercolumn_px": 375.0,
-            "intercolumn_cm": 2.1,
-            "col2col_width_px": 1190.0,
-            "col2col_width_cm": 6.68,
-            "col2col_area_px": 3620478,
-            "col2col_area_cm2": 114.01,
-            "both_usable": false
-          }
-        }
+        "lines": []
       },
       {
         "usable": false,
         "polygon": "5019,839 5895,810 5886,3909 5024,3909",
-        "lines": [],
-        "metrics": {
-          "height_px": 3084.5,
-          "height_cm": 17.31,
-          "width_px": 869.0,
-          "width_cm": 4.88,
-          "area_px": 2680402,
-          "area_cm2": 84.41,
-          "margin_top_px": 757.5,
-          "margin_top_cm": 4.25,
-          "margin_bottom_px": 939.0,
-          "margin_bottom_cm": 5.27,
-          "schriftspiegel_height_ratio": 0.645,
-          "schriftspiegel_area_ratio": 0.093,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "fragment_data": [],
@@ -4431,7 +3033,15 @@
     "margin_bottom": 230,
     "margin_left": 46,
     "bbox_w_cm": 33.67,
-    "bbox_h_cm": 26.83
+    "bbox_h_cm": 26.83,
+    "tilt_reference": {
+      "plate_skew_deg": -0.727,
+      "baseline_skew_deg": null,
+      "n_columns_used": 2,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 3,
+    "dpi": 452.6
   },
   "0014_P_09782-Pl-S_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0014_P_09782-Pl-S_R_001.xml",
@@ -4443,78 +3053,17 @@
       {
         "usable": true,
         "polygon": "752,908 1877,901 1837,5137 699,5143",
-        "lines": [],
-        "metrics": {
-          "height_px": 4235.5,
-          "height_cm": 20.33,
-          "width_px": 1131.5,
-          "width_cm": 5.43,
-          "area_px": 4792166,
-          "area_cm2": 110.45,
-          "margin_top_px": 804.5,
-          "margin_top_cm": 3.86,
-          "margin_bottom_px": 1327.0,
-          "margin_bottom_cm": 6.37,
-          "schriftspiegel_height_ratio": 0.665,
-          "schriftspiegel_area_ratio": 0.175,
-          "to_next": {
-            "intercolumn_px": 561.1,
-            "intercolumn_cm": 2.69,
-            "col2col_width_px": 1693.0,
-            "col2col_width_cm": 8.13,
-            "col2col_area_px": 7003110,
-            "col2col_area_cm2": 161.4,
-            "both_usable": false
-          }
-        }
+        "lines": []
       },
       {
         "usable": false,
         "polygon": "2417,1144 3607,1144 3607,5185 2417,5185",
-        "lines": [],
-        "metrics": {
-          "height_px": 4041.0,
-          "height_cm": 19.4,
-          "width_px": 1190.0,
-          "width_cm": 5.71,
-          "area_px": 4808790,
-          "area_cm2": 110.83,
-          "margin_top_px": 1044.0,
-          "margin_top_cm": 5.01,
-          "margin_bottom_px": 1282.0,
-          "margin_bottom_cm": 6.15,
-          "schriftspiegel_height_ratio": 0.635,
-          "schriftspiegel_area_ratio": 0.175,
-          "to_next": {
-            "intercolumn_px": 499.0,
-            "intercolumn_cm": 2.4,
-            "col2col_width_px": 1689.0,
-            "col2col_width_cm": 8.11,
-            "col2col_area_px": 4791693,
-            "col2col_area_cm2": 110.44,
-            "both_usable": false
-          }
-        }
+        "lines": []
       },
       {
         "usable": false,
         "polygon": "4106,3558 4366,3558 4366,5191 4106,5191",
-        "lines": [],
-        "metrics": {
-          "height_px": 1633.0,
-          "height_cm": 7.84,
-          "width_px": 260.0,
-          "width_cm": 1.25,
-          "area_px": 424580,
-          "area_cm2": 9.79,
-          "margin_top_px": 3458.0,
-          "margin_top_cm": 16.6,
-          "margin_bottom_px": 1276.0,
-          "margin_bottom_cm": 6.13,
-          "schriftspiegel_height_ratio": 0.256,
-          "schriftspiegel_area_ratio": 0.015,
-          "to_next": null
-        }
+        "lines": []
       }
     ],
     "fragment_data": [],
@@ -4532,7 +3081,15 @@
     "margin_bottom": 354,
     "margin_left": 89,
     "bbox_w_cm": 20.66,
-    "bbox_h_cm": 30.57
+    "bbox_h_cm": 30.57,
+    "tilt_reference": {
+      "plate_skew_deg": -0.357,
+      "baseline_skew_deg": null,
+      "n_columns_used": 1,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 3,
+    "dpi": 529.1
   },
   "0015_P_09782-Pl-T_R_001": {
     "xml_file": "c:/Users/Fabi/Repos/papyrus-layout-studien/page_xml/P_09782/P_09782/page/0015_P_09782-Pl-T_R_001.xml",
@@ -4576,7 +3133,15 @@
     "margin_right": 115,
     "margin_bottom": 341,
     "margin_left": 198,
-    "bbox_w_cm": 30.15,
-    "bbox_h_cm": 19.57
+    "bbox_w_cm": null,
+    "bbox_h_cm": null,
+    "tilt_reference": {
+      "plate_skew_deg": null,
+      "baseline_skew_deg": null,
+      "n_columns_used": 0,
+      "n_columns_with_baseline": 0
+    },
+    "n_mask_components": 4,
+    "dpi": 549.7
   }
 }
