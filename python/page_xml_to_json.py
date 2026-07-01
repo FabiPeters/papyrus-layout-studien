@@ -4,8 +4,10 @@ page_xml_to_json.py
 Liest PAGE-XML-Dateien (Transkribus-Export) aus und baut das ``layout_data``-Dict
 für die Papyrus-Layoutstudien auf.
 
-Pro Datei/Platte werden Bildmaße, die px/cm-Skala sowie die Textregionen erfasst,
-getrennt nach **Kolumnen** (``column_data``) und **Fragmenten** (``fragment_data``).
+Pro Datei/Platte werden Bildmaße, die px/cm-Skala, eine daraus abgeleitete
+DPI-Schätzung (``dpi`` = px/cm · 2,54; später gegen die Bildmetadaten prüfbar)
+sowie die Textregionen erfasst, getrennt nach **Kolumnen** (``column_data``) und
+**Fragmenten** (``fragment_data``).
 Die Klassifikation läuft über das ``structure type`` im ``custom``-Attribut der Region.
 
 Die Liste der auszuwertenden Dateien wird vom Aufrufer übergeben (im Notebook
@@ -107,6 +109,10 @@ def parse_page_xml(file, ns: dict = PAGE_NS) -> tuple[str, dict]:
     else:
         px_per_cm = None
 
+    # Eigene DPI-Schaetzung aus dem Massstab (1 Zoll = 2,54 cm). Spaeter nutzbar,
+    # um sie gegen die in den Bildmetadaten hinterlegte Aufloesung zu pruefen.
+    dpi = round(px_per_cm * 2.54, 1) if px_per_cm is not None else None
+
     # Regionen nach Typ trennen
     column_data = []
     fragment_data = []
@@ -123,6 +129,7 @@ def parse_page_xml(file, ns: dict = PAGE_NS) -> tuple[str, dict]:
         'image_w': image_w,
         'image_h': image_h,
         'px/cm': px_per_cm,
+        'dpi': dpi,
         'column_data': column_data,
         'fragment_data': fragment_data,
     }
