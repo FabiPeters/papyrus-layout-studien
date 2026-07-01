@@ -65,6 +65,12 @@ def aggregate(data: dict) -> tuple[list[dict], dict]:
         captured = [n for n in line_counts if n > 0]
         n_usable = sum(1 for c in cols if c.get('usable'))
 
+        # Neigungswinkel (nur Kolumnen mit erfasstem tilt)
+        tilt_v = [c['tilt']['tilt_vs_vertical_deg'] for c in cols
+                  if c.get('tilt') and c['tilt'].get('tilt_vs_vertical_deg') is not None]
+        tilt_i = [c['tilt']['tilt_vs_ideal_deg'] for c in cols
+                  if c.get('tilt') and c['tilt'].get('tilt_vs_ideal_deg') is not None]
+
         total_cols += len(cols)
         total_usable_cols += n_usable
         total_frags += len(frags)
@@ -82,6 +88,10 @@ def aggregate(data: dict) -> tuple[list[dict], dict]:
             'avg_lines':   mean(captured) if captured else None,
             'min_lines':   min(captured) if captured else None,
             'max_lines':   max(captured) if captured else None,
+            'tilt_v':      mean(tilt_v) if tilt_v else None,   # Ø Neigung gegen Bild-Senkrechte
+            'tilt_i':      mean(tilt_i) if tilt_i else None,   # Ø Neigung gegen Ideal-Horizontale
+            'skew':        entry.get('tilt_reference', {}).get('plate_skew_deg'),
+            'pieces':      entry.get('n_mask_components'),     # Fragmentierung: getrennte Maskenteile
         })
 
     totals = {
@@ -124,18 +134,26 @@ def build_overview_markdown(data: dict, source_name: str | None = None) -> str:
         '> Ø, min und max beziehen sich nur auf Kolumnen mit erfassten Zeilen. '
         'Fragmente (z. B. Platte T) werden separat gezaehlt und fliessen nicht in die Kolumnen-Statistik ein. '
         'Höhe/Breite (cm) sind aus den Bbox-Pixelmaßen und der px/cm-Skala abgeleitet '
-        '(— ohne Skala oder bei mehreren Fragmenten).',
+        '(— ohne Skala oder bei mehreren Fragmenten). '
+        'Ø Neigung = mittlere Kolumnenneigung der nutzbaren Kolumnen gegen die Bild-Senkrechte (vert.) '
+        'bzw. die plattenweite Ideal-Horizontale (ideal); Schiefe = geschätzte Plattenschiefe. '
+        'Neigung positiv = untere Kante nach links. '
+        'Teile = Zahl zusammenhängender Maskenteile (Fragmentierungsmaß: 1 = zusammenhängendes Blatt, '
+        '>1 = physisch getrennte Stücke; — im manuellen Bbox-Modus). '
+        'Auf stark fragmentierten Platten (viele unbenutzbare Kolumnen, Teile > 1) sind die Neigungswinkel '
+        'nur mit geringer Konfidenz zu lesen.',
         '',
         '## Pro Platte',
         '',
-        '| Platte | Kolumnen | nutzbar | Fragmente | Höhe (cm) | Breite (cm) | Zeilen gesamt | Ø Zeilen/Kol | min | max |',
-        '|--------|---------:|--------:|----------:|----------:|------------:|--------------:|-------------:|----:|----:|',
+        '| Platte | Kolumnen | nutzbar | Fragmente | Teile | Höhe (cm) | Breite (cm) | Zeilen gesamt | Ø Zeilen/Kol | min | max | Ø Neig. vert. (°) | Ø Neig. ideal (°) | Schiefe (°) |',
+        '|--------|---------:|--------:|----------:|------:|----------:|------------:|--------------:|-------------:|----:|----:|------------------:|------------------:|------------:|',
     ]
     for r in rows:
         md_lines.append(
-            f"| {r['plate']} | {r['n_cols']} | {r['n_usable']} | {r['n_frags']} | "
+            f"| {r['plate']} | {r['n_cols']} | {r['n_usable']} | {r['n_frags']} | {fmt(r['pieces'])} | "
             f"{fmt(r['h_cm'])} | {fmt(r['w_cm'])} | {r['total_lines']} | "
-            f"{fmt(r['avg_lines'])} | {fmt(r['min_lines'])} | {fmt(r['max_lines'])} |"
+            f"{fmt(r['avg_lines'])} | {fmt(r['min_lines'])} | {fmt(r['max_lines'])} | "
+            f"{fmt(r['tilt_v'])} | {fmt(r['tilt_i'])} | {fmt(r['skew'], 2)} |"
         )
 
     return '\n'.join(md_lines) + '\n'
