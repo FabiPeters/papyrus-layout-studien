@@ -1,0 +1,31 @@
+<svg viewBox="0 0 6692 4682" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+<rect x="0" y="0" width="6692" height="4682" fill="#faf9f6" stroke="#dcdcd5" stroke-width="4"/>
+<text x="120" y="210" font-size="150" font-weight="700" fill="#333">Platte A – Layoutschema (P. 9782)</text>
+<text x="122" y="345" font-size="92" fill="#666">Bounding Box, Kolumnen und Ideal-Horizontale (Plattenschiefe 0,842°)</text>
+<rect x="89" y="77" width="6592" height="4309" fill="none" stroke="#cc2b2b" stroke-width="9"/>
+<line x1="0" y1="555.8" x2="6692" y2="555.8" stroke="#999999" stroke-width="5" stroke-dasharray="36 26"/>
+<line x1="0" y1="502.1" x2="6692" y2="600.5" stroke="#e8890c" stroke-width="10"/>
+<polygon points="132,489 435,506 351,3371 60,3376" fill="#999999" fill-opacity="0.15" stroke="#888888" stroke-width="6" stroke-dasharray="28 20"/>
+<text x="244" y="928" font-size="200" fill="#888888" font-weight="700" text-anchor="middle" opacity="0.55">1</text>
+<polygon points="833,524 1650,547 1485,3580 721,3565" fill="#6a9fd4" fill-opacity="0.20" stroke="#2a5d8f" stroke-width="7"/>
+<text x="1172" y="966" font-size="200" fill="#2a5d8f" font-weight="700" text-anchor="middle" opacity="0.55">2</text>
+<polygon points="2035,556 2855,552 2699,3606 1904,3607" fill="#6a9fd4" fill-opacity="0.20" stroke="#2a5d8f" stroke-width="7"/>
+<text x="2373" y="984" font-size="200" fill="#2a5d8f" font-weight="700" text-anchor="middle" opacity="0.55">3</text>
+<polygon points="3252,539 4045,553 3911,3620 3085,3618" fill="#6a9fd4" fill-opacity="0.20" stroke="#2a5d8f" stroke-width="7"/>
+<text x="3573" y="976" font-size="200" fill="#2a5d8f" font-weight="700" text-anchor="middle" opacity="0.55">4</text>
+<polygon points="4437,548 5272,566 5085,3608 4294,3607" fill="#6a9fd4" fill-opacity="0.20" stroke="#2a5d8f" stroke-width="7"/>
+<text x="4772" y="987" font-size="200" fill="#2a5d8f" font-weight="700" text-anchor="middle" opacity="0.55">5</text>
+<polygon points="5670,582 6486,591 6303,3608 5494,3567" fill="#6a9fd4" fill-opacity="0.20" stroke="#2a5d8f" stroke-width="7"/>
+<text x="5988" y="1016" font-size="200" fill="#2a5d8f" font-weight="700" text-anchor="middle" opacity="0.55">6</text>
+<rect x="110" y="3660" width="2760" height="820" rx="20" fill="#ffffff" fill-opacity="0.82" stroke="#ddd" stroke-width="3"/>
+<line x1="180" y1="3760" x2="450" y2="3760" stroke="#cc2b2b" stroke-width="9"/>
+<text x="500" y="3792" font-size="90" fill="#444">Bounding Box (Blattausdehnung)</text>
+<line x1="180" y1="3915" x2="450" y2="3915" stroke="#2a5d8f" stroke-width="9"/>
+<text x="500" y="3947" font-size="90" fill="#444">Kolumne (nutzbar)</text>
+<line x1="180" y1="4070" x2="450" y2="4070" stroke="#888888" stroke-width="9" stroke-dasharray="34 22"/>
+<text x="500" y="4102" font-size="90" fill="#444">Kolumne (unbenutzbar)</text>
+<line x1="180" y1="4225" x2="450" y2="4225" stroke="#e8890c" stroke-width="10"/>
+<text x="500" y="4257" font-size="90" fill="#444">Ideal-Horizontale (Ø der Oberkanten)</text>
+<line x1="180" y1="4380" x2="450" y2="4380" stroke="#999999" stroke-width="9" stroke-dasharray="34 22"/>
+<text x="500" y="4412" font-size="90" fill="#444">Bild-Horizontale (Referenz)</text>
+</svg>
