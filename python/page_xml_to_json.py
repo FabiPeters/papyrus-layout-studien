@@ -164,11 +164,24 @@ def collect_layout_data(page_xml_files, data_file=None, ns: dict = PAGE_NS,
         with open(data_file, 'r', encoding='utf-8') as f:
             layout_data = json.load(f)
 
+    discarded = []   # Platten, deren berechnete Kolumnen-Felder neu ueberschrieben werden
     for file in page_xml_files:
         stem, entry = parse_page_xml(file, ns)
         if verbose:
             print(f"Processing page: {stem}")
+        # `entry` bringt ein frisch geparstes `column_data` ohne berechnete Felder
+        # mit; das `.update` ersetzt damit das bestehende `column_data` komplett.
+        # Zuvor pruefen, ob dabei per-Kolumne berechnete Felder (tilt, metrics)
+        # verloren gehen, um darauf hinzuweisen.
+        old_cols = layout_data.get(stem, {}).get('column_data', [])
+        if any(c.get('tilt') or c.get('metrics') for c in old_cols):
+            discarded.append(stem)
         layout_data.setdefault(stem, {}).update(entry)
+
+    if verbose and discarded:
+        print(f"\n⚠ Hinweis: column_data wurde fuer {len(discarded)} Platte(n) neu geparst; "
+              f"pro Kolumne berechnete Felder (tilt, metrics) gingen dabei verloren. "
+              f"Bitte measure_columns(...) und measure_tilt(...) erneut ausfuehren.")
 
     if save and data_file is not None:
         n_cols = sum(len(e.get('column_data', [])) for e in layout_data.values())

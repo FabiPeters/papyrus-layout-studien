@@ -393,20 +393,26 @@ def process_entry(key: str, entry: dict, project_root: Path, masks_dir: Path,
     return entry
 
 
-def process_layout_data(layout_data: dict, project_root: Path | str,
-                        data_file: Path | str | None = None,
+def process_layout_data(data_file: Path | str | None, project_root: Path | str,
+                        layout_data: dict | None = None,
                         params: SegmentationParams = DEFAULT_PARAMS,
                         overwrite_masks: bool = False, save_preview_img: bool = True,
                         save: bool = True, verbose: bool = True) -> dict:
     """Verarbeitet alle Einträge in ``layout_data`` und schreibt die Maße zurück.
 
-    Erzeugt den Maskenordner ``<project_root>/images/masks``, ruft für jeden
-    Eintrag :func:`process_entry` auf und speichert das Ergebnis optional als JSON.
+    Dateibasiert: Ohne ``layout_data`` wird ``data_file`` selbst eingelesen und
+    nach der Berechnung wieder geschrieben. Erzeugt den Maskenordner
+    ``<project_root>/images/masks``, ruft für jeden Eintrag :func:`process_entry`
+    auf und speichert das Ergebnis optional als JSON.
+
+    Voraussetzung: ``collect_layout_data(...)`` muss gelaufen sein (liefert
+    ``image_file`` je Platte). Schreibt Bbox-/Flächen-/Randmaße auf Platten-Ebene.
 
     Args:
-        layout_data: Dict ``{key: entry}`` mit Layout-Daten.
+        data_file: JSON-Datei zum Einlesen und Speichern. Erforderlich, wenn
+            ``layout_data`` nicht übergeben oder ``save=True`` ist.
         project_root: Projektwurzel (Basis für ``image_file``-Pfade).
-        data_file: Zielpfad für die JSON-Ausgabe. Erforderlich, wenn ``save=True``.
+        layout_data: Optionales Override-Dict; wenn ``None``, aus ``data_file`` geladen.
         params: Segmentierungsparameter.
         overwrite_masks: ``True`` regeneriert alle Masken; ``False`` nutzt Cache.
         save_preview_img: Vorschaubilder mit Bbox/Streifen speichern.
@@ -416,6 +422,13 @@ def process_layout_data(layout_data: dict, project_root: Path | str,
     Returns:
         Das aktualisierte ``layout_data``-Dict.
     """
+    if layout_data is None:
+        if data_file is None or not Path(data_file).exists():
+            raise FileNotFoundError(
+                f"layout_data nicht übergeben und '{data_file}' nicht gefunden – "
+                "zuerst collect_layout_data(...) ausführen.")
+        with open(data_file, encoding='utf-8') as f:
+            layout_data = json.load(f)
     project_root = Path(project_root)
     masks_dir = project_root / 'images' / 'masks'
     masks_dir.mkdir(parents=True, exist_ok=True)

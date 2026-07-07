@@ -59,8 +59,20 @@ from __future__ import annotations
 
 import json
 import math
+from pathlib import Path
 
 Point = tuple[float, float]
+
+
+def _load_layout_data(data_file):
+    """Lädt ``layout_data`` aus ``data_file`` oder wirft einen sprechenden Fehler,
+    wenn die Datei fehlt (z. B. weil ``collect_layout_data`` noch nicht lief)."""
+    if data_file is None or not Path(data_file).exists():
+        raise FileNotFoundError(
+            f"layout_data nicht übergeben und '{data_file}' nicht gefunden – "
+            "zuerst collect_layout_data(...) ausführen.")
+    with open(data_file, encoding='utf-8') as f:
+        return json.load(f)
 
 
 def parse_points(points: str) -> list[Point]:
@@ -177,19 +189,28 @@ def measure_plate_tilt(entry: dict) -> None:
     }
 
 
-def measure_tilt(layout_data: dict, data_file=None,
+def measure_tilt(data_file=None, layout_data: dict | None = None,
                  save: bool = True, verbose: bool = True) -> dict:
     """Berechnet die Kolumnenneigung für alle Platten und schreibt sie zurück.
 
+    Dateibasiert: Ohne ``layout_data`` wird ``data_file`` selbst eingelesen und
+    nach der Berechnung wieder geschrieben.
+
+    Voraussetzung: ``collect_layout_data(...)`` muss gelaufen sein (liefert
+    ``column_data`` mit ``polygon`` sowie Zeilen/Baselines). Unabhängig von der
+    Bildverarbeitung und den Kolumnen-Merkmalen.
+
     Args:
-        layout_data: Dict ``{key: entry}`` (Kolumnen mit ``polygon``).
-        data_file: JSON-Zielpfad (erforderlich, wenn ``save=True``).
+        data_file: JSON-Datei zum Einlesen und Speichern.
+        layout_data: Optionales Override-Dict; wenn ``None``, aus ``data_file`` geladen.
         save: Ergebnis nach ``data_file`` schreiben.
         verbose: Fortschritt/Kurzstatistik ausgeben.
 
     Returns:
         Das aktualisierte ``layout_data``-Dict.
     """
+    if layout_data is None:
+        layout_data = _load_layout_data(data_file)
     n_cols = 0
     for key, entry in layout_data.items():
         measure_plate_tilt(entry)

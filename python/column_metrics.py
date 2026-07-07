@@ -238,19 +238,33 @@ def measure_plate(entry: dict) -> None:
             parsed[i][0]['metrics']['to_next'] = None
 
 
-def measure_columns(layout_data: dict, data_file=None,
+def measure_columns(data_file=None, layout_data: dict | None = None,
                     save: bool = True, verbose: bool = True) -> dict:
     """Berechnet Kolumnen-Merkmale für alle Platten und schreibt sie zurück.
 
+    Dateibasiert: Ohne ``layout_data`` wird ``data_file`` selbst eingelesen und
+    nach der Berechnung wieder geschrieben.
+
+    Voraussetzung: ``collect_layout_data(...)`` **und** ``process_layout_data(...)``
+    müssen gelaufen sein – die Merkmale (Ränder, Schriftspiegel-Verhältnisse)
+    brauchen das Blattmaß (Bbox) aus der Bildverarbeitung.
+
     Args:
-        layout_data: Dict ``{key: entry}`` (nach der Bbox-Berechnung).
-        data_file: JSON-Zielpfad zum Speichern (erforderlich, wenn ``save=True``).
+        data_file: JSON-Datei zum Einlesen und Speichern.
+        layout_data: Optionales Override-Dict; wenn ``None``, aus ``data_file`` geladen.
         save: Ergebnis nach ``data_file`` schreiben.
         verbose: Fortschritt/Kurzstatistik ausgeben.
 
     Returns:
         Das aktualisierte ``layout_data``-Dict.
     """
+    if layout_data is None:
+        if data_file is None or not Path(data_file).exists():
+            raise FileNotFoundError(
+                f"layout_data nicht übergeben und '{data_file}' nicht gefunden – "
+                "zuerst collect_layout_data(...) und process_layout_data(...) ausführen.")
+        with open(data_file, encoding='utf-8') as f:
+            layout_data = json.load(f)
     n_cols = n_pairs = 0
     for key, entry in layout_data.items():
         measure_plate(entry)

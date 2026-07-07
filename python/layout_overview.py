@@ -29,6 +29,7 @@ Abhängigkeiten: nur Standardbibliothek.
 
 from __future__ import annotations
 
+import csv
 import json
 from datetime import date
 from pathlib import Path
@@ -70,6 +71,8 @@ def aggregate(data: dict) -> tuple[list[dict], dict]:
                   if c.get('tilt') and c['tilt'].get('tilt_vs_vertical_deg') is not None]
         tilt_i = [c['tilt']['tilt_vs_ideal_deg'] for c in cols
                   if c.get('tilt') and c['tilt'].get('tilt_vs_ideal_deg') is not None]
+        tilt_b = [c['tilt']['tilt_vs_baseline_deg'] for c in cols
+                  if c.get('tilt') and c['tilt'].get('tilt_vs_baseline_deg') is not None]
 
         total_cols += len(cols)
         total_usable_cols += n_usable
@@ -90,7 +93,10 @@ def aggregate(data: dict) -> tuple[list[dict], dict]:
             'max_lines':   max(captured) if captured else None,
             'tilt_v':      mean(tilt_v) if tilt_v else None,   # Ø Neigung gegen Bild-Senkrechte
             'tilt_i':      mean(tilt_i) if tilt_i else None,   # Ø Neigung gegen Ideal-Horizontale
+            'tilt_b':      mean(tilt_b) if tilt_b else None,   # Ø Neigung gegen Baseline-Horizontale (Ansatz 3)
             'skew':        entry.get('tilt_reference', {}).get('plate_skew_deg'),
+            'base_skew':   entry.get('tilt_reference', {}).get('baseline_skew_deg'),  # Baseline-Schiefe der Platte
+            'n_base':      entry.get('tilt_reference', {}).get('n_columns_with_baseline'),  # Kolumnen mit Baseline
             'pieces':      entry.get('n_mask_components'),     # Fragmentierung: getrennte Maskenteile
         })
 
@@ -107,6 +113,108 @@ def aggregate(data: dict) -> tuple[list[dict], dict]:
         'max_lines':           max(all_line_counts) if all_line_counts else None,
     }
     return rows, totals
+
+
+# Spaltenreihenfolge der CSV-Ausgaben (zugleich die Header).
+PLATE_FIELDS = [
+    'plate', 'n_cols', 'n_usable', 'n_frags', 'n_mask_components',
+    'height_cm', 'width_cm', 'total_lines', 'avg_lines', 'min_lines', 'max_lines',
+    'tilt_vert_mean_deg', 'tilt_ideal_mean_deg', 'tilt_baseline_mean_deg',
+    'plate_skew_deg', 'baseline_skew_deg', 'n_columns_with_baseline',
+]
+
+COLUMN_FIELDS = [
+    'plate', 'column_index', 'usable', 'n_lines',
+    'tilt_vs_vertical_deg', 'tilt_vs_ideal_deg', 'tilt_vs_baseline_deg',
+    'height_px', 'height_cm', 'width_px', 'width_cm', 'area_px', 'area_cm2',
+    'margin_top_px', 'margin_top_cm', 'margin_bottom_px', 'margin_bottom_cm',
+    'schriftspiegel_height_ratio', 'schriftspiegel_area_ratio',
+    'intercolumn_px', 'intercolumn_cm', 'col2col_width_px', 'col2col_width_cm',
+    'col2col_area_px', 'col2col_area_cm2',
+]
+
+
+def plate_csv_rows(data: dict) -> list[dict]:
+    """Eine Zeile pro Platte (Zusammenfassung) mit sprechenden CSV-Spaltennamen."""
+    rows, _ = aggregate(data)
+    out = []
+    for r in rows:
+        out.append({
+            'plate':                   r['plate'],
+            'n_cols':                  r['n_cols'],
+            'n_usable':                r['n_usable'],
+            'n_frags':                 r['n_frags'],
+            'n_mask_components':       r['pieces'],
+            'height_cm':               r['h_cm'],
+            'width_cm':                r['w_cm'],
+            'total_lines':             r['total_lines'],
+            'avg_lines':               round(r['avg_lines'], 2) if r['avg_lines'] is not None else None,
+            'min_lines':               r['min_lines'],
+            'max_lines':               r['max_lines'],
+            'tilt_vert_mean_deg':      round(r['tilt_v'], 3) if r['tilt_v'] is not None else None,
+            'tilt_ideal_mean_deg':     round(r['tilt_i'], 3) if r['tilt_i'] is not None else None,
+            'tilt_baseline_mean_deg':  round(r['tilt_b'], 3) if r['tilt_b'] is not None else None,
+            'plate_skew_deg':          r['skew'],
+            'baseline_skew_deg':       r['base_skew'],
+            'n_columns_with_baseline': r['n_base'],
+        })
+    return out
+
+
+def column_csv_rows(data: dict) -> list[dict]:
+    """Eine Zeile pro Kolumne: Neigung (3 Ansätze) und Kolumnen-Merkmale flach.
+
+    Kolumnen sind pro Platte fortlaufend ab 1 nummeriert (Reihenfolge wie in
+    ``column_data``). Fehlt ein Wert (z. B. ``tilt``/``metrics`` noch nicht
+    berechnet, oder ``to_next`` bei der letzten Kolumne), bleibt die Zelle leer.
+    """
+    out = []
+    for key, entry in data.items():
+        plate = plate_name(key)
+        for i, col in enumerate(entry.get('column_data', []), start=1):
+            tilt = col.get('tilt') or {}
+            m = col.get('metrics') or {}
+            nxt = m.get('to_next') or {}
+            out.append({
+                'plate':                       plate,
+                'column_index':                i,
+                'usable':                      col.get('usable'),
+                'n_lines':                     len(col.get('lines', [])),
+                'tilt_vs_vertical_deg':        tilt.get('tilt_vs_vertical_deg'),
+                'tilt_vs_ideal_deg':           tilt.get('tilt_vs_ideal_deg'),
+                'tilt_vs_baseline_deg':        tilt.get('tilt_vs_baseline_deg'),
+                'height_px':                   m.get('height_px'),
+                'height_cm':                   m.get('height_cm'),
+                'width_px':                    m.get('width_px'),
+                'width_cm':                    m.get('width_cm'),
+                'area_px':                     m.get('area_px'),
+                'area_cm2':                    m.get('area_cm2'),
+                'margin_top_px':               m.get('margin_top_px'),
+                'margin_top_cm':               m.get('margin_top_cm'),
+                'margin_bottom_px':            m.get('margin_bottom_px'),
+                'margin_bottom_cm':            m.get('margin_bottom_cm'),
+                'schriftspiegel_height_ratio': m.get('schriftspiegel_height_ratio'),
+                'schriftspiegel_area_ratio':   m.get('schriftspiegel_area_ratio'),
+                'intercolumn_px':              nxt.get('intercolumn_px'),
+                'intercolumn_cm':              nxt.get('intercolumn_cm'),
+                'col2col_width_px':            nxt.get('col2col_width_px'),
+                'col2col_width_cm':            nxt.get('col2col_width_cm'),
+                'col2col_area_px':             nxt.get('col2col_area_px'),
+                'col2col_area_cm2':            nxt.get('col2col_area_cm2'),
+            })
+    return out
+
+
+def write_csv(rows: list[dict], path, fieldnames: list[str]):
+    """Schreibt ``rows`` als CSV nach ``path`` (``None`` -> leere Zelle)."""
+    path = Path(path)
+    with open(path, 'w', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, restval='',
+                                extrasaction='ignore')
+        writer.writeheader()
+        for r in rows:
+            writer.writerow({k: ('' if v is None else v) for k, v in r.items()})
+    return path
 
 
 def build_overview_markdown(data: dict, source_name: str | None = None) -> str:
@@ -135,8 +243,12 @@ def build_overview_markdown(data: dict, source_name: str | None = None) -> str:
         'Fragmente (z. B. Platte T) werden separat gezaehlt und fliessen nicht in die Kolumnen-Statistik ein. '
         'Höhe/Breite (cm) sind aus den Bbox-Pixelmaßen und der px/cm-Skala abgeleitet '
         '(— ohne Skala oder bei mehreren Fragmenten). '
-        'Ø Neigung = mittlere Kolumnenneigung der nutzbaren Kolumnen gegen die Bild-Senkrechte (vert.) '
-        'bzw. die plattenweite Ideal-Horizontale (ideal); Schiefe = geschätzte Plattenschiefe. '
+        'Ø Neigung = mittlere Kolumnenneigung der nutzbaren Kolumnen gegen drei Referenzen: '
+        'die Bild-Senkrechte (vert.), die plattenweite Ideal-Horizontale aus den Oberkanten (ideal) '
+        'und die Schrifthorizontale der jeweiligen Kolumne aus ihren Baselines (baseline, Johnson-Methode; '
+        'nur wo Zeilen erfasst sind, sonst —). '
+        'Schiefe = geschätzte Plattenschiefe aus den Oberkanten; Baseline-Schiefe = plattenweite Schrifthorizontale '
+        'aus den Baselines (Kontrolle zur Oberkanten-Schiefe, in Klammern die Zahl der Kolumnen mit Zeilen). '
         'Neigung positiv = untere Kante nach links. '
         'Teile = Zahl zusammenhängender Maskenteile (Fragmentierungsmaß: 1 = zusammenhängendes Blatt, '
         '>1 = physisch getrennte Stücke; — im manuellen Bbox-Modus). '
@@ -145,34 +257,47 @@ def build_overview_markdown(data: dict, source_name: str | None = None) -> str:
         '',
         '## Pro Platte',
         '',
-        '| Platte | Kolumnen | nutzbar | Fragmente | Teile | Höhe (cm) | Breite (cm) | Zeilen gesamt | Ø Zeilen/Kol | min | max | Ø Neig. vert. (°) | Ø Neig. ideal (°) | Schiefe (°) |',
-        '|--------|---------:|--------:|----------:|------:|----------:|------------:|--------------:|-------------:|----:|----:|------------------:|------------------:|------------:|',
+        '| Platte | Kolumnen | nutzbar | Fragmente | Teile | Höhe (cm) | Breite (cm) | Zeilen gesamt | Ø Zeilen/Kol | min | max | Ø Neig. vert. (°) | Ø Neig. ideal (°) | Ø Neig. baseline (°) | Schiefe (°) | Baseline-Schiefe (°) |',
+        '|--------|---------:|--------:|----------:|------:|----------:|------------:|--------------:|-------------:|----:|----:|------------------:|------------------:|---------------------:|------------:|---------------------:|',
     ]
     for r in rows:
+        base_skew = (f"{fmt(r['base_skew'], 2)} ({r['n_base']})"
+                     if r['base_skew'] is not None else '—')
         md_lines.append(
             f"| {r['plate']} | {r['n_cols']} | {r['n_usable']} | {r['n_frags']} | {fmt(r['pieces'])} | "
             f"{fmt(r['h_cm'])} | {fmt(r['w_cm'])} | {r['total_lines']} | "
             f"{fmt(r['avg_lines'])} | {fmt(r['min_lines'])} | {fmt(r['max_lines'])} | "
-            f"{fmt(r['tilt_v'])} | {fmt(r['tilt_i'])} | {fmt(r['skew'], 2)} |"
+            f"{fmt(r['tilt_v'])} | {fmt(r['tilt_i'])} | {fmt(r['tilt_b'])} | {fmt(r['skew'], 2)} | {base_skew} |"
         )
 
     return '\n'.join(md_lines) + '\n'
 
 
 def generate_overview(data: dict | None = None, data_file=None,
-                      overview_file=None, save: bool = True,
-                      verbose: bool = True) -> str:
+                      overview_file=None, plate_csv=None, column_csv=None,
+                      save: bool = True, verbose: bool = True) -> str:
     """Lädt/akzeptiert ``layout_data``, baut den Überblick und schreibt ihn.
+
+    Erzeugt drei Ausgaben:
+    - die **Zusammenfassung pro Platte** als Markdown (``overview_file``) und
+      zusätzlich als CSV (``plate_csv``);
+    - die **Daten pro Kolumne** als CSV (``column_csv``).
+
+    Werden ``plate_csv``/``column_csv`` nicht gesetzt, aber ``save=True``, so
+    werden sie neben ``overview_file`` (bzw. neben ``data_file``) unter den Namen
+    ``layout_summary_per_plate.csv`` und ``layout_per_column.csv`` abgelegt.
 
     Args:
         data: ``layout_data``-Dict. Wenn ``None``, wird aus ``data_file`` geladen.
         data_file: JSON-Quelle (für Laden und als „Datenquelle"-Angabe im Kopf).
-        overview_file: Zielpfad der Markdown-Datei. ``None`` = nicht schreiben.
-        save: Markdown nach ``overview_file`` schreiben.
-        verbose: kurze Statusmeldung ausgeben.
+        overview_file: Zielpfad der Markdown-Datei. ``None`` = kein Markdown schreiben.
+        plate_csv: Zielpfad der Platten-CSV (``None`` = neben Markdown/JSON ablegen).
+        column_csv: Zielpfad der Kolumnen-CSV (``None`` = neben Markdown/JSON ablegen).
+        save: Ausgaben auf die Platte schreiben.
+        verbose: kurze Statusmeldungen ausgeben.
 
     Returns:
-        Den erzeugten Markdown-String.
+        Den erzeugten Markdown-String (Zusammenfassung pro Platte).
     """
     source_name = None
     if data is None:
@@ -185,11 +310,31 @@ def generate_overview(data: dict | None = None, data_file=None,
 
     markdown = build_overview_markdown(data, source_name=source_name)
 
-    if save and overview_file is not None:
-        overview_file = Path(overview_file)
-        with open(overview_file, 'w', encoding='utf-8') as f:
-            f.write(markdown)
-        if verbose:
-            print(f'Ueberblick geschrieben nach {overview_file}')
+    if save:
+        # Basisverzeichnis für automatisch benannte CSVs bestimmen
+        base_dir = None
+        if overview_file is not None:
+            overview_file = Path(overview_file)
+            with open(overview_file, 'w', encoding='utf-8') as f:
+                f.write(markdown)
+            if verbose:
+                print(f'Ueberblick (Markdown) -> {overview_file}')
+            base_dir = overview_file.parent
+        elif data_file is not None:
+            base_dir = Path(data_file).parent
+
+        if plate_csv is None and base_dir is not None:
+            plate_csv = base_dir / 'layout_summary_per_plate.csv'
+        if column_csv is None and base_dir is not None:
+            column_csv = base_dir / 'layout_per_column.csv'
+
+        if plate_csv is not None:
+            write_csv(plate_csv_rows(data), plate_csv, PLATE_FIELDS)
+            if verbose:
+                print(f'Zusammenfassung pro Platte (CSV) -> {plate_csv}')
+        if column_csv is not None:
+            write_csv(column_csv_rows(data), column_csv, COLUMN_FIELDS)
+            if verbose:
+                print(f'Daten pro Kolumne (CSV) -> {column_csv}')
 
     return markdown
