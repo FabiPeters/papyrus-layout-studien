@@ -138,24 +138,24 @@
         ],
         "metrics": {
           "height_px": 2873.5,
-          "height_cm": 19.39,
+          "height_cm": 19.4,
           "width_px": 295.0,
-          "width_cm": 1.99,
+          "width_cm": 2.0,
           "area_px": 847872,
           "area_cm2": 38.6,
           "margin_top_px": 423.0,
-          "margin_top_cm": 2.85,
+          "margin_top_cm": 2.9,
           "margin_bottom_px": 1012.5,
-          "margin_bottom_cm": 6.83,
-          "schriftspiegel_height_ratio": 0.667,
+          "margin_bottom_cm": 6.8,
+          "schriftspiegel_height_ratio": 0.67,
           "schriftspiegel_area_ratio": 0.03,
           "to_next": {
             "intercolumn_px": 389.8,
-            "intercolumn_cm": 2.63,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 684.8,
-            "col2col_width_cm": 4.62,
+            "col2col_width_cm": 4.6,
             "col2col_area_px": 2026469,
-            "col2col_area_cm2": 92.27,
+            "col2col_area_cm2": 92.3,
             "both_usable": false
           }
         },
@@ -428,31 +428,31 @@
         ],
         "metrics": {
           "height_px": 3037.0,
-          "height_cm": 20.49,
+          "height_cm": 20.5,
           "width_px": 790.5,
-          "width_cm": 5.33,
+          "width_cm": 5.3,
           "area_px": 2403380,
-          "area_cm2": 109.43,
+          "area_cm2": 109.4,
           "margin_top_px": 458.5,
-          "margin_top_cm": 3.09,
+          "margin_top_cm": 3.1,
           "margin_bottom_px": 813.5,
-          "margin_bottom_cm": 5.49,
-          "schriftspiegel_height_ratio": 0.705,
-          "schriftspiegel_area_ratio": 0.085,
+          "margin_bottom_cm": 5.5,
+          "schriftspiegel_height_ratio": 0.7,
+          "schriftspiegel_area_ratio": 0.09,
           "to_next": {
             "intercolumn_px": 402.8,
-            "intercolumn_cm": 2.72,
+            "intercolumn_cm": 2.7,
             "col2col_width_px": 1194.0,
-            "col2col_width_cm": 8.06,
+            "col2col_width_cm": 8.1,
             "col2col_area_px": 3636850,
-            "col2col_area_cm2": 165.59,
+            "col2col_area_cm2": 165.6,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.109,
-          "tilt_vs_ideal_deg": 1.267,
-          "tilt_vs_baseline_deg": 0.125
+          "tilt_vs_vertical_deg": 2.1,
+          "tilt_vs_ideal_deg": 1.3,
+          "tilt_vs_baseline_deg": 0.1
         }
       },
       {
@@ -729,29 +729,29 @@
           "height_px": 3052.5,
           "height_cm": 20.6,
           "width_px": 807.5,
-          "width_cm": 5.45,
+          "width_cm": 5.5,
           "area_px": 2464535,
-          "area_cm2": 112.21,
+          "area_cm2": 112.2,
           "margin_top_px": 477.0,
-          "margin_top_cm": 3.22,
+          "margin_top_cm": 3.2,
           "margin_bottom_px": 779.5,
-          "margin_bottom_cm": 5.26,
-          "schriftspiegel_height_ratio": 0.708,
-          "schriftspiegel_area_ratio": 0.087,
+          "margin_bottom_cm": 5.3,
+          "schriftspiegel_height_ratio": 0.71,
+          "schriftspiegel_area_ratio": 0.09,
           "to_next": {
             "intercolumn_px": 391.5,
-            "intercolumn_cm": 2.64,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1198.8,
-            "col2col_width_cm": 8.09,
+            "col2col_width_cm": 8.1,
             "col2col_area_px": 3674488,
             "col2col_area_cm2": 167.3,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.459,
-          "tilt_vs_ideal_deg": 1.616,
-          "tilt_vs_baseline_deg": 1.786
+          "tilt_vs_vertical_deg": 2.5,
+          "tilt_vs_ideal_deg": 1.6,
+          "tilt_vs_baseline_deg": 1.8
         }
       },
       {
@@ -1021,31 +1021,31 @@
         ],
         "metrics": {
           "height_px": 3073.0,
-          "height_cm": 20.74,
+          "height_cm": 20.7,
           "width_px": 809.5,
-          "width_cm": 5.46,
+          "width_cm": 5.5,
           "area_px": 2488798,
-          "area_cm2": 113.32,
+          "area_cm2": 113.3,
           "margin_top_px": 469.0,
-          "margin_top_cm": 3.16,
+          "margin_top_cm": 3.2,
           "margin_bottom_px": 767.0,
-          "margin_bottom_cm": 5.18,
-          "schriftspiegel_height_ratio": 0.713,
-          "schriftspiegel_area_ratio": 0.088,
+          "margin_bottom_cm": 5.2,
+          "schriftspiegel_height_ratio": 0.71,
+          "schriftspiegel_area_ratio": 0.09,
           "to_next": {
             "intercolumn_px": 387.1,
-            "intercolumn_cm": 2.61,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1196.9,
-            "col2col_width_cm": 8.08,
+            "col2col_width_cm": 8.1,
             "col2col_area_px": 3673438,
-            "col2col_area_cm2": 167.25,
+            "col2col_area_cm2": 167.2,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.105,
-          "tilt_vs_ideal_deg": 2.262,
-          "tilt_vs_baseline_deg": 2.052
+          "tilt_vs_vertical_deg": 3.1,
+          "tilt_vs_ideal_deg": 2.3,
+          "tilt_vs_baseline_deg": 2.1
         }
       },
       {
@@ -1300,31 +1300,31 @@
         ],
         "metrics": {
           "height_px": 3050.5,
-          "height_cm": 20.58,
+          "height_cm": 20.6,
           "width_px": 813.0,
-          "width_cm": 5.49,
+          "width_cm": 5.5,
           "area_px": 2481624,
-          "area_cm2": 112.99,
+          "area_cm2": 113.0,
           "margin_top_px": 480.0,
-          "margin_top_cm": 3.24,
+          "margin_top_cm": 3.2,
           "margin_bottom_px": 778.5,
-          "margin_bottom_cm": 5.25,
-          "schriftspiegel_height_ratio": 0.708,
-          "schriftspiegel_area_ratio": 0.087,
+          "margin_bottom_cm": 5.2,
+          "schriftspiegel_height_ratio": 0.71,
+          "schriftspiegel_area_ratio": 0.09,
           "to_next": {
             "intercolumn_px": 402.7,
-            "intercolumn_cm": 2.72,
+            "intercolumn_cm": 2.7,
             "col2col_width_px": 1216.4,
-            "col2col_width_cm": 8.21,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 3675784,
-            "col2col_area_cm2": 167.36,
+            "col2col_area_cm2": 167.4,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.676,
-          "tilt_vs_ideal_deg": 1.834,
-          "tilt_vs_baseline_deg": 1.997
+          "tilt_vs_vertical_deg": 2.7,
+          "tilt_vs_ideal_deg": 1.8,
+          "tilt_vs_baseline_deg": 2.0
         }
       },
       {
@@ -1569,23 +1569,23 @@
         ],
         "metrics": {
           "height_px": 3001.0,
-          "height_cm": 20.25,
+          "height_cm": 20.2,
           "width_px": 812.5,
-          "width_cm": 5.48,
+          "width_cm": 5.5,
           "area_px": 2442800,
-          "area_cm2": 111.22,
+          "area_cm2": 111.2,
           "margin_top_px": 509.5,
-          "margin_top_cm": 3.44,
+          "margin_top_cm": 3.4,
           "margin_bottom_px": 798.5,
-          "margin_bottom_cm": 5.39,
-          "schriftspiegel_height_ratio": 0.696,
-          "schriftspiegel_area_ratio": 0.086,
+          "margin_bottom_cm": 5.4,
+          "schriftspiegel_height_ratio": 0.7,
+          "schriftspiegel_area_ratio": 0.09,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.374,
-          "tilt_vs_ideal_deg": 2.532,
-          "tilt_vs_baseline_deg": 1.942
+          "tilt_vs_vertical_deg": 3.4,
+          "tilt_vs_ideal_deg": 2.5,
+          "tilt_vs_baseline_deg": 1.9
         }
       }
     ],
@@ -1603,11 +1603,11 @@
     "margin_bottom": 296,
     "margin_left": 89,
     "fragment_data": [],
-    "bbox_w_cm": 44.48,
-    "bbox_h_cm": 29.08,
+    "bbox_w_cm": 44.5,
+    "bbox_h_cm": 29.1,
     "tilt_reference": {
-      "plate_skew_deg": 0.842,
-      "baseline_skew_deg": 1.136,
+      "plate_skew_deg": 0.8,
+      "baseline_skew_deg": 1.1,
       "n_columns_used": 5,
       "n_columns_with_baseline": 5
     },
@@ -1853,31 +1853,31 @@
         ],
         "metrics": {
           "height_px": 3430.5,
-          "height_cm": 20.41,
+          "height_cm": 20.4,
           "width_px": 947.5,
-          "width_cm": 5.64,
+          "width_cm": 5.6,
           "area_px": 3251640,
-          "area_cm2": 115.07,
+          "area_cm2": 115.1,
           "margin_top_px": 666.0,
-          "margin_top_cm": 3.96,
+          "margin_top_cm": 4.0,
           "margin_bottom_px": 815.5,
-          "margin_bottom_cm": 4.85,
-          "schriftspiegel_height_ratio": 0.698,
-          "schriftspiegel_area_ratio": 0.116,
+          "margin_bottom_cm": 4.8,
+          "schriftspiegel_height_ratio": 0.7,
+          "schriftspiegel_area_ratio": 0.12,
           "to_next": {
             "intercolumn_px": 434.9,
-            "intercolumn_cm": 2.59,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1382.8,
-            "col2col_width_cm": 8.23,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 4721517,
-            "col2col_area_cm2": 167.09,
+            "col2col_area_cm2": 167.1,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.073,
-          "tilt_vs_ideal_deg": 2.164,
-          "tilt_vs_baseline_deg": 2.126
+          "tilt_vs_vertical_deg": 3.1,
+          "tilt_vs_ideal_deg": 2.2,
+          "tilt_vs_baseline_deg": 2.1
         }
       },
       {
@@ -2117,31 +2117,31 @@
         ],
         "metrics": {
           "height_px": 3390.0,
-          "height_cm": 20.17,
+          "height_cm": 20.2,
           "width_px": 913.0,
-          "width_cm": 5.43,
+          "width_cm": 5.4,
           "area_px": 3098094,
-          "area_cm2": 109.64,
+          "area_cm2": 109.6,
           "margin_top_px": 696.0,
-          "margin_top_cm": 4.14,
+          "margin_top_cm": 4.1,
           "margin_bottom_px": 826.0,
-          "margin_bottom_cm": 4.91,
+          "margin_bottom_cm": 4.9,
           "schriftspiegel_height_ratio": 0.69,
           "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 430.9,
-            "intercolumn_cm": 2.56,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1344.8,
             "col2col_width_cm": 8.0,
             "col2col_area_px": 4568398,
-            "col2col_area_cm2": 161.67,
+            "col2col_area_cm2": 161.7,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.844,
-          "tilt_vs_ideal_deg": 1.935,
-          "tilt_vs_baseline_deg": 1.541
+          "tilt_vs_vertical_deg": 2.8,
+          "tilt_vs_ideal_deg": 1.9,
+          "tilt_vs_baseline_deg": 1.5
         }
       },
       {
@@ -2371,31 +2371,31 @@
         ],
         "metrics": {
           "height_px": 3394.0,
-          "height_cm": 20.19,
+          "height_cm": 20.2,
           "width_px": 940.5,
-          "width_cm": 5.59,
+          "width_cm": 5.6,
           "area_px": 3195162,
-          "area_cm2": 113.07,
+          "area_cm2": 113.1,
           "margin_top_px": 701.0,
-          "margin_top_cm": 4.17,
+          "margin_top_cm": 4.2,
           "margin_bottom_px": 817.0,
-          "margin_bottom_cm": 4.86,
-          "schriftspiegel_height_ratio": 0.691,
-          "schriftspiegel_area_ratio": 0.114,
+          "margin_bottom_cm": 4.9,
+          "schriftspiegel_height_ratio": 0.69,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 428.8,
-            "intercolumn_cm": 2.55,
+            "intercolumn_cm": 2.5,
             "col2col_width_px": 1369.7,
-            "col2col_width_cm": 8.15,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 4642798,
             "col2col_area_cm2": 164.3,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.509,
+          "tilt_vs_vertical_deg": 3.5,
           "tilt_vs_ideal_deg": 2.6,
-          "tilt_vs_baseline_deg": 1.999
+          "tilt_vs_baseline_deg": 2.0
         }
       },
       {
@@ -2625,23 +2625,23 @@
         ],
         "metrics": {
           "height_px": 3400.5,
-          "height_cm": 20.23,
+          "height_cm": 20.2,
           "width_px": 956.0,
-          "width_cm": 5.69,
+          "width_cm": 5.7,
           "area_px": 3255337,
           "area_cm2": 115.2,
           "margin_top_px": 670.5,
-          "margin_top_cm": 3.99,
+          "margin_top_cm": 4.0,
           "margin_bottom_px": 841.0,
           "margin_bottom_cm": 5.0,
-          "schriftspiegel_height_ratio": 0.692,
-          "schriftspiegel_area_ratio": 0.116,
+          "schriftspiegel_height_ratio": 0.69,
+          "schriftspiegel_area_ratio": 0.12,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.025,
-          "tilt_vs_ideal_deg": 2.116,
-          "tilt_vs_baseline_deg": 1.862
+          "tilt_vs_vertical_deg": 3.0,
+          "tilt_vs_ideal_deg": 2.1,
+          "tilt_vs_baseline_deg": 1.9
         }
       }
     ],
@@ -2659,11 +2659,11 @@
     "margin_bottom": 297,
     "margin_left": 51,
     "fragment_data": [],
-    "bbox_w_cm": 33.98,
-    "bbox_h_cm": 29.22,
+    "bbox_w_cm": 34.0,
+    "bbox_h_cm": 29.2,
     "tilt_reference": {
-      "plate_skew_deg": 0.909,
-      "baseline_skew_deg": 1.241,
+      "plate_skew_deg": 0.9,
+      "baseline_skew_deg": 1.2,
       "n_columns_used": 4,
       "n_columns_with_baseline": 4
     },
@@ -2683,30 +2683,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3392.0,
-          "height_cm": 20.34,
+          "height_cm": 20.3,
           "width_px": 915.5,
-          "width_cm": 5.49,
+          "width_cm": 5.5,
           "area_px": 3111230,
-          "area_cm2": 111.83,
+          "area_cm2": 111.8,
           "margin_top_px": 629.0,
-          "margin_top_cm": 3.77,
+          "margin_top_cm": 3.8,
           "margin_bottom_px": 974.0,
-          "margin_bottom_cm": 5.84,
-          "schriftspiegel_height_ratio": 0.679,
-          "schriftspiegel_area_ratio": 0.108,
+          "margin_bottom_cm": 5.8,
+          "schriftspiegel_height_ratio": 0.68,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 452.4,
-            "intercolumn_cm": 2.71,
+            "intercolumn_cm": 2.7,
             "col2col_width_px": 1369.6,
-            "col2col_width_cm": 8.21,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 4642148,
-            "col2col_area_cm2": 166.85,
+            "col2col_area_cm2": 166.8,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 4.21,
-          "tilt_vs_ideal_deg": 3.924,
+          "tilt_vs_vertical_deg": 4.2,
+          "tilt_vs_ideal_deg": 3.9,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -2716,30 +2716,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3400.0,
-          "height_cm": 20.38,
+          "height_cm": 20.4,
           "width_px": 916.5,
-          "width_cm": 5.49,
+          "width_cm": 5.5,
           "area_px": 3117968,
-          "area_cm2": 112.07,
+          "area_cm2": 112.1,
           "margin_top_px": 632.0,
-          "margin_top_cm": 3.79,
+          "margin_top_cm": 3.8,
           "margin_bottom_px": 963.0,
-          "margin_bottom_cm": 5.77,
-          "schriftspiegel_height_ratio": 0.681,
-          "schriftspiegel_area_ratio": 0.108,
+          "margin_bottom_cm": 5.8,
+          "schriftspiegel_height_ratio": 0.68,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 444.6,
-            "intercolumn_cm": 2.67,
+            "intercolumn_cm": 2.7,
             "col2col_width_px": 1361.6,
-            "col2col_width_cm": 8.16,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 4648660,
-            "col2col_area_cm2": 167.08,
+            "col2col_area_cm2": 167.1,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 4.21,
-          "tilt_vs_ideal_deg": 3.925,
+          "tilt_vs_vertical_deg": 4.2,
+          "tilt_vs_ideal_deg": 3.9,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -2751,28 +2751,28 @@
           "height_px": 3436.0,
           "height_cm": 20.6,
           "width_px": 912.0,
-          "width_cm": 5.47,
+          "width_cm": 5.5,
           "area_px": 3131840,
-          "area_cm2": 112.57,
+          "area_cm2": 112.6,
           "margin_top_px": 608.0,
-          "margin_top_cm": 3.65,
+          "margin_top_cm": 3.6,
           "margin_bottom_px": 951.0,
           "margin_bottom_cm": 5.7,
-          "schriftspiegel_height_ratio": 0.688,
-          "schriftspiegel_area_ratio": 0.109,
+          "schriftspiegel_height_ratio": 0.69,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 437.4,
-            "intercolumn_cm": 2.62,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1349.0,
-            "col2col_width_cm": 8.09,
+            "col2col_width_cm": 8.1,
             "col2col_area_px": 4635133,
             "col2col_area_cm2": 166.6,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 4.15,
-          "tilt_vs_ideal_deg": 3.864,
+          "tilt_vs_vertical_deg": 4.2,
+          "tilt_vs_ideal_deg": 3.9,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -2782,22 +2782,22 @@
         "lines": [],
         "metrics": {
           "height_px": 3447.5,
-          "height_cm": 20.67,
+          "height_cm": 20.7,
           "width_px": 930.0,
-          "width_cm": 5.58,
+          "width_cm": 5.6,
           "area_px": 3210582,
           "area_cm2": 115.4,
           "margin_top_px": 631.5,
-          "margin_top_cm": 3.79,
+          "margin_top_cm": 3.8,
           "margin_bottom_px": 916.0,
-          "margin_bottom_cm": 5.49,
+          "margin_bottom_cm": 5.5,
           "schriftspiegel_height_ratio": 0.69,
-          "schriftspiegel_area_ratio": 0.111,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.41,
-          "tilt_vs_ideal_deg": 3.125,
+          "tilt_vs_vertical_deg": 3.4,
+          "tilt_vs_ideal_deg": 3.1,
           "tilt_vs_baseline_deg": null
         }
       }
@@ -2816,10 +2816,10 @@
     "margin_bottom": 237,
     "margin_left": 32,
     "fragment_data": [],
-    "bbox_w_cm": 34.57,
-    "bbox_h_cm": 29.95,
+    "bbox_w_cm": 34.6,
+    "bbox_h_cm": 29.9,
     "tilt_reference": {
-      "plate_skew_deg": 0.286,
+      "plate_skew_deg": 0.3,
       "baseline_skew_deg": null,
       "n_columns_used": 4,
       "n_columns_with_baseline": 0
@@ -2840,30 +2840,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3388.5,
-          "height_cm": 20.55,
+          "height_cm": 20.6,
           "width_px": 911.5,
-          "width_cm": 5.53,
+          "width_cm": 5.5,
           "area_px": 3088202,
-          "area_cm2": 113.57,
+          "area_cm2": 113.6,
           "margin_top_px": 625.0,
-          "margin_top_cm": 3.79,
+          "margin_top_cm": 3.8,
           "margin_bottom_px": 952.5,
-          "margin_bottom_cm": 5.78,
-          "schriftspiegel_height_ratio": 0.682,
-          "schriftspiegel_area_ratio": 0.108,
+          "margin_bottom_cm": 5.8,
+          "schriftspiegel_height_ratio": 0.68,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 435.4,
-            "intercolumn_cm": 2.64,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1346.6,
-            "col2col_width_cm": 8.17,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 4540378,
-            "col2col_area_cm2": 166.97,
+            "col2col_area_cm2": 167.0,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.111,
-          "tilt_vs_ideal_deg": 3.156,
+          "tilt_vs_vertical_deg": 3.1,
+          "tilt_vs_ideal_deg": 3.2,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -2873,30 +2873,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3357.5,
-          "height_cm": 20.36,
+          "height_cm": 20.4,
           "width_px": 907.0,
           "width_cm": 5.5,
           "area_px": 3047865,
-          "area_cm2": 112.09,
+          "area_cm2": 112.1,
           "margin_top_px": 631.0,
-          "margin_top_cm": 3.83,
+          "margin_top_cm": 3.8,
           "margin_bottom_px": 977.5,
-          "margin_bottom_cm": 5.93,
-          "schriftspiegel_height_ratio": 0.676,
-          "schriftspiegel_area_ratio": 0.106,
+          "margin_bottom_cm": 5.9,
+          "schriftspiegel_height_ratio": 0.68,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 441.6,
-            "intercolumn_cm": 2.68,
+            "intercolumn_cm": 2.7,
             "col2col_width_px": 1349.3,
-            "col2col_width_cm": 8.18,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 4520290,
-            "col2col_area_cm2": 166.24,
+            "col2col_area_cm2": 166.2,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.662,
-          "tilt_vs_ideal_deg": 3.707,
+          "tilt_vs_vertical_deg": 3.7,
+          "tilt_vs_ideal_deg": 3.7,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -2906,30 +2906,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3345.0,
-          "height_cm": 20.29,
+          "height_cm": 20.3,
           "width_px": 939.0,
-          "width_cm": 5.69,
+          "width_cm": 5.7,
           "area_px": 3142649,
-          "area_cm2": 115.57,
+          "area_cm2": 115.6,
           "margin_top_px": 617.5,
-          "margin_top_cm": 3.74,
+          "margin_top_cm": 3.7,
           "margin_bottom_px": 1003.5,
-          "margin_bottom_cm": 6.09,
-          "schriftspiegel_height_ratio": 0.674,
+          "margin_bottom_cm": 6.1,
+          "schriftspiegel_height_ratio": 0.67,
           "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 424.1,
-            "intercolumn_cm": 2.57,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1363.4,
-            "col2col_width_cm": 8.27,
+            "col2col_width_cm": 8.3,
             "col2col_area_px": 4540294,
-            "col2col_area_cm2": 166.97,
+            "col2col_area_cm2": 167.0,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.323,
-          "tilt_vs_ideal_deg": 3.368,
+          "tilt_vs_vertical_deg": 3.3,
+          "tilt_vs_ideal_deg": 3.4,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -2939,22 +2939,22 @@
         "lines": [],
         "metrics": {
           "height_px": 3328.5,
-          "height_cm": 20.18,
+          "height_cm": 20.2,
           "width_px": 913.5,
-          "width_cm": 5.54,
+          "width_cm": 5.5,
           "area_px": 3039501,
-          "area_cm2": 111.78,
+          "area_cm2": 111.8,
           "margin_top_px": 615.0,
-          "margin_top_cm": 3.73,
+          "margin_top_cm": 3.7,
           "margin_bottom_px": 1022.5,
           "margin_bottom_cm": 6.2,
           "schriftspiegel_height_ratio": 0.67,
-          "schriftspiegel_area_ratio": 0.106,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.226,
-          "tilt_vs_ideal_deg": 2.271,
+          "tilt_vs_vertical_deg": 2.2,
+          "tilt_vs_ideal_deg": 2.3,
           "tilt_vs_baseline_deg": null
         }
       }
@@ -2973,10 +2973,10 @@
     "margin_bottom": 238,
     "margin_left": 32,
     "fragment_data": [],
-    "bbox_w_cm": 34.95,
-    "bbox_h_cm": 30.12,
+    "bbox_w_cm": 35.0,
+    "bbox_h_cm": 30.1,
     "tilt_reference": {
-      "plate_skew_deg": -0.045,
+      "plate_skew_deg": 0.0,
       "baseline_skew_deg": null,
       "n_columns_used": 4,
       "n_columns_with_baseline": 0
@@ -2997,30 +2997,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3384.0,
-          "height_cm": 20.34,
+          "height_cm": 20.3,
           "width_px": 917.5,
-          "width_cm": 5.51,
+          "width_cm": 5.5,
           "area_px": 3107102,
-          "area_cm2": 112.21,
+          "area_cm2": 112.2,
           "margin_top_px": 695.5,
-          "margin_top_cm": 4.18,
+          "margin_top_cm": 4.2,
           "margin_bottom_px": 991.5,
-          "margin_bottom_cm": 5.96,
-          "schriftspiegel_height_ratio": 0.667,
-          "schriftspiegel_area_ratio": 0.108,
+          "margin_bottom_cm": 6.0,
+          "schriftspiegel_height_ratio": 0.67,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 430.3,
-            "intercolumn_cm": 2.59,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1348.5,
             "col2col_width_cm": 8.1,
             "col2col_area_px": 4554467,
-            "col2col_area_cm2": 164.49,
+            "col2col_area_cm2": 164.5,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.114,
-          "tilt_vs_ideal_deg": 2.911,
+          "tilt_vs_vertical_deg": 3.1,
+          "tilt_vs_ideal_deg": 2.9,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3030,30 +3030,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3401.5,
-          "height_cm": 20.44,
+          "height_cm": 20.4,
           "width_px": 909.5,
-          "width_cm": 5.47,
+          "width_cm": 5.5,
           "area_px": 3094779,
-          "area_cm2": 111.77,
+          "area_cm2": 111.8,
           "margin_top_px": 683.0,
           "margin_top_cm": 4.1,
           "margin_bottom_px": 986.5,
-          "margin_bottom_cm": 5.93,
-          "schriftspiegel_height_ratio": 0.671,
-          "schriftspiegel_area_ratio": 0.108,
+          "margin_bottom_cm": 5.9,
+          "schriftspiegel_height_ratio": 0.67,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 441.3,
-            "intercolumn_cm": 2.65,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1351.2,
-            "col2col_width_cm": 8.12,
+            "col2col_width_cm": 8.1,
             "col2col_area_px": 4620406,
-            "col2col_area_cm2": 166.87,
+            "col2col_area_cm2": 166.9,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.106,
-          "tilt_vs_ideal_deg": 2.903,
+          "tilt_vs_vertical_deg": 3.1,
+          "tilt_vs_ideal_deg": 2.9,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3063,30 +3063,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3441.0,
-          "height_cm": 20.68,
+          "height_cm": 20.7,
           "width_px": 922.5,
-          "width_cm": 5.54,
+          "width_cm": 5.5,
           "area_px": 3175607,
-          "area_cm2": 114.69,
+          "area_cm2": 114.7,
           "margin_top_px": 667.0,
-          "margin_top_cm": 4.01,
+          "margin_top_cm": 4.0,
           "margin_bottom_px": 963.0,
-          "margin_bottom_cm": 5.79,
-          "schriftspiegel_height_ratio": 0.679,
-          "schriftspiegel_area_ratio": 0.111,
+          "margin_bottom_cm": 5.8,
+          "schriftspiegel_height_ratio": 0.68,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 441.8,
-            "intercolumn_cm": 2.66,
+            "intercolumn_cm": 2.7,
             "col2col_width_px": 1364.6,
             "col2col_width_cm": 8.2,
             "col2col_area_px": 4693590,
-            "col2col_area_cm2": 169.51,
+            "col2col_area_cm2": 169.5,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.22,
-          "tilt_vs_ideal_deg": 3.018,
+          "tilt_vs_vertical_deg": 3.2,
+          "tilt_vs_ideal_deg": 3.0,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3096,22 +3096,22 @@
         "lines": [],
         "metrics": {
           "height_px": 3433.0,
-          "height_cm": 20.63,
+          "height_cm": 20.6,
           "width_px": 909.0,
-          "width_cm": 5.46,
+          "width_cm": 5.5,
           "area_px": 3122577,
-          "area_cm2": 112.77,
+          "area_cm2": 112.8,
           "margin_top_px": 666.0,
           "margin_top_cm": 4.0,
           "margin_bottom_px": 972.0,
-          "margin_bottom_cm": 5.84,
-          "schriftspiegel_height_ratio": 0.677,
-          "schriftspiegel_area_ratio": 0.109,
+          "margin_bottom_cm": 5.8,
+          "schriftspiegel_height_ratio": 0.68,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.67,
-          "tilt_vs_ideal_deg": 2.467,
+          "tilt_vs_vertical_deg": 2.7,
+          "tilt_vs_ideal_deg": 2.5,
           "tilt_vs_baseline_deg": null
         }
       }
@@ -3130,10 +3130,10 @@
     "margin_bottom": 151,
     "margin_left": 64,
     "fragment_data": [],
-    "bbox_w_cm": 33.97,
-    "bbox_h_cm": 30.47,
+    "bbox_w_cm": 34.0,
+    "bbox_h_cm": 30.5,
     "tilt_reference": {
-      "plate_skew_deg": 0.203,
+      "plate_skew_deg": 0.2,
       "baseline_skew_deg": null,
       "n_columns_used": 4,
       "n_columns_with_baseline": 0
@@ -3154,30 +3154,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3431.5,
-          "height_cm": 20.87,
+          "height_cm": 20.9,
           "width_px": 907.5,
-          "width_cm": 5.52,
+          "width_cm": 5.5,
           "area_px": 3115246,
-          "area_cm2": 115.26,
+          "area_cm2": 115.3,
           "margin_top_px": 643.5,
-          "margin_top_cm": 3.91,
+          "margin_top_cm": 3.9,
           "margin_bottom_px": 927.0,
-          "margin_bottom_cm": 5.64,
-          "schriftspiegel_height_ratio": 0.686,
+          "margin_bottom_cm": 5.6,
+          "schriftspiegel_height_ratio": 0.69,
           "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 425.9,
-            "intercolumn_cm": 2.59,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1333.8,
-            "col2col_width_cm": 8.11,
+            "col2col_width_cm": 8.1,
             "col2col_area_px": 4580132,
-            "col2col_area_cm2": 169.46,
+            "col2col_area_cm2": 169.5,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.615,
-          "tilt_vs_ideal_deg": 2.376,
+          "tilt_vs_vertical_deg": 2.6,
+          "tilt_vs_ideal_deg": 2.4,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3187,30 +3187,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3430.5,
-          "height_cm": 20.87,
+          "height_cm": 20.9,
           "width_px": 890.0,
-          "width_cm": 5.41,
+          "width_cm": 5.4,
           "area_px": 3052358,
-          "area_cm2": 112.94,
+          "area_cm2": 112.9,
           "margin_top_px": 654.5,
-          "margin_top_cm": 3.98,
+          "margin_top_cm": 4.0,
           "margin_bottom_px": 917.0,
-          "margin_bottom_cm": 5.58,
-          "schriftspiegel_height_ratio": 0.686,
-          "schriftspiegel_area_ratio": 0.107,
+          "margin_bottom_cm": 5.6,
+          "schriftspiegel_height_ratio": 0.69,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 442.8,
-            "intercolumn_cm": 2.69,
+            "intercolumn_cm": 2.7,
             "col2col_width_px": 1332.6,
-            "col2col_width_cm": 8.11,
+            "col2col_width_cm": 8.1,
             "col2col_area_px": 4555440,
-            "col2col_area_cm2": 168.55,
+            "col2col_area_cm2": 168.6,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.221,
-          "tilt_vs_ideal_deg": 1.982,
+          "tilt_vs_vertical_deg": 2.2,
+          "tilt_vs_ideal_deg": 2.0,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3220,30 +3220,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3416.0,
-          "height_cm": 20.78,
+          "height_cm": 20.8,
           "width_px": 924.5,
-          "width_cm": 5.62,
+          "width_cm": 5.6,
           "area_px": 3158824,
-          "area_cm2": 116.88,
+          "area_cm2": 116.9,
           "margin_top_px": 671.0,
-          "margin_top_cm": 4.08,
+          "margin_top_cm": 4.1,
           "margin_bottom_px": 915.0,
-          "margin_bottom_cm": 5.57,
-          "schriftspiegel_height_ratio": 0.683,
-          "schriftspiegel_area_ratio": 0.111,
+          "margin_bottom_cm": 5.6,
+          "schriftspiegel_height_ratio": 0.68,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 410.9,
             "intercolumn_cm": 2.5,
             "col2col_width_px": 1335.6,
-            "col2col_width_cm": 8.12,
+            "col2col_width_cm": 8.1,
             "col2col_area_px": 4551178,
-            "col2col_area_cm2": 168.39,
+            "col2col_area_cm2": 168.4,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 1.648,
-          "tilt_vs_ideal_deg": 1.409,
+          "tilt_vs_vertical_deg": 1.6,
+          "tilt_vs_ideal_deg": 1.4,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3253,22 +3253,22 @@
         "lines": [],
         "metrics": {
           "height_px": 3407.5,
-          "height_cm": 20.73,
+          "height_cm": 20.7,
           "width_px": 897.0,
-          "width_cm": 5.46,
+          "width_cm": 5.5,
           "area_px": 3057675,
-          "area_cm2": 113.13,
+          "area_cm2": 113.1,
           "margin_top_px": 664.5,
-          "margin_top_cm": 4.04,
+          "margin_top_cm": 4.0,
           "margin_bottom_px": 930.0,
-          "margin_bottom_cm": 5.66,
-          "schriftspiegel_height_ratio": 0.681,
-          "schriftspiegel_area_ratio": 0.108,
+          "margin_bottom_cm": 5.7,
+          "schriftspiegel_height_ratio": 0.68,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 1.983,
-          "tilt_vs_ideal_deg": 1.745,
+          "tilt_vs_vertical_deg": 2.0,
+          "tilt_vs_ideal_deg": 1.7,
           "tilt_vs_baseline_deg": null
         }
       }
@@ -3287,10 +3287,10 @@
     "margin_bottom": 304,
     "margin_left": 27,
     "fragment_data": [],
-    "bbox_w_cm": 34.53,
-    "bbox_h_cm": 30.43,
+    "bbox_w_cm": 34.5,
+    "bbox_h_cm": 30.4,
     "tilt_reference": {
-      "plate_skew_deg": 0.238,
+      "plate_skew_deg": 0.2,
       "baseline_skew_deg": null,
       "n_columns_used": 4,
       "n_columns_with_baseline": 0
@@ -3313,22 +3313,22 @@
           "height_px": 3968.5,
           "height_cm": 20.8,
           "width_px": 1078.0,
-          "width_cm": 5.65,
+          "width_cm": 5.7,
           "area_px": 4277732,
-          "area_cm2": 117.51,
+          "area_cm2": 117.5,
           "margin_top_px": 794.0,
-          "margin_top_cm": 4.16,
+          "margin_top_cm": 4.2,
           "margin_bottom_px": 1047.5,
-          "margin_bottom_cm": 5.49,
-          "schriftspiegel_height_ratio": 0.683,
-          "schriftspiegel_area_ratio": 0.151,
+          "margin_bottom_cm": 5.5,
+          "schriftspiegel_height_ratio": 0.68,
+          "schriftspiegel_area_ratio": 0.15,
           "to_next": {
             "intercolumn_px": 521.0,
-            "intercolumn_cm": 2.73,
+            "intercolumn_cm": 2.7,
             "col2col_width_px": 1598.9,
-            "col2col_width_cm": 8.38,
+            "col2col_width_cm": 8.4,
             "col2col_area_px": 6330950,
-            "col2col_area_cm2": 173.91,
+            "col2col_area_cm2": 173.9,
             "both_usable": false
           }
         },
@@ -3340,30 +3340,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3953.5,
-          "height_cm": 20.72,
+          "height_cm": 20.7,
           "width_px": 1089.0,
-          "width_cm": 5.71,
+          "width_cm": 5.7,
           "area_px": 4305024,
-          "area_cm2": 118.25,
+          "area_cm2": 118.2,
           "margin_top_px": 803.5,
-          "margin_top_cm": 4.21,
+          "margin_top_cm": 4.2,
           "margin_bottom_px": 1053.0,
-          "margin_bottom_cm": 5.52,
+          "margin_bottom_cm": 5.5,
           "schriftspiegel_height_ratio": 0.68,
-          "schriftspiegel_area_ratio": 0.152,
+          "schriftspiegel_area_ratio": 0.15,
           "to_next": {
             "intercolumn_px": 471.4,
-            "intercolumn_cm": 2.47,
+            "intercolumn_cm": 2.5,
             "col2col_width_px": 1560.2,
-            "col2col_width_cm": 8.18,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 6145756,
-            "col2col_area_cm2": 168.82,
+            "col2col_area_cm2": 168.8,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.581,
-          "tilt_vs_ideal_deg": 1.978,
+          "tilt_vs_vertical_deg": 2.6,
+          "tilt_vs_ideal_deg": 2.0,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3373,22 +3373,22 @@
         "lines": [],
         "metrics": {
           "height_px": 3906.0,
-          "height_cm": 20.47,
+          "height_cm": 20.5,
           "width_px": 1058.0,
-          "width_cm": 5.55,
+          "width_cm": 5.5,
           "area_px": 4133196,
-          "area_cm2": 113.53,
+          "area_cm2": 113.5,
           "margin_top_px": 824.5,
-          "margin_top_cm": 4.32,
+          "margin_top_cm": 4.3,
           "margin_bottom_px": 1079.5,
-          "margin_bottom_cm": 5.66,
-          "schriftspiegel_height_ratio": 0.672,
-          "schriftspiegel_area_ratio": 0.146,
+          "margin_bottom_cm": 5.7,
+          "schriftspiegel_height_ratio": 0.67,
+          "schriftspiegel_area_ratio": 0.15,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 1.789,
-          "tilt_vs_ideal_deg": 1.185,
+          "tilt_vs_vertical_deg": 1.8,
+          "tilt_vs_ideal_deg": 1.2,
           "tilt_vs_baseline_deg": null
         }
       }
@@ -3407,10 +3407,10 @@
     "margin_bottom": 337,
     "margin_left": 44,
     "fragment_data": [],
-    "bbox_w_cm": 25.61,
-    "bbox_h_cm": 30.45,
+    "bbox_w_cm": 25.6,
+    "bbox_h_cm": 30.4,
     "tilt_reference": {
-      "plate_skew_deg": 0.603,
+      "plate_skew_deg": 0.6,
       "baseline_skew_deg": null,
       "n_columns_used": 2,
       "n_columns_with_baseline": 0
@@ -3440,8 +3440,8 @@
           "margin_top_cm": null,
           "margin_bottom_px": 442.0,
           "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.657,
-          "schriftspiegel_area_ratio": 0.041,
+          "schriftspiegel_height_ratio": 0.66,
+          "schriftspiegel_area_ratio": 0.04,
           "to_next": {
             "intercolumn_px": 184.0,
             "intercolumn_cm": null,
@@ -3453,8 +3453,8 @@
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.433,
-          "tilt_vs_ideal_deg": 2.598,
+          "tilt_vs_vertical_deg": 2.4,
+          "tilt_vs_ideal_deg": 2.6,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3473,8 +3473,8 @@
           "margin_top_cm": null,
           "margin_bottom_px": 1095.0,
           "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.369,
-          "schriftspiegel_area_ratio": 0.023,
+          "schriftspiegel_height_ratio": 0.37,
+          "schriftspiegel_area_ratio": 0.02,
           "to_next": {
             "intercolumn_px": 175.1,
             "intercolumn_cm": null,
@@ -3486,8 +3486,8 @@
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.508,
-          "tilt_vs_ideal_deg": 2.673,
+          "tilt_vs_vertical_deg": 2.5,
+          "tilt_vs_ideal_deg": 2.7,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3506,8 +3506,8 @@
           "margin_top_cm": null,
           "margin_bottom_px": 437.5,
           "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.668,
-          "schriftspiegel_area_ratio": 0.041,
+          "schriftspiegel_height_ratio": 0.67,
+          "schriftspiegel_area_ratio": 0.04,
           "to_next": {
             "intercolumn_px": 177.7,
             "intercolumn_cm": null,
@@ -3519,8 +3519,8 @@
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 1.745,
-          "tilt_vs_ideal_deg": 1.91,
+          "tilt_vs_vertical_deg": 1.7,
+          "tilt_vs_ideal_deg": 1.9,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3539,7 +3539,7 @@
           "margin_top_cm": null,
           "margin_bottom_px": 432.5,
           "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.667,
+          "schriftspiegel_height_ratio": 0.67,
           "schriftspiegel_area_ratio": 0.04,
           "to_next": {
             "intercolumn_px": 196.9,
@@ -3552,8 +3552,8 @@
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.468,
-          "tilt_vs_ideal_deg": 2.633,
+          "tilt_vs_vertical_deg": 2.5,
+          "tilt_vs_ideal_deg": 2.6,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3572,8 +3572,8 @@
           "margin_top_cm": null,
           "margin_bottom_px": 436.5,
           "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.664,
-          "schriftspiegel_area_ratio": 0.041,
+          "schriftspiegel_height_ratio": 0.66,
+          "schriftspiegel_area_ratio": 0.04,
           "to_next": {
             "intercolumn_px": 188.5,
             "intercolumn_cm": null,
@@ -3585,8 +3585,8 @@
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.415,
-          "tilt_vs_ideal_deg": 2.58,
+          "tilt_vs_vertical_deg": 2.4,
+          "tilt_vs_ideal_deg": 2.6,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3605,8 +3605,8 @@
           "margin_top_cm": null,
           "margin_bottom_px": 448.0,
           "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.655,
-          "schriftspiegel_area_ratio": 0.041,
+          "schriftspiegel_height_ratio": 0.66,
+          "schriftspiegel_area_ratio": 0.04,
           "to_next": {
             "intercolumn_px": 185.0,
             "intercolumn_cm": null,
@@ -3618,8 +3618,8 @@
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.406,
-          "tilt_vs_ideal_deg": 2.571,
+          "tilt_vs_vertical_deg": 2.4,
+          "tilt_vs_ideal_deg": 2.6,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3638,8 +3638,8 @@
           "margin_top_cm": null,
           "margin_bottom_px": 460.5,
           "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.641,
-          "schriftspiegel_area_ratio": 0.039,
+          "schriftspiegel_height_ratio": 0.64,
+          "schriftspiegel_area_ratio": 0.04,
           "to_next": {
             "intercolumn_px": 191.7,
             "intercolumn_cm": null,
@@ -3651,8 +3651,8 @@
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.167,
-          "tilt_vs_ideal_deg": 2.332,
+          "tilt_vs_vertical_deg": 2.2,
+          "tilt_vs_ideal_deg": 2.3,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3671,8 +3671,8 @@
           "margin_top_cm": null,
           "margin_bottom_px": 429.0,
           "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.652,
-          "schriftspiegel_area_ratio": 0.041,
+          "schriftspiegel_height_ratio": 0.65,
+          "schriftspiegel_area_ratio": 0.04,
           "to_next": {
             "intercolumn_px": 179.7,
             "intercolumn_cm": null,
@@ -3684,8 +3684,8 @@
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.416,
-          "tilt_vs_ideal_deg": 2.581,
+          "tilt_vs_vertical_deg": 2.4,
+          "tilt_vs_ideal_deg": 2.6,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3704,8 +3704,8 @@
           "margin_top_cm": null,
           "margin_bottom_px": 428.5,
           "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.654,
-          "schriftspiegel_area_ratio": 0.043,
+          "schriftspiegel_height_ratio": 0.65,
+          "schriftspiegel_area_ratio": 0.04,
           "to_next": {
             "intercolumn_px": 155.9,
             "intercolumn_cm": null,
@@ -3717,8 +3717,8 @@
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.967,
-          "tilt_vs_ideal_deg": 3.132,
+          "tilt_vs_vertical_deg": 3.0,
+          "tilt_vs_ideal_deg": 3.1,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3737,8 +3737,8 @@
           "margin_top_cm": null,
           "margin_bottom_px": 411.5,
           "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.656,
-          "schriftspiegel_area_ratio": 0.043,
+          "schriftspiegel_height_ratio": 0.66,
+          "schriftspiegel_area_ratio": 0.04,
           "to_next": {
             "intercolumn_px": 173.2,
             "intercolumn_cm": null,
@@ -3750,8 +3750,8 @@
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.089,
-          "tilt_vs_ideal_deg": 2.254,
+          "tilt_vs_vertical_deg": 2.1,
+          "tilt_vs_ideal_deg": 2.3,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3770,13 +3770,13 @@
           "margin_top_cm": null,
           "margin_bottom_px": 437.5,
           "margin_bottom_cm": null,
-          "schriftspiegel_height_ratio": 0.647,
-          "schriftspiegel_area_ratio": 0.041,
+          "schriftspiegel_height_ratio": 0.65,
+          "schriftspiegel_area_ratio": 0.04,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.067,
-          "tilt_vs_ideal_deg": 2.232,
+          "tilt_vs_vertical_deg": 2.1,
+          "tilt_vs_ideal_deg": 2.2,
           "tilt_vs_baseline_deg": null
         }
       }
@@ -3823,7 +3823,7 @@
     "bbox_w_cm": null,
     "bbox_h_cm": null,
     "tilt_reference": {
-      "plate_skew_deg": -0.165,
+      "plate_skew_deg": -0.2,
       "baseline_skew_deg": null,
       "n_columns_used": 11,
       "n_columns_with_baseline": 0
@@ -3844,30 +3844,30 @@
         "lines": [],
         "metrics": {
           "height_px": 4586.0,
-          "height_cm": 19.92,
+          "height_cm": 19.9,
           "width_px": 1274.0,
-          "width_cm": 5.53,
+          "width_cm": 5.5,
           "area_px": 5844116,
-          "area_cm2": 110.28,
+          "area_cm2": 110.3,
           "margin_top_px": 1160.0,
-          "margin_top_cm": 5.04,
+          "margin_top_cm": 5.0,
           "margin_bottom_px": 1399.0,
-          "margin_bottom_cm": 6.08,
-          "schriftspiegel_height_ratio": 0.642,
-          "schriftspiegel_area_ratio": 0.206,
+          "margin_bottom_cm": 6.1,
+          "schriftspiegel_height_ratio": 0.64,
+          "schriftspiegel_area_ratio": 0.21,
           "to_next": {
             "intercolumn_px": 603.3,
-            "intercolumn_cm": 2.62,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1877.7,
-            "col2col_width_cm": 8.16,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 8684415,
-            "col2col_area_cm2": 163.88,
+            "col2col_area_cm2": 163.9,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.65,
-          "tilt_vs_ideal_deg": 3.115,
+          "tilt_vs_vertical_deg": 2.6,
+          "tilt_vs_ideal_deg": 3.1,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3877,22 +3877,22 @@
         "lines": [],
         "metrics": {
           "height_px": 4708.0,
-          "height_cm": 20.45,
+          "height_cm": 20.4,
           "width_px": 1297.5,
-          "width_cm": 5.64,
+          "width_cm": 5.6,
           "area_px": 6111592,
-          "area_cm2": 115.33,
+          "area_cm2": 115.3,
           "margin_top_px": 1129.5,
-          "margin_top_cm": 4.91,
+          "margin_top_cm": 4.9,
           "margin_bottom_px": 1307.5,
-          "margin_bottom_cm": 5.68,
-          "schriftspiegel_height_ratio": 0.659,
-          "schriftspiegel_area_ratio": 0.215,
+          "margin_bottom_cm": 5.7,
+          "schriftspiegel_height_ratio": 0.66,
+          "schriftspiegel_area_ratio": 0.21,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.489,
-          "tilt_vs_ideal_deg": 2.953,
+          "tilt_vs_vertical_deg": 2.5,
+          "tilt_vs_ideal_deg": 3.0,
           "tilt_vs_baseline_deg": null
         }
       }
@@ -3911,10 +3911,10 @@
     "margin_bottom": 304,
     "margin_left": 13,
     "fragment_data": [],
-    "bbox_w_cm": 17.25,
-    "bbox_h_cm": 31.04,
+    "bbox_w_cm": 17.2,
+    "bbox_h_cm": 31.0,
     "tilt_reference": {
-      "plate_skew_deg": -0.464,
+      "plate_skew_deg": -0.5,
       "baseline_skew_deg": null,
       "n_columns_used": 2,
       "n_columns_with_baseline": 0
@@ -3935,30 +3935,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3350.0,
-          "height_cm": 20.58,
+          "height_cm": 20.6,
           "width_px": 920.0,
-          "width_cm": 5.65,
+          "width_cm": 5.7,
           "area_px": 3083340,
-          "area_cm2": 116.34,
+          "area_cm2": 116.3,
           "margin_top_px": 683.0,
           "margin_top_cm": 4.2,
           "margin_bottom_px": 1095.0,
-          "margin_bottom_cm": 6.73,
-          "schriftspiegel_height_ratio": 0.653,
-          "schriftspiegel_area_ratio": 0.108,
+          "margin_bottom_cm": 6.7,
+          "schriftspiegel_height_ratio": 0.65,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 431.8,
-            "intercolumn_cm": 2.65,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1352.1,
-            "col2col_width_cm": 8.31,
+            "col2col_width_cm": 8.3,
             "col2col_area_px": 4538438,
-            "col2col_area_cm2": 171.24,
+            "col2col_area_cm2": 171.2,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.508,
-          "tilt_vs_ideal_deg": 2.066,
+          "tilt_vs_vertical_deg": 2.5,
+          "tilt_vs_ideal_deg": 2.1,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -3968,30 +3968,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3360.0,
-          "height_cm": 20.64,
+          "height_cm": 20.6,
           "width_px": 908.0,
-          "width_cm": 5.58,
+          "width_cm": 5.6,
           "area_px": 3053464,
-          "area_cm2": 115.21,
+          "area_cm2": 115.2,
           "margin_top_px": 674.0,
-          "margin_top_cm": 4.14,
+          "margin_top_cm": 4.1,
           "margin_bottom_px": 1094.0,
-          "margin_bottom_cm": 6.72,
-          "schriftspiegel_height_ratio": 0.655,
-          "schriftspiegel_area_ratio": 0.107,
+          "margin_bottom_cm": 6.7,
+          "schriftspiegel_height_ratio": 0.66,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 460.5,
-            "intercolumn_cm": 2.83,
+            "intercolumn_cm": 2.8,
             "col2col_width_px": 1369.3,
-            "col2col_width_cm": 8.41,
+            "col2col_width_cm": 8.4,
             "col2col_area_px": 4586296,
-            "col2col_area_cm2": 173.04,
+            "col2col_area_cm2": 173.0,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.422,
-          "tilt_vs_ideal_deg": 1.98,
+          "tilt_vs_vertical_deg": 2.4,
+          "tilt_vs_ideal_deg": 2.0,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -4003,28 +4003,28 @@
           "height_px": 3354.0,
           "height_cm": 20.6,
           "width_px": 873.0,
-          "width_cm": 5.36,
+          "width_cm": 5.4,
           "area_px": 2929066,
-          "area_cm2": 110.51,
+          "area_cm2": 110.5,
           "margin_top_px": 691.0,
-          "margin_top_cm": 4.24,
+          "margin_top_cm": 4.2,
           "margin_bottom_px": 1083.0,
-          "margin_bottom_cm": 6.65,
-          "schriftspiegel_height_ratio": 0.654,
-          "schriftspiegel_area_ratio": 0.103,
+          "margin_bottom_cm": 6.7,
+          "schriftspiegel_height_ratio": 0.65,
+          "schriftspiegel_area_ratio": 0.1,
           "to_next": {
             "intercolumn_px": 439.1,
             "intercolumn_cm": 2.7,
             "col2col_width_px": 1312.2,
-            "col2col_width_cm": 8.06,
+            "col2col_width_cm": 8.1,
             "col2col_area_px": 4411838,
-            "col2col_area_cm2": 166.46,
+            "col2col_area_cm2": 166.5,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 1.971,
-          "tilt_vs_ideal_deg": 1.529,
+          "tilt_vs_vertical_deg": 2.0,
+          "tilt_vs_ideal_deg": 1.5,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -4034,22 +4034,22 @@
         "lines": [],
         "metrics": {
           "height_px": 3385.0,
-          "height_cm": 20.79,
+          "height_cm": 20.8,
           "width_px": 881.5,
-          "width_cm": 5.41,
+          "width_cm": 5.4,
           "area_px": 2984188,
-          "area_cm2": 112.59,
+          "area_cm2": 112.6,
           "margin_top_px": 711.0,
-          "margin_top_cm": 4.37,
+          "margin_top_cm": 4.4,
           "margin_bottom_px": 1032.0,
-          "margin_bottom_cm": 6.34,
+          "margin_bottom_cm": 6.3,
           "schriftspiegel_height_ratio": 0.66,
-          "schriftspiegel_area_ratio": 0.105,
+          "schriftspiegel_area_ratio": 0.1,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 1.846,
-          "tilt_vs_ideal_deg": 1.404,
+          "tilt_vs_vertical_deg": 1.8,
+          "tilt_vs_ideal_deg": 1.4,
           "tilt_vs_baseline_deg": null
         }
       }
@@ -4068,10 +4068,10 @@
     "margin_bottom": 149,
     "margin_left": 0,
     "fragment_data": [],
-    "bbox_w_cm": 34.11,
+    "bbox_w_cm": 34.1,
     "bbox_h_cm": 31.5,
     "tilt_reference": {
-      "plate_skew_deg": 0.442,
+      "plate_skew_deg": 0.4,
       "baseline_skew_deg": null,
       "n_columns_used": 4,
       "n_columns_with_baseline": 0
@@ -4092,30 +4092,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3418.0,
-          "height_cm": 20.54,
+          "height_cm": 20.5,
           "width_px": 929.0,
-          "width_cm": 5.58,
+          "width_cm": 5.6,
           "area_px": 3175782,
-          "area_cm2": 114.69,
+          "area_cm2": 114.7,
           "margin_top_px": 604.5,
-          "margin_top_cm": 3.63,
+          "margin_top_cm": 3.6,
           "margin_bottom_px": 1078.5,
-          "margin_bottom_cm": 6.48,
+          "margin_bottom_cm": 6.5,
           "schriftspiegel_height_ratio": 0.67,
-          "schriftspiegel_area_ratio": 0.111,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 433.1,
             "intercolumn_cm": 2.6,
             "col2col_width_px": 1362.1,
-            "col2col_width_cm": 8.19,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 4654376,
-            "col2col_area_cm2": 168.09,
+            "col2col_area_cm2": 168.1,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 1.54,
-          "tilt_vs_ideal_deg": 1.15,
+          "tilt_vs_vertical_deg": 1.5,
+          "tilt_vs_ideal_deg": 1.1,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -4125,30 +4125,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3398.5,
-          "height_cm": 20.42,
+          "height_cm": 20.4,
           "width_px": 952.0,
-          "width_cm": 5.72,
+          "width_cm": 5.7,
           "area_px": 3235694,
-          "area_cm2": 116.86,
+          "area_cm2": 116.9,
           "margin_top_px": 633.5,
-          "margin_top_cm": 3.81,
+          "margin_top_cm": 3.8,
           "margin_bottom_px": 1069.0,
-          "margin_bottom_cm": 6.42,
-          "schriftspiegel_height_ratio": 0.666,
-          "schriftspiegel_area_ratio": 0.113,
+          "margin_bottom_cm": 6.4,
+          "schriftspiegel_height_ratio": 0.67,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 425.2,
-            "intercolumn_cm": 2.56,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1377.3,
-            "col2col_width_cm": 8.28,
+            "col2col_width_cm": 8.3,
             "col2col_area_px": 4713194,
-            "col2col_area_cm2": 170.22,
+            "col2col_area_cm2": 170.2,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.032,
-          "tilt_vs_ideal_deg": 1.642,
+          "tilt_vs_vertical_deg": 2.0,
+          "tilt_vs_ideal_deg": 1.6,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -4158,30 +4158,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3426.5,
-          "height_cm": 20.59,
+          "height_cm": 20.6,
           "width_px": 935.5,
-          "width_cm": 5.62,
+          "width_cm": 5.6,
           "area_px": 3205120,
-          "area_cm2": 115.75,
+          "area_cm2": 115.8,
           "margin_top_px": 627.0,
-          "margin_top_cm": 3.77,
+          "margin_top_cm": 3.8,
           "margin_bottom_px": 1047.5,
           "margin_bottom_cm": 6.3,
-          "schriftspiegel_height_ratio": 0.672,
-          "schriftspiegel_area_ratio": 0.112,
+          "schriftspiegel_height_ratio": 0.67,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 426.8,
-            "intercolumn_cm": 2.57,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1362.2,
-            "col2col_width_cm": 8.19,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 4654733,
-            "col2col_area_cm2": 168.11,
+            "col2col_area_cm2": 168.1,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 1.318,
-          "tilt_vs_ideal_deg": 0.929,
+          "tilt_vs_vertical_deg": 1.3,
+          "tilt_vs_ideal_deg": 0.9,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -4191,22 +4191,22 @@
         "lines": [],
         "metrics": {
           "height_px": 3412.5,
-          "height_cm": 20.51,
+          "height_cm": 20.5,
           "width_px": 942.0,
-          "width_cm": 5.66,
+          "width_cm": 5.7,
           "area_px": 3215472,
-          "area_cm2": 116.13,
+          "area_cm2": 116.1,
           "margin_top_px": 631.0,
-          "margin_top_cm": 3.79,
+          "margin_top_cm": 3.8,
           "margin_bottom_px": 1057.5,
-          "margin_bottom_cm": 6.36,
-          "schriftspiegel_height_ratio": 0.669,
-          "schriftspiegel_area_ratio": 0.112,
+          "margin_bottom_cm": 6.4,
+          "schriftspiegel_height_ratio": 0.67,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 1.516,
-          "tilt_vs_ideal_deg": 1.126,
+          "tilt_vs_vertical_deg": 1.5,
+          "tilt_vs_ideal_deg": 1.1,
           "tilt_vs_baseline_deg": null
         }
       }
@@ -4225,10 +4225,10 @@
     "margin_bottom": 242,
     "margin_left": 26,
     "fragment_data": [],
-    "bbox_w_cm": 33.74,
-    "bbox_h_cm": 30.66,
+    "bbox_w_cm": 33.7,
+    "bbox_h_cm": 30.7,
     "tilt_reference": {
-      "plate_skew_deg": 0.39,
+      "plate_skew_deg": 0.4,
       "baseline_skew_deg": null,
       "n_columns_used": 4,
       "n_columns_with_baseline": 0
@@ -4249,30 +4249,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3374.5,
-          "height_cm": 20.65,
+          "height_cm": 20.6,
           "width_px": 856.0,
-          "width_cm": 5.24,
+          "width_cm": 5.2,
           "area_px": 2889176,
-          "area_cm2": 108.21,
+          "area_cm2": 108.2,
           "margin_top_px": 651.5,
-          "margin_top_cm": 3.99,
+          "margin_top_cm": 4.0,
           "margin_bottom_px": 1069.0,
-          "margin_bottom_cm": 6.54,
-          "schriftspiegel_height_ratio": 0.662,
-          "schriftspiegel_area_ratio": 0.101,
+          "margin_bottom_cm": 6.5,
+          "schriftspiegel_height_ratio": 0.66,
+          "schriftspiegel_area_ratio": 0.1,
           "to_next": {
             "intercolumn_px": 446.3,
-            "intercolumn_cm": 2.73,
+            "intercolumn_cm": 2.7,
             "col2col_width_px": 1302.5,
-            "col2col_width_cm": 7.97,
+            "col2col_width_cm": 8.0,
             "col2col_area_px": 4393832,
-            "col2col_area_cm2": 164.57,
+            "col2col_area_cm2": 164.6,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 1.659,
-          "tilt_vs_ideal_deg": 0.869,
+          "tilt_vs_vertical_deg": 1.7,
+          "tilt_vs_ideal_deg": 0.9,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -4282,30 +4282,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3360.5,
-          "height_cm": 20.57,
+          "height_cm": 20.6,
           "width_px": 916.0,
-          "width_cm": 5.61,
+          "width_cm": 5.6,
           "area_px": 3079406,
-          "area_cm2": 115.34,
+          "area_cm2": 115.3,
           "margin_top_px": 678.5,
-          "margin_top_cm": 4.15,
+          "margin_top_cm": 4.2,
           "margin_bottom_px": 1056.0,
-          "margin_bottom_cm": 6.46,
+          "margin_bottom_cm": 6.5,
           "schriftspiegel_height_ratio": 0.66,
-          "schriftspiegel_area_ratio": 0.108,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 432.5,
-            "intercolumn_cm": 2.65,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1349.0,
-            "col2col_width_cm": 8.26,
+            "col2col_width_cm": 8.3,
             "col2col_area_px": 4533942,
-            "col2col_area_cm2": 169.81,
+            "col2col_area_cm2": 169.8,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 1.498,
-          "tilt_vs_ideal_deg": 0.708,
+          "tilt_vs_vertical_deg": 1.5,
+          "tilt_vs_ideal_deg": 0.7,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -4315,30 +4315,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3356.0,
-          "height_cm": 20.54,
+          "height_cm": 20.5,
           "width_px": 901.0,
-          "width_cm": 5.51,
+          "width_cm": 5.5,
           "area_px": 3024932,
           "area_cm2": 113.3,
           "margin_top_px": 722.0,
-          "margin_top_cm": 4.42,
+          "margin_top_cm": 4.4,
           "margin_bottom_px": 1017.0,
-          "margin_bottom_cm": 6.22,
-          "schriftspiegel_height_ratio": 0.659,
-          "schriftspiegel_area_ratio": 0.106,
+          "margin_bottom_cm": 6.2,
+          "schriftspiegel_height_ratio": 0.66,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": {
             "intercolumn_px": 433.6,
-            "intercolumn_cm": 2.65,
+            "intercolumn_cm": 2.6,
             "col2col_width_px": 1335.0,
-            "col2col_width_cm": 8.17,
+            "col2col_width_cm": 8.2,
             "col2col_area_px": 4470984,
-            "col2col_area_cm2": 167.46,
+            "col2col_area_cm2": 167.5,
             "both_usable": true
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 2.37,
-          "tilt_vs_ideal_deg": 1.58,
+          "tilt_vs_vertical_deg": 2.4,
+          "tilt_vs_ideal_deg": 1.6,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -4348,22 +4348,22 @@
         "lines": [],
         "metrics": {
           "height_px": 3348.0,
-          "height_cm": 20.49,
+          "height_cm": 20.5,
           "width_px": 906.0,
-          "width_cm": 5.54,
+          "width_cm": 5.5,
           "area_px": 3035523,
-          "area_cm2": 113.69,
+          "area_cm2": 113.7,
           "margin_top_px": 740.5,
-          "margin_top_cm": 4.53,
+          "margin_top_cm": 4.5,
           "margin_bottom_px": 1006.5,
-          "margin_bottom_cm": 6.16,
-          "schriftspiegel_height_ratio": 0.657,
-          "schriftspiegel_area_ratio": 0.106,
+          "margin_bottom_cm": 6.2,
+          "schriftspiegel_height_ratio": 0.66,
+          "schriftspiegel_area_ratio": 0.11,
           "to_next": null
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 3.051,
-          "tilt_vs_ideal_deg": 2.26,
+          "tilt_vs_vertical_deg": 3.1,
+          "tilt_vs_ideal_deg": 2.3,
           "tilt_vs_baseline_deg": null
         }
       }
@@ -4382,10 +4382,10 @@
     "margin_bottom": 213,
     "margin_left": 9,
     "fragment_data": [],
-    "bbox_w_cm": 34.32,
-    "bbox_h_cm": 31.18,
+    "bbox_w_cm": 34.3,
+    "bbox_h_cm": 31.2,
     "tilt_reference": {
-      "plate_skew_deg": 0.79,
+      "plate_skew_deg": 0.8,
       "baseline_skew_deg": null,
       "n_columns_used": 4,
       "n_columns_with_baseline": 0
@@ -4406,24 +4406,24 @@
         "lines": [],
         "metrics": {
           "height_px": 3027.0,
-          "height_cm": 16.99,
+          "height_cm": 17.0,
           "width_px": 800.0,
-          "width_cm": 4.49,
+          "width_cm": 4.5,
           "area_px": 2421600,
-          "area_cm2": 76.26,
+          "area_cm2": 76.3,
           "margin_top_px": 757.0,
-          "margin_top_cm": 4.25,
+          "margin_top_cm": 4.2,
           "margin_bottom_px": 997.0,
-          "margin_bottom_cm": 5.59,
-          "schriftspiegel_height_ratio": 0.633,
-          "schriftspiegel_area_ratio": 0.084,
+          "margin_bottom_cm": 5.6,
+          "schriftspiegel_height_ratio": 0.63,
+          "schriftspiegel_area_ratio": 0.08,
           "to_next": {
             "intercolumn_px": 398.0,
-            "intercolumn_cm": 2.23,
+            "intercolumn_cm": 2.2,
             "col2col_width_px": 1197.9,
-            "col2col_width_cm": 6.72,
+            "col2col_width_cm": 6.7,
             "col2col_area_px": 3639424,
-            "col2col_area_cm2": 114.61,
+            "col2col_area_cm2": 114.6,
             "both_usable": false
           }
         },
@@ -4437,28 +4437,28 @@
           "height_px": 3047.5,
           "height_cm": 17.1,
           "width_px": 804.5,
-          "width_cm": 4.51,
+          "width_cm": 4.5,
           "area_px": 2451791,
-          "area_cm2": 77.21,
+          "area_cm2": 77.2,
           "margin_top_px": 744.5,
-          "margin_top_cm": 4.18,
+          "margin_top_cm": 4.2,
           "margin_bottom_px": 989.0,
-          "margin_bottom_cm": 5.55,
-          "schriftspiegel_height_ratio": 0.637,
-          "schriftspiegel_area_ratio": 0.085,
+          "margin_bottom_cm": 5.5,
+          "schriftspiegel_height_ratio": 0.64,
+          "schriftspiegel_area_ratio": 0.09,
           "to_next": {
             "intercolumn_px": 391.4,
             "intercolumn_cm": 2.2,
             "col2col_width_px": 1191.3,
-            "col2col_width_cm": 6.68,
+            "col2col_width_cm": 6.7,
             "col2col_area_px": 2767885,
-            "col2col_area_cm2": 87.16,
+            "col2col_area_cm2": 87.2,
             "both_usable": false
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 0.788,
-          "tilt_vs_ideal_deg": 1.515,
+          "tilt_vs_vertical_deg": 0.8,
+          "tilt_vs_ideal_deg": 1.5,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -4468,24 +4468,24 @@
         "lines": [],
         "metrics": {
           "height_px": 1590.0,
-          "height_cm": 8.92,
+          "height_cm": 8.9,
           "width_px": 541.5,
-          "width_cm": 3.04,
+          "width_cm": 3.0,
           "area_px": 861044,
-          "area_cm2": 27.12,
+          "area_cm2": 27.1,
           "margin_top_px": 2218.0,
-          "margin_top_cm": 12.45,
+          "margin_top_cm": 12.4,
           "margin_bottom_px": 973.0,
-          "margin_bottom_cm": 5.46,
-          "schriftspiegel_height_ratio": 0.333,
+          "margin_bottom_cm": 5.5,
+          "schriftspiegel_height_ratio": 0.33,
           "schriftspiegel_area_ratio": 0.03,
           "to_next": {
             "intercolumn_px": 641.8,
             "intercolumn_cm": 3.6,
             "col2col_width_px": 1183.3,
-            "col2col_width_cm": 6.64,
+            "col2col_width_cm": 6.6,
             "col2col_area_px": 2719272,
-            "col2col_area_cm2": 85.63,
+            "col2col_area_cm2": 85.6,
             "both_usable": false
           }
         },
@@ -4497,30 +4497,30 @@
         "lines": [],
         "metrics": {
           "height_px": 3031.0,
-          "height_cm": 17.01,
+          "height_cm": 17.0,
           "width_px": 815.0,
-          "width_cm": 4.57,
+          "width_cm": 4.6,
           "area_px": 2469785,
-          "area_cm2": 77.78,
+          "area_cm2": 77.8,
           "margin_top_px": 793.0,
-          "margin_top_cm": 4.45,
+          "margin_top_cm": 4.5,
           "margin_bottom_px": 957.0,
-          "margin_bottom_cm": 5.37,
-          "schriftspiegel_height_ratio": 0.634,
-          "schriftspiegel_area_ratio": 0.086,
+          "margin_bottom_cm": 5.4,
+          "schriftspiegel_height_ratio": 0.63,
+          "schriftspiegel_area_ratio": 0.09,
           "to_next": {
             "intercolumn_px": 375.0,
             "intercolumn_cm": 2.1,
             "col2col_width_px": 1190.0,
-            "col2col_width_cm": 6.68,
+            "col2col_width_cm": 6.7,
             "col2col_area_px": 3620478,
-            "col2col_area_cm2": 114.01,
+            "col2col_area_cm2": 114.0,
             "both_usable": false
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 0.589,
-          "tilt_vs_ideal_deg": 1.316,
+          "tilt_vs_vertical_deg": 0.6,
+          "tilt_vs_ideal_deg": 1.3,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -4530,17 +4530,17 @@
         "lines": [],
         "metrics": {
           "height_px": 3084.5,
-          "height_cm": 17.31,
+          "height_cm": 17.3,
           "width_px": 869.0,
-          "width_cm": 4.88,
+          "width_cm": 4.9,
           "area_px": 2680402,
-          "area_cm2": 84.41,
+          "area_cm2": 84.4,
           "margin_top_px": 757.5,
-          "margin_top_cm": 4.25,
+          "margin_top_cm": 4.2,
           "margin_bottom_px": 939.0,
-          "margin_bottom_cm": 5.27,
-          "schriftspiegel_height_ratio": 0.645,
-          "schriftspiegel_area_ratio": 0.093,
+          "margin_bottom_cm": 5.3,
+          "schriftspiegel_height_ratio": 0.65,
+          "schriftspiegel_area_ratio": 0.09,
           "to_next": null
         },
         "tilt": null
@@ -4560,10 +4560,10 @@
     "margin_right": 103,
     "margin_bottom": 230,
     "margin_left": 46,
-    "bbox_w_cm": 33.67,
-    "bbox_h_cm": 26.83,
+    "bbox_w_cm": 33.7,
+    "bbox_h_cm": 26.8,
     "tilt_reference": {
-      "plate_skew_deg": -0.727,
+      "plate_skew_deg": -0.7,
       "baseline_skew_deg": null,
       "n_columns_used": 2,
       "n_columns_with_baseline": 0
@@ -4584,30 +4584,30 @@
         "lines": [],
         "metrics": {
           "height_px": 4235.5,
-          "height_cm": 20.33,
+          "height_cm": 20.3,
           "width_px": 1131.5,
-          "width_cm": 5.43,
+          "width_cm": 5.4,
           "area_px": 4792166,
-          "area_cm2": 110.45,
+          "area_cm2": 110.5,
           "margin_top_px": 804.5,
-          "margin_top_cm": 3.86,
+          "margin_top_cm": 3.9,
           "margin_bottom_px": 1327.0,
-          "margin_bottom_cm": 6.37,
-          "schriftspiegel_height_ratio": 0.665,
-          "schriftspiegel_area_ratio": 0.175,
+          "margin_bottom_cm": 6.4,
+          "schriftspiegel_height_ratio": 0.67,
+          "schriftspiegel_area_ratio": 0.17,
           "to_next": {
             "intercolumn_px": 561.1,
-            "intercolumn_cm": 2.69,
+            "intercolumn_cm": 2.7,
             "col2col_width_px": 1693.0,
-            "col2col_width_cm": 8.13,
+            "col2col_width_cm": 8.1,
             "col2col_area_px": 7003110,
             "col2col_area_cm2": 161.4,
             "both_usable": false
           }
         },
         "tilt": {
-          "tilt_vs_vertical_deg": 0.717,
-          "tilt_vs_ideal_deg": 1.074,
+          "tilt_vs_vertical_deg": 0.7,
+          "tilt_vs_ideal_deg": 1.1,
           "tilt_vs_baseline_deg": null
         }
       },
@@ -4619,22 +4619,22 @@
           "height_px": 4041.0,
           "height_cm": 19.4,
           "width_px": 1190.0,
-          "width_cm": 5.71,
+          "width_cm": 5.7,
           "area_px": 4808790,
-          "area_cm2": 110.83,
+          "area_cm2": 110.8,
           "margin_top_px": 1044.0,
-          "margin_top_cm": 5.01,
+          "margin_top_cm": 5.0,
           "margin_bottom_px": 1282.0,
-          "margin_bottom_cm": 6.15,
-          "schriftspiegel_height_ratio": 0.635,
-          "schriftspiegel_area_ratio": 0.175,
+          "margin_bottom_cm": 6.2,
+          "schriftspiegel_height_ratio": 0.64,
+          "schriftspiegel_area_ratio": 0.17,
           "to_next": {
             "intercolumn_px": 499.0,
             "intercolumn_cm": 2.4,
             "col2col_width_px": 1689.0,
-            "col2col_width_cm": 8.11,
+            "col2col_width_cm": 8.1,
             "col2col_area_px": 4791693,
-            "col2col_area_cm2": 110.44,
+            "col2col_area_cm2": 110.4,
             "both_usable": false
           }
         },
@@ -4646,17 +4646,17 @@
         "lines": [],
         "metrics": {
           "height_px": 1633.0,
-          "height_cm": 7.84,
+          "height_cm": 7.8,
           "width_px": 260.0,
-          "width_cm": 1.25,
+          "width_cm": 1.2,
           "area_px": 424580,
-          "area_cm2": 9.79,
+          "area_cm2": 9.8,
           "margin_top_px": 3458.0,
           "margin_top_cm": 16.6,
           "margin_bottom_px": 1276.0,
-          "margin_bottom_cm": 6.13,
-          "schriftspiegel_height_ratio": 0.256,
-          "schriftspiegel_area_ratio": 0.015,
+          "margin_bottom_cm": 6.1,
+          "schriftspiegel_height_ratio": 0.26,
+          "schriftspiegel_area_ratio": 0.01,
           "to_next": null
         },
         "tilt": null
@@ -4676,10 +4676,10 @@
     "margin_right": 70,
     "margin_bottom": 354,
     "margin_left": 89,
-    "bbox_w_cm": 20.66,
-    "bbox_h_cm": 30.57,
+    "bbox_w_cm": 20.7,
+    "bbox_h_cm": 30.6,
     "tilt_reference": {
-      "plate_skew_deg": -0.357,
+      "plate_skew_deg": -0.4,
       "baseline_skew_deg": null,
       "n_columns_used": 1,
       "n_columns_with_baseline": 0
