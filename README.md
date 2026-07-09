@@ -2,6 +2,8 @@
 
 Automatische Analyse von PAGE-XML-Layoutdaten von Papyrusfragmenten mit besonderem Augenmerk auf Maas's Law (Schrägheit der Kolumnen)
 
+Link zur Transkribussammlung: https://app.transkribus.org/invitations/c22ceb11-967c-4cda-b82a-6453340cc983
+
 ## Ablauf
 
 Das Notebook `scripts/papyrus-layoutstudien.ipynb` steuert die Auswertung als **Pipeline**. Zentraler Datenspeicher ist `data/layout_data.json`: Die PAGE-XML-Dateien (Transkribus-Export unter `page_xml/`) werden dorthin eingelesen, und jeder Verarbeitungsschritt liest diese Datei und schreibt seine Ergebnisse zurück.
