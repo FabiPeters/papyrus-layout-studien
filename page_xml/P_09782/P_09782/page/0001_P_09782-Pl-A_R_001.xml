@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2025-09-16T19:41:03.166+02:00</Created>
-        <LastChange>2026-07-01T11:51:53.771+02:00</LastChange>
-        <TranskribusMetadata docId="10681342" pageId="103068044" pageNr="1" tsid="294565073" status="IN_PROGRESS" userId="72011" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=PLKKZOALHDFDHFJODVPFZNFE" xmlUrl="https://files.transkribus.eu/Get?id=IMSLKYTNHVZYJMADNNOJOHFK" imageId="86429041"/>
+        <LastChange>2026-07-07T20:19:16.563+02:00</LastChange>
+        <TranskribusMetadata docId="10681342" pageId="103068044" pageNr="1" tsid="295292476" status="IN_PROGRESS" userId="72011" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=PLKKZOALHDFDHFJODVPFZNFE" xmlUrl="https://files.transkribus.eu/Get?id=NEJSKJLZCVMYRKHWBEAVTHZR" imageId="86429041"/>
     </Metadata>
     <Page imageFilename="0001_P_09782-Pl-A_R_001.jpg" imageWidth="6692" imageHeight="4682">
         <ReadingOrder>
-            <OrderedGroup id="ro_1782902654390" caption="Regions reading order">
+            <OrderedGroup id="ro_1783605319120" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
                 <RegionRefIndexed index="1" regionRef="r2"/>
                 <RegionRefIndexed index="2" regionRef="r3"/>
@@ -196,7 +196,7 @@
             </TextLine>
         </TextRegion>
         <TextRegion id="r2" custom="readingOrder {index:1;} structure {type:column; key:#FR7071;}">
-            <Coords points="833,524 1650,547 1485,3580 721,3565"/>
+            <Coords points="831,529 1645,545 1485,3580 721,3565"/>
             <TextLine id="r2l1" custom="readingOrder {index:0;} structure {type:damaged;}">
                 <Coords points="826,523 1516,534 1516,581 826,570"/>
                 <Baseline points="829,565 1635,580"/>
@@ -566,7 +566,7 @@
             </TextEquiv>
         </TextRegion>
         <TextRegion id="r3" custom="readingOrder {index:2;} structure {type:column; key:#FR7072;}">
-            <Coords points="2035,556 2855,552 2699,3606 1904,3607"/>
+            <Coords points="2035,556 2852,549 2699,3606 1904,3607"/>
             <TextLine id="r3l1" custom="readingOrder {index:0;}">
                 <Coords points="2037,555 2838,547 2839,586 2038,594"/>
                 <Baseline points="2038,589 2839,581"/>

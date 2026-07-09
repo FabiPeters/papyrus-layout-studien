@@ -3,20 +3,20 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2025-05-08T11:35:29.426+02:00</Created>
-        <LastChange>2026-06-26T12:31:52.447+02:00</LastChange>
-        <TranskribusMetadata docId="10681342" pageId="103067814" pageNr="2" tsid="294014643" status="IN_PROGRESS" userId="72011" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=UDVMYKYPRTWOYJTIJHLUNUCS" xmlUrl="https://files.transkribus.eu/Get?id=ZQAQEIWLIXMUVIYOFULKRHLU" imageId="86428667"/>
+        <LastChange>2026-07-01T18:34:34.365+02:00</LastChange>
+        <TranskribusMetadata docId="10681342" pageId="103067814" pageNr="2" tsid="294618757" status="IN_PROGRESS" userId="72011" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=UDVMYKYPRTWOYJTIJHLUNUCS" xmlUrl="https://files.transkribus.eu/Get?id=QVVMIIXCFVJOQIDXXKEDROWX" imageId="86428667"/>
     </Metadata>
     <Page imageFilename="0002_P_09782-Pl-B_R_001.jpg" imageWidth="5763" imageHeight="5305">
         <ReadingOrder>
-            <OrderedGroup id="ro_1782902654443" caption="Regions reading order">
+            <OrderedGroup id="ro_1783605319164" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
                 <RegionRefIndexed index="1" regionRef="r2"/>
                 <RegionRefIndexed index="2" regionRef="r3"/>
                 <RegionRefIndexed index="3" regionRef="r4"/>
             </OrderedGroup>
         </ReadingOrder>
-        <TextRegion id="r1" custom="readingOrder {index:0;} structure {type:column;}">
-            <Coords points="445,760 1374,764 1227,4198 261,4187"/>
+        <TextRegion id="r1" custom="readingOrder {index:0;} structure {type:column; key:#FR7076;}">
+            <Coords points="443,768 1369,774 1224,4188 264,4186"/>
             <TextLine id="r1l1" custom="readingOrder {index:0;}">
                 <Coords points="446,765 1359,769 1359,819 446,815"/>
                 <Baseline points="446,810 1359,814"/>
@@ -336,8 +336,8 @@
                 <Unicode></Unicode>
             </TextEquiv>
         </TextRegion>
-        <TextRegion id="r2" custom="readingOrder {index:1;} structure {type:column;}">
-            <Coords points="1820,778 2753,806 2544,4184 1651,4180"/>
+        <TextRegion id="r2" custom="readingOrder {index:1;} structure {type:column; key:#FR7077;}">
+            <Coords points="1825,785 2747,809 2544,4184 1651,4180"/>
             <TextLine id="r2l1" custom="readingOrder {index:0;}">
                 <Coords points="1835,780 2735,802 2734,852 1834,830"/>
                 <Baseline points="1834,825 2734,847"/>
@@ -664,8 +664,8 @@
                 <Unicode></Unicode>
             </TextEquiv>
         </TextRegion>
-        <TextRegion id="r3" custom="readingOrder {index:2;} structure {type:column;}">
-            <Coords points="3184,789 4089,805 3952,4201 2976,4181"/>
+        <TextRegion id="r3" custom="readingOrder {index:2;} structure {type:column; key:#FR7078;}">
+            <Coords points="3201,801 4090,811 3939,4198 2983,4180"/>
             <TextLine id="r3l1" custom="readingOrder {index:0;}">
                 <Coords points="3204,799 4080,811 4079,861 3203,849"/>
                 <Baseline points="3203,844 4079,856"/>
@@ -978,8 +978,8 @@
                 <Unicode></Unicode>
             </TextEquiv>
         </TextRegion>
-        <TextRegion id="r4" custom="readingOrder {index:3;} structure {type:column;}">
-            <Coords points="4541,761 5500,772 5315,4186 4362,4148"/>
+        <TextRegion id="r4" custom="readingOrder {index:3;} structure {type:column; key:#FR7079;}">
+            <Coords points="4544,766 5501,775 5315,4186 4367,4148"/>
             <TextLine id="r4l1" custom="readingOrder {index:0;}">
                 <Coords points="4543,774 5478,780 5478,830 4543,824"/>
                 <Baseline points="4543,819 5478,825"/>

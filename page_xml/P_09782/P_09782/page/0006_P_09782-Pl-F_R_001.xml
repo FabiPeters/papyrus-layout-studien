@@ -8,23 +8,23 @@
     </Metadata>
     <Page imageFilename="0006_P_09782-Pl-F_R_001.jpg" imageWidth="5710" imageHeight="5353">
         <ReadingOrder>
-            <OrderedGroup id="ro_1782902654477" caption="Regions reading order">
+            <OrderedGroup id="ro_1783605319207" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
                 <RegionRefIndexed index="1" regionRef="r2"/>
                 <RegionRefIndexed index="2" regionRef="r3"/>
                 <RegionRefIndexed index="3" regionRef="r4"/>
             </OrderedGroup>
         </ReadingOrder>
-        <TextRegion id="r1" custom="readingOrder {index:0;} structure {type:column;}">
+        <TextRegion id="r1" custom="readingOrder {index:0;} structure {type:column; key:#FR7092;}">
             <Coords points="513,683 1400,698 1284,4123 356,4121"/>
         </TextRegion>
-        <TextRegion id="r2" custom="readingOrder {index:1;} structure {type:column;}">
+        <TextRegion id="r2" custom="readingOrder {index:1;} structure {type:column; key:#FR7093;}">
             <Coords points="1834,705 2712,698 2603,4129 1701,4135"/>
         </TextRegion>
-        <TextRegion id="r3" custom="readingOrder {index:2;} structure {type:column;}">
+        <TextRegion id="r3" custom="readingOrder {index:2;} structure {type:column; key:#FR7094;}">
             <Coords points="3149,719 4080,717 3969,4142 3051,4126"/>
         </TextRegion>
-        <TextRegion id="r4" custom="readingOrder {index:3;} structure {type:column;}">
+        <TextRegion id="r4" custom="readingOrder {index:3;} structure {type:column; key:#FR7095;}">
             <Coords points="4495,707 5409,716 5257,4123 4377,4115"/>
         </TextRegion>
         <ChartRegion id="Chart_1758796553720_284" custom="readingOrder {index:4;} structure {type:scale_cm_10;}">

@@ -8,7 +8,7 @@
     </Metadata>
     <Page imageFilename="0008_P_09782-Pl-H_R_001.jpg" imageWidth="6709" imageHeight="2786">
         <ReadingOrder>
-            <OrderedGroup id="ro_1782902654488" caption="Regions reading order">
+            <OrderedGroup id="ro_1783605319220" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
                 <RegionRefIndexed index="1" regionRef="r_4"/>
                 <RegionRefIndexed index="2" regionRef="r2"/>
@@ -29,7 +29,7 @@
                 <RegionRefIndexed index="18" regionRef="r_1"/>
             </OrderedGroup>
         </ReadingOrder>
-        <TextRegion id="r1" custom="readingOrder {index:0;} structure {type:column;}">
+        <TextRegion id="r1" custom="readingOrder {index:0;} structure {type:column; key:#FR7111;}">
             <Coords points="268,452 670,447 605,1905 206,1911"/>
         </TextRegion>
         <TextRegion id="r_4" custom="readingOrder {index:1;} structure {type:kollesis;}">
@@ -38,19 +38,19 @@
                 <Unicode></Unicode>
             </TextEquiv>
         </TextRegion>
-        <TextRegion id="r2" custom="readingOrder {index:2;} structure {type:column_incomplete;}">
+        <TextRegion id="r2" custom="readingOrder {index:2;} structure {type:column_incomplete; key:#FR7112;}">
             <Coords points="854,439 1248,433 1231,1249 818,1261"/>
         </TextRegion>
         <ImageRegion id="Image_1758210946240_342" custom="readingOrder {index:3;}">
             <Coords points="1296,1345 731,1345 731,1670 1296,1670"/>
         </ImageRegion>
-        <TextRegion id="r3" custom="readingOrder {index:4;} structure {type:column;}">
+        <TextRegion id="r3" custom="readingOrder {index:4;} structure {type:column; key:#FR7113;}">
             <Coords points="1427,435 1829,423 1776,1913 1382,1912"/>
         </TextRegion>
-        <TextRegion id="r4" custom="readingOrder {index:5;} structure {type:column;}">
+        <TextRegion id="r4" custom="readingOrder {index:5;} structure {type:column; key:#FR7114;}">
             <Coords points="2012,432 2397,441 2335,1918 1948,1917"/>
         </TextRegion>
-        <TextRegion id="r5" custom="readingOrder {index:6;} structure {type:column;}">
+        <TextRegion id="r5" custom="readingOrder {index:6;} structure {type:column; key:#FR7115;}">
             <Coords points="2594,442 2986,437 2932,1915 2532,1912"/>
         </TextRegion>
         <TextRegion id="r_5" custom="readingOrder {index:7;} structure {type:kollesis;}">
@@ -59,13 +59,13 @@
                 <Unicode></Unicode>
             </TextEquiv>
         </TextRegion>
-        <TextRegion id="r6" custom="readingOrder {index:8;} structure {type:column;}">
+        <TextRegion id="r6" custom="readingOrder {index:8;} structure {type:column; key:#FR7116;}">
             <Coords points="3178,449 3565,449 3527,1903 3117,1901"/>
         </TextRegion>
-        <TextRegion id="r7" custom="readingOrder {index:9;} structure {type:column;}">
+        <TextRegion id="r7" custom="readingOrder {index:9;} structure {type:column; key:#FR7501;}">
             <Coords points="3758,463 4159,470 4086,1889 3704,1890"/>
         </TextRegion>
-        <TextRegion id="r8" custom="readingOrder {index:10;} structure {type:column;}">
+        <TextRegion id="r8" custom="readingOrder {index:10;} structure {type:column; key:#FR7502;}">
             <Coords points="4344,472 4743,473 4682,1924 4283,1918"/>
         </TextRegion>
         <TextRegion id="r_6" custom="readingOrder {index:11;} structure {type:kollesis;}">
@@ -74,13 +74,13 @@
                 <Unicode></Unicode>
             </TextEquiv>
         </TextRegion>
-        <TextRegion id="r9" custom="readingOrder {index:12;} structure {type:column;}">
+        <TextRegion id="r9" custom="readingOrder {index:12;} structure {type:column; key:#FR7503;}">
             <Coords points="4930,468 5336,473 5286,1928 4855,1915"/>
         </TextRegion>
-        <TextRegion id="r10" custom="readingOrder {index:13;} structure {type:column;}">
+        <TextRegion id="r10" custom="readingOrder {index:13;} structure {type:column; key:#FR7504;}">
             <Coords points="5493,485 5905,480 5860,1939 5440,1938"/>
         </TextRegion>
-        <TextRegion id="r11" custom="readingOrder {index:14;} structure {type:column;}">
+        <TextRegion id="r11" custom="readingOrder {index:14;} structure {type:column; key:#FR7505;}">
             <Coords points="6082,478 6489,476 6438,1906 6030,1919"/>
         </TextRegion>
         <TextRegion id="r" custom="readingOrder {index:15;} structure {margin:t; type:bounding_box_edge;}">
