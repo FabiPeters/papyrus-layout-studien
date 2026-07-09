@@ -1,0 +1,566 @@
+AIP_2022_Guidelines_for_Editing_Papyri:
+  type: report
+  title:
+    value: Guidelines for Editing Papyri
+    short: Editing Papyri
+  author:
+  - Fournet, Jean-Luc
+  - Benaissa, Amin
+  - Hammerstadt, Jürgen
+  - Vandorpe, Katelijn
+  - Clarysse, Willy
+  - Delattre, Alain
+  url: https://aip.ulb.be/PDF/Guidelines_for_editing_papyri.pdf
+  editor: Association Internationale de Papyrologues
+  publisher:
+    location: Brüssel
+Acosta-Hughe_B_2011_Companion_to_Callimachus:
+  type: book
+  title:
+    value: Brill's Companion to Callimachus
+    short: Brill's Companion to Callimachus
+  date: '2011'
+  url: https://brill.com/edcollbook/title/13766
+  editor:
+  - Acosta-Hughes, Benjamin
+  - Lehnus, Luigi
+  - Stephens, Susan
+  publisher:
+    location: Leiden; Boston
+BKT:
+  type: periodical
+  title:
+    value: Berliner Klassikertexte
+    short: BKT
+  publisher:
+    location: Berlin
+BKT_II_1905:
+  type: book
+  title:
+    value: Berliner Klassikertexte
+    short: BKT II
+  date: '1905'
+  url: https://archive.org/details/anonymerkommenta00diel
+  parent:
+    type: periodical
+    title:
+      value: Berliner Klassikertexte
+      short: BKT
+  volume: '2'
+  editor:
+  - Diels, H.
+  - Schubart, W.
+  publisher:
+    location: Berlin
+BMCR:
+  type: periodical
+  title:
+    value: Bryn Mawr Classical Review
+    short: BMCR
+Bagnall_RS_2009_Oxford_Papyrology:
+  type: book
+  title:
+    value: The Oxford Handbook of Papyrology
+    short: Oxford Papyrology
+  date: '2009'
+  editor: Bagnall, Roger S.
+  publisher:
+    location: Oxford
+Battezzato_L_2009_Techniques_Reading_Layout:
+  type: article
+  title:
+    value: Techniques of Reading and Textual Layout in Ancient Greek Texts
+    short: Techniques
+  author: Battezzato, Luigi
+  date: '2009'
+  page-range: 1–23
+  serial-number:
+    doi: 10.1017/S1750270500000166
+  parent:
+    type: periodical
+    title:
+      value: Cambridge Classical Journal
+      short: CCJ
+    volume: '55'
+BerlPap:
+  type: web
+  title: Berliner Papyrusdatenbank
+  url: https://berlpap.smb.museum/
+  publisher:
+    location: Berlin
+BerlPap_9782:
+  type: web
+  title: 'P. 9782: Kommentar zu Platons Theaitet'
+  author: o. A.
+  url: https://berlpap.smb.museum/02729/
+  parent:
+    type: web
+    title: Berliner Papyrusdatenbank
+    publisher:
+      location: Berlin
+CCJ:
+  type: periodical
+  title:
+    value: Cambridge Classical Journal
+    short: CCJ
+Causo_S_2025_Measurement_Tool:
+  type: chapter
+  title:
+    value: 'Enhancing Data Collection on the Materiality of Papyri: The Measurement
+      Tool'
+    short: Measurement Tool
+  author: Causo, Serena
+  date: '2025'
+  page-range: 257–284
+  parent:
+    type: book
+    title:
+      value: 'Digital Papyrology III: The Digital Critical Edition of Greek Papyri:
+        Issues, Projects, and Perspectives'
+      short: Digital Papyrology III
+    editor: Reggiani, Nicola
+DCLP:
+  type: book
+  title: Digital Corpus of Literary Papyri
+DCLP_62580:
+  type: chapter
+  title: TM 62580
+  author: o. A.
+  date: '2020'
+  url: https://github.com/papyri/idp.data/blob/master/DCLP/63/62580.xml
+  parent:
+    type: book
+    title: Digital Corpus of Literary Papyri
+  editor:
+  - Essler, Holger
+  - Donath, Oliver
+  - Sailer, Christian
+  - Damiani, Vincenzo
+DNP_Online:
+  type: reference
+  title:
+    value: Der Neue Pauly Online
+    short: DNP
+  url: https://referenceworks.brill.com/display/db/npog
+DNP_Papyri_literarisch_RWG:
+  type: article
+  title:
+    value: Papyri, literarische (RWG)
+    short: Papyri, literarische
+  author: Harder, Annette
+  date: '2006'
+  serial-number:
+    doi: 10.1163/1574-9347_dnp_e15200510
+  url:
+    value: https://referenceworks.brill.com/display/entries/NPOG/e15200510.xml
+    date: '2026-06-23'
+  parent:
+    type: reference
+    title:
+      value: Der Neue Pauly Online
+      short: DNP
+Del_Corso_L_2024_Literary_Papyri_Bodleian:
+  type: book
+  title:
+    value: Literary Papyri from the Bodleian Library and Other Collections (P.Lit.Var.)
+    short: Literary Papyri
+  author: Del Corso, Lucio
+  date: '2024'
+  url: https://books.fupress.com/catalogue/literary-papyri-from-the-bodleian-library-and-other-collections-plitvar/15128
+  publisher:
+    location: Florenz
+EpiDoc_Guidelines:
+  type: web
+  title:
+    value: 'EpiDoc Guidelines: Ancient documents in TEI XML'
+    short: EpiDoc Guidelines
+  author:
+  - Elliot, Tom
+  - Bodard, Gabriel
+  - Mylonas, Elli
+  - Stoyanova, Simona
+  - Tupman, Charlotte
+  - Vanderbilt, Scott
+  - et al.
+  date: '2026'
+  url: https://epidoc.stoa.org/gl/latest/
+Falivene_MR_2011_Diegeseis_Papyrus:
+  type: chapter
+  title:
+    value: 'The Diegeseis Papyrus: Archaeological Context, Format, and Contents'
+    short: Diegeseis Papyrus
+  author: Falivene, Maria Rosaria
+  url: https://brill.com/display/book/edcoll/9789004216976/B9789004216976-s006.xml
+  parent:
+    type: book
+    title:
+      value: Brill's Companion to Callimachus
+      short: Brill's Companion to Callimachus
+    editor:
+    - Acosta-Hughes, Benjamin
+    - Lehnus, Luigi
+    - Stephens, Susan
+    publisher:
+      location: Leiden; Boston
+Hartnell_J_2020_Continuous_Scrolls:
+  type: book
+  title:
+    value: Continuous Page. Scrolls and Scrolling, From Papyrus to Hypertext
+    short: Continuous Page
+  author: Hartnell, Jack
+  date: '2020'
+  publisher:
+    location: London
+Johnson_WA_1993_Maas_Ruling_Dots:
+  type: article
+  title:
+    value: 'Column Layout in Oxyrhynchus Literary Papyri: Maas''s Law, Ruling and
+      Alignment Dots'
+    short: Maas's Law
+  author: Johnson, William A.
+  date: '1993'
+  page-range: 211–215
+  url: https://www.jstor.org/stable/20188900
+  parent:
+    type: periodical
+    title:
+      value: Zeitschrift für Papyrologie und Epigraphik
+      short: ZPE
+    volume: '96'
+Johnson_WA_2004_Bookrolls:
+  type: book
+  title:
+    value: Bookrolls and Scribes in Oxyrhynchus
+    short: Bookrolls
+  author: Johnson, William A.
+  date: '2004'
+  serial-number:
+    doi: 10.3138/9781442671515
+  url: https://www.jstor.org/stable/10.3138/9781442671515
+  publisher:
+    location: Toronto
+Johnson_WA_2009_Ancient_Book:
+  type: chapter
+  title:
+    value: The Ancient Book
+    short: Ancient Book
+  author: Johnson, William A.
+  page-range: 256–281
+  parent:
+    type: book
+    title:
+      value: The Oxford Handbook of Papyrology
+      short: Oxford Papyrology
+    editor: Bagnall, Roger S.
+    publisher:
+      location: Oxford
+Johnson_WA_2025_Physical_Features:
+  type: web
+  title:
+    value: Bookrolls — Physical Features
+    short: Physical Features
+  author:
+  - Johnson, William A.
+  - Wagner, Nicholas
+  date: '2025'
+  url: https://ancientbooks.papyrology.org/bookrolls-physical-features/
+  parent:
+    type: web
+    title:
+      value: The Ancient Books Website
+      short: Ancient Books Website
+Johnson_WA_2025_Puncuation_Iota_Nu-movable:
+  type: book
+  title:
+    value: Punctuation, Iota Adscript, and Nu-movable in Ancient Literary Bookrolls
+    short: Punctuation
+  author: Johnson, William A.
+  date: '2025'
+  publisher:
+    location: Leuven
+Johnson_WA_2025_The_Ancient_Books_Website:
+  type: web
+  title:
+    value: The Ancient Books Website
+    short: Ancient Books Website
+  author:
+  - Johnson, William A.
+  - Wagner, Nicholas
+  date: '2025'
+  url: https://ancientbooks.papyrology.org/
+Karsten_A_2012_Venedig:
+  type: book
+  title: Geschichte Venedigs
+  author: Karsten, Arne
+  date: '2012'
+  call-number: 21 LXPV133
+  publisher:
+    location: München
+Laumakis_SJ_2025_Cambridge_Intro_Buddhist_Philosophy:
+  type: book
+  title:
+    value: An Introduction to Buddhist Philosophy
+    short: Buddhist Philosophy
+  author: Laumakis, Stephen J.
+  date: '2025'
+  call-number: 21 ILW3949(2)
+  publisher:
+    name: Cambridge University Press
+    location: Cambridge; New York, NY; Port Melbourne; New Delhi; Singapore
+Material-Archiv:
+  type: reference
+  title: Material-Archiv
+Material-Archiv_Papyrus:
+  type: web
+  title: Papyrus
+  date: '2026'
+  url: https://materialarchiv.ch/de/ma:material_410
+  parent:
+    type: reference
+    title: Material-Archiv
+  editor: Material-Archiv
+Mustermann_M_2001_Toller_Titel:
+  type: book
+  title: Toller Titel
+  date: '2001'
+NDB:
+  type: reference
+  title:
+    value: Neue Deutsche Biographie
+    short: NDB
+NDB_Paul_Maas:
+  type: article
+  title: Maas, Paul
+  author: Wirth, Peter
+  date: '1987'
+  page-range: '597'
+  url: https://www.deutsche-biographie.de/gnd11888185X.html
+  parent:
+    type: reference
+    title:
+      value: Neue Deutsche Biographie
+      short: NDB
+    volume: '15'
+Obbink_D_2014_Sappho:
+  type: article
+  title:
+    value: Two New Poems by Sappho
+    short: Sappho
+  author: Obbink, Dirk
+  date: '2014'
+  page-range: 32–49
+  url: https://www.jstor.org/stable/23850358
+  parent:
+    type: periodical
+    title:
+      value: Zeitschrift für Papyrologie und Epigraphik
+      short: ZPE
+    volume: '189'
+PapyriInfo:
+  type: web
+  title: Papyri.info
+  url: https://papyri.info/
+  publisher:
+    location: Durham; New York, NY
+PapyriInfo_TM_62580:
+  type: web
+  title: TM 62580
+  author: o. A.
+  url: https://papyri.info/dclp/62580
+  parent:
+    type: web
+    title: Papyri.info
+    publisher:
+      location: Durham; New York, NY
+Papyrus_9782:
+  type: chapter
+  title:
+    value: Anonymer Kommentar zu Platons Theaetet (Papyrus 9782) Nebst Drei Bruchstücken
+      Philosopischen Inhalts (Pap. N. 8; P. 9766. 9569)
+    short: Theaetet Kommentar
+  author: o. A.
+  date: '1905'
+  url: https://archive.org/details/anonymerkommenta00diel
+  parent:
+    type: book
+    title:
+      value: Berliner Klassikertexte
+      short: BKT II
+    volume: '2'
+    editor:
+    - Diels, H.
+    - Schubart, W.
+  publisher:
+    location: Berlin
+Pleiades:
+  type: web
+  title:
+    value: 'Pleiades: A Gazetteer of Past Places'
+    short: Pleiades
+Pleiades_Herculaneum:
+  type: article
+  title:
+    value: 'Herculaneum: a Pleiades place resource'
+    short: Herculaneum
+  author: Purcell, N.
+  affiliated:
+  - role: collaborator
+    names:
+    - Kiesling, Brady
+    - Talbert, R.
+    - Gillies, Sean
+    - Becker, Jeffrey
+    - Elliott, Tom
+    - DARMC
+    - Smith, R. Scott
+    - Hawes, Greta
+    - jfu
+  date: '2026'
+  url: https://pleiades.stoa.org/places/432873
+Pleiades_Hermopolis:
+  type: article
+  title:
+    value: 'Hermopolis Magna/Schmun: a Pleiades place resource'
+    short: Hermopolis Magna
+  author: Bear, M. Drew
+  affiliated:
+  - role: collaborator
+    names:
+    - Kiesling, Brady
+    - Gillies, Sean
+    - Åhlfeldt, Johan
+    - Becker, Jeffrey
+    - Elliott, Tom
+    - DARMC
+    - Talbert, R.
+    - Souchon, Nicolas
+    - jfu
+    - Yılandiloğlu, Enes
+  date: '2026'
+  url: https://pleiades.stoa.org/places/756574
+  parent:
+    type: web
+    title:
+      value: 'Pleiades: A Gazetteer of Past Places'
+      short: Pleiades
+Pleiades_Oxyrhynchus:
+  type: article
+  title:
+    value: 'Oxyrhynchus/Pemje: a Pleiades place resource'
+    short: Oxyrhynchus
+  author: Müller Wollermann, R.
+  affiliated:
+  - role: collaborator
+    names:
+    - Kiesling, Brady
+    - Gillies, Sean
+    - Åhlfeldt, Johan
+    - Prins, Adam
+    - Thum, Jen
+    - Becker, Jeffrey
+    - Elliott, Tom
+    - DARMC
+    - Verreth, Herbert
+    - Talbert, R.
+    - Depauw, Mark
+    - Yılandiloğlu, Enes
+    - jfu
+  date: '2025'
+  url: https://pleiades.stoa.org/places/736983
+  parent:
+    type: web
+    title:
+      value: 'Pleiades: A Gazetteer of Past Places'
+      short: Pleiades
+ReadCoop_Transkribus:
+  type: web
+  title: Transkribus
+  author: Read-Coop
+  url: https://app.transkribus.org
+Reggiani_N_2025_Digital_Papyrology_III:
+  type: book
+  title:
+    value: 'Digital Papyrology III: The Digital Critical Edition of Greek Papyri:
+      Issues, Projects, and Perspectives'
+    short: Digital Papyrology III
+  date: '2025'
+  serial-number:
+    doi: 10.1515/9783111070162
+  url: https://www.degruyterbrill.com/de/document/doi/10.1515/9783111070162/html
+  editor: Reggiani, Nicola
+Romano_FP_2023_Layout_Lead:
+  type: book
+  title:
+    value: Layout of Ancient Greek Papyri Through Lead-Drawn Ruling Lines Revealed
+      by Macro X-Ray Fluorescence Imaging
+    short: Layout X-Ray
+  author: Romano, Francesco P.
+  date: '2023'
+  url: https://www.nature.com/articles/s41598-023-33242-8
+Stephens_S_2005_Bookrolls_Review:
+  type: article
+  title:
+    value: 'Review: Bookrolls and Scribes in Oxyrhynchus'
+    short: Bookrolls Review
+  author: Stephens, Susan
+  date: '2005'
+  url: https://bmcr.brynmawr.edu/2005/2005.01.04/
+  parent:
+    type: periodical
+    title:
+      value: Bryn Mawr Classical Review
+      short: BMCR
+TM_62580:
+  type: web
+  title: TM 62580
+  author: o. A.
+  url: https://www.trismegistos.org/text/62580
+  parent:
+    type: web
+    title: Trismegistos
+Trismegistos:
+  type: web
+  title: Trismegistos
+  url: https://www.trismegistos.org/
+Typolexikon:
+  type: reference
+  title:
+    value: Typolexikon. Lexikon und Fachenzyklopädie der Typografie
+    short: Typolexikon
+  url: https://www.typolexikon.de/
+Vincenzo_D_2025_Auto_Segmentation_Papyri:
+  type: chapter
+  title: Automated Layout Segmentation and Text Recognition for Literary Papyri and
+    Incunabula
+  author: Damiani, Vincenzo
+  date: '2025'
+  page-range: 317–326
+  parent:
+    type: book
+    title:
+      value: 'Digital Papyrology III: The Digital Critical Edition of Greek Papyri:
+        Issues, Projects, and Perspectives'
+      short: Digital Papyrology III
+    editor: Reggiani, Nicola
+WiBiLex:
+  type: reference
+  title:
+    value: Das wissenschaftliche Bibellexikon im Internet
+    short: WiBiLex
+  url: https://www.die-bibel.de/ressourcen/wibilex
+WiBiLex_Hermopolis:
+  type: article
+  title: Hermopolis
+  author: Kessler, Dieter
+  date: '2008'
+  url: https://bibelwissenschaft.de/stichwort/21061/
+  parent:
+    type: reference
+    title:
+      value: Das wissenschaftliche Bibellexikon im Internet
+      short: WiBiLex
+ZPE:
+  type: periodical
+  title:
+    value: Zeitschrift für Papyrologie und Epigraphik
+    short: ZPE
