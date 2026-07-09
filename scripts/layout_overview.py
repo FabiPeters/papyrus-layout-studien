@@ -118,19 +118,20 @@ def aggregate(data: dict) -> tuple[list[dict], dict]:
 # Spaltenreihenfolge der CSV-Ausgaben (zugleich die Header).
 PLATE_FIELDS = [
     'plate', 'n_cols', 'n_usable', 'n_frags', 'n_mask_components',
-    'height_cm', 'width_cm', 'total_lines', 'avg_lines', 'min_lines', 'max_lines',
+    'height_cm', 'width_cm',
     'tilt_vert_mean_deg', 'tilt_ideal_mean_deg', 'tilt_baseline_mean_deg',
-    'plate_skew_deg', 'baseline_skew_deg', 'n_columns_with_baseline',
+    'plate_skew_deg', 'baseline_skew_deg',
 ]
 
+# Nur cm-/cm²-Werte in der CSV; Pixelwerte und die Flächen-Ratio sind entfernt,
+# damit die Tabelle (quer, DIN A4) nicht zu breit wird.
 COLUMN_FIELDS = [
     'plate', 'column_index', 'usable', 'n_lines',
     'tilt_vs_vertical_deg', 'tilt_vs_ideal_deg', 'tilt_vs_baseline_deg',
-    'height_px', 'height_cm', 'width_px', 'width_cm', 'area_px', 'area_cm2',
-    'margin_top_px', 'margin_top_cm', 'margin_bottom_px', 'margin_bottom_cm',
-    'schriftspiegel_height_ratio', 'schriftspiegel_area_ratio',
-    'intercolumn_px', 'intercolumn_cm', 'col2col_width_px', 'col2col_width_cm',
-    'col2col_area_px', 'col2col_area_cm2',
+    'height_cm', 'width_cm', 'area_cm2',
+    'margin_top_cm', 'margin_bottom_cm',
+    'schriftspiegel_height_ratio',
+    'intercolumn_cm', 'col2col_width_cm', 'col2col_area_cm2',
 ]
 
 
@@ -151,9 +152,9 @@ def plate_csv_rows(data: dict) -> list[dict]:
             'avg_lines':               round(r['avg_lines'], 2) if r['avg_lines'] is not None else None,
             'min_lines':               r['min_lines'],
             'max_lines':               r['max_lines'],
-            'tilt_vert_mean_deg':      round(r['tilt_v'], 3) if r['tilt_v'] is not None else None,
-            'tilt_ideal_mean_deg':     round(r['tilt_i'], 3) if r['tilt_i'] is not None else None,
-            'tilt_baseline_mean_deg':  round(r['tilt_b'], 3) if r['tilt_b'] is not None else None,
+            'tilt_vert_mean_deg':      round(r['tilt_v'], 1) + 0.0 if r['tilt_v'] is not None else None,
+            'tilt_ideal_mean_deg':     round(r['tilt_i'], 1) + 0.0 if r['tilt_i'] is not None else None,
+            'tilt_baseline_mean_deg':  round(r['tilt_b'], 1) + 0.0 if r['tilt_b'] is not None else None,
             'plate_skew_deg':          r['skew'],
             'baseline_skew_deg':       r['base_skew'],
             'n_columns_with_baseline': r['n_base'],

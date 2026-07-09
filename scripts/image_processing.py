@@ -207,7 +207,8 @@ def _px_to_cm(px: float, px_per_cm: float | None) -> float | None:
     vorliegt (``px_per_cm`` ist ``None`` oder 0) — cm ist dann nicht bestimmbar."""
     if not px_per_cm:
         return None
-    return round(px / px_per_cm, 2)
+    # 1 Nachkommastelle (mm): feinere Werte sind bei manueller Bbox Scheingenauigkeit.
+    return round(px / px_per_cm, 1) + 0.0   # + 0.0 normalisiert -0.0 -> 0.0
 
 
 def _measurements_from_bbox(x: int, y: int, w: int, h: int,

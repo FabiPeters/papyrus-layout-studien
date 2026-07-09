@@ -175,15 +175,18 @@ def measure_plate_tilt(entry: dict) -> None:
         t_base = tilt_deg(pts, alpha_base) if alpha_base is not None else None
         if alpha_base is not None:
             n_with_base += 1
+        # Winkelmaße auf 1 Nachkommastelle: bei manuell gezeichneten Polygonen ist
+        # 0,1° die sinnvolle Genauigkeit, mehr Stellen wären Scheingenauigkeit.
+        # + 0.0 normalisiert -0.0 -> 0.0 (sonst z. B. "-0.0" in der Tabelle)
         col['tilt'] = {
-            'tilt_vs_vertical_deg': round(t_vert, 3),
-            'tilt_vs_ideal_deg': round(t_ideal, 3) if t_ideal is not None else None,
-            'tilt_vs_baseline_deg': round(t_base, 3) if t_base is not None else None,
+            'tilt_vs_vertical_deg': round(t_vert, 1) + 0.0,
+            'tilt_vs_ideal_deg': round(t_ideal, 1) + 0.0 if t_ideal is not None else None,
+            'tilt_vs_baseline_deg': round(t_base, 1) + 0.0 if t_base is not None else None,
         }
 
     entry['tilt_reference'] = {
-        'plate_skew_deg': round(alpha_top, 3) if alpha_top is not None else None,
-        'baseline_skew_deg': round(alpha_base_plate, 3) if alpha_base_plate is not None else None,
+        'plate_skew_deg': round(alpha_top, 1) + 0.0 if alpha_top is not None else None,
+        'baseline_skew_deg': round(alpha_base_plate, 1) + 0.0 if alpha_base_plate is not None else None,
         'n_columns_used': len(usable),
         'n_columns_with_baseline': n_with_base,
     }
@@ -221,7 +224,7 @@ def measure_tilt(data_file=None, layout_data: dict | None = None,
             msg = f"[{key}] {used} nutzbare Kolumnen, Plattenschiefe {ref['plate_skew_deg']}°"
             bskew = ref.get('baseline_skew_deg')
             if bskew is not None:
-                diff = round(ref['plate_skew_deg'] - bskew, 3)
+                diff = round(ref['plate_skew_deg'] - bskew, 1)
                 msg += (f" | Baseline-Horizontale {bskew}° "
                         f"(Δ Oberkante−Baseline {diff:+}°, {ref['n_columns_with_baseline']} Kol. mit Zeilen)")
             print(msg)

@@ -101,22 +101,24 @@ def _horizontal_distance(edge_l: tuple[Point, Point], edge_r: tuple[Point, Point
     return _edge_x_at_y(rt, rb, ym) - _edge_x_at_y(lt, lb, ym)
 
 
-def _cm(px: float | None, px_per_cm: float | None, nd: int = 2) -> float | None:
+# Standard: 1 Nachkommastelle (cm bzw. cm²). Feinere Werte sind bei manuell
+# erfassten Papyrus-Maßen Scheingenauigkeit.
+def _cm(px: float | None, px_per_cm: float | None, nd: int = 1) -> float | None:
     if px is None or not px_per_cm:
         return None
-    return round(px / px_per_cm, nd)
+    return round(px / px_per_cm, nd) + 0.0   # + 0.0 normalisiert -0.0 -> 0.0
 
 
-def _cm2(px_area: float | None, px_per_cm: float | None, nd: int = 2) -> float | None:
+def _cm2(px_area: float | None, px_per_cm: float | None, nd: int = 1) -> float | None:
     if px_area is None or not px_per_cm:
         return None
-    return round(px_area / (px_per_cm ** 2), nd)
+    return round(px_area / (px_per_cm ** 2), nd) + 0.0
 
 
-def _ratio(a: float | None, b: float | None, nd: int = 3) -> float | None:
+def _ratio(a: float | None, b: float | None, nd: int = 2) -> float | None:
     if a is None or not b:
         return None
-    return round(a / b, nd)
+    return round(a / b, nd) + 0.0
 
 
 # ---------------------------------------------------------------------------
