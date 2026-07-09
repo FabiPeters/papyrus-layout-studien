@@ -3,12 +3,12 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2025-09-18T17:19:20.811+02:00</Created>
-        <LastChange>2026-02-10T15:28:44.531+01:00</LastChange>
-        <TranskribusMetadata docId="10681342" pageId="103173859" pageNr="10" tsid="275287366" status="IN_PROGRESS" userId="72011" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=EHCRULICDWMEEREEIXZPSTWO" xmlUrl="https://files.transkribus.eu/Get?id=WEYFOYSBBPKSBADWJHVHZVWY" imageId="86524092"/>
+        <LastChange>2026-07-09T16:58:08.425+02:00</LastChange>
+        <TranskribusMetadata docId="10681342" pageId="103173859" pageNr="10" tsid="295514953" status="IN_PROGRESS" userId="72011" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=EHCRULICDWMEEREEIXZPSTWO" xmlUrl="https://files.transkribus.eu/Get?id=HTWNZOFFGJQBCEUHJPIGSJPT" imageId="86524092"/>
     </Metadata>
     <Page imageFilename="0010_P_09782-Pl-O_R_001.jpg" imageWidth="5621" imageHeight="5437">
         <ReadingOrder>
-            <OrderedGroup id="ro_1783605319232" caption="Regions reading order">
+            <OrderedGroup id="ro_1783609280139" caption="Regions reading order">
                 <RegionRefIndexed index="1" regionRef="r1"/>
                 <RegionRefIndexed index="2" regionRef="r2"/>
                 <RegionRefIndexed index="3" regionRef="r3"/>

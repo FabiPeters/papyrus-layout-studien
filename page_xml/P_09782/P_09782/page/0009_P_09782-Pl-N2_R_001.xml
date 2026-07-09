@@ -3,20 +3,20 @@
     <Metadata>
         <Creator>Transkribus</Creator>
         <Created>2025-09-18T17:19:17.842+02:00</Created>
-        <LastChange>2026-05-19T08:34:09.066+02:00</LastChange>
-        <TranskribusMetadata docId="10681342" pageId="103173799" pageNr="9" tsid="287781068" status="IN_PROGRESS" userId="72011" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=UHEIBNHQQMHGGBNKGXGEWVDH" xmlUrl="https://files.transkribus.eu/Get?id=YBBRCGSVNFULLENQQVZTVOYC" imageId="86524111"/>
+        <LastChange>2026-07-09T16:57:43.086+02:00</LastChange>
+        <TranskribusMetadata docId="10681342" pageId="103173799" pageNr="9" tsid="295514863" status="IN_PROGRESS" userId="72011" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=UHEIBNHQQMHGGBNKGXGEWVDH" xmlUrl="https://files.transkribus.eu/Get?id=NCDHRELVHQMCQJTRQCHEKDIQ" imageId="86524111"/>
     </Metadata>
     <Page imageFilename="0009_P_09782-Pl-N2_R_001.jpg" imageWidth="4042" imageHeight="7522">
         <ReadingOrder>
-            <OrderedGroup id="ro_1783605319226" caption="Regions reading order">
+            <OrderedGroup id="ro_1783609280127" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
                 <RegionRefIndexed index="1" regionRef="r2"/>
             </OrderedGroup>
         </ReadingOrder>
-        <TextRegion id="r1" custom="readingOrder {index:0;} structure {type:column;}">
+        <TextRegion id="r1" custom="readingOrder {index:0;} structure {type:column; key:#FR7506;}">
             <Coords points="525,1232 1781,1234 1605,5826 313,5812"/>
         </TextRegion>
-        <TextRegion id="r2" custom="readingOrder {index:1;} structure {type:column;}">
+        <TextRegion id="r2" custom="readingOrder {index:1;} structure {type:column; key:#FR7507;}">
             <Coords points="2397,1214 3689,1191 3497,5937 2194,5884"/>
         </TextRegion>
         <ChartRegion id="Chart_1758796625702_310" custom="readingOrder {index:2;} structure {type:scale_cm_10;}">
