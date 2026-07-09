@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trpDocMetadata>
+    <docId>10681342</docId>
+    <title>P_09782</title>
+    <uploadTimestamp>1758044466901</uploadTimestamp>
+    <uploader>fabianpeters@mailbox.org</uploader>
+    <uploaderId>72011</uploaderId>
+    <nrOfPages>15</nrOfPages>
+    <pageId>103068044</pageId>
+    <url>https://files.transkribus.eu/Get?fileType=view&amp;id=PLKKZOALHDFDHFJODVPFZNFE</url>
+    <thumbUrl>https://files.transkribus.eu/Get?fileType=thumb&amp;id=PLKKZOALHDFDHFJODVPFZNFE</thumbUrl>
+    <status>0</status>
+    <fimgStoreColl>TrpDoc_DEA_10681342</fimgStoreColl>
+    <storeType>0</storeType>
+    <origDocId>0</origDocId>
+    <collectionList>
+        <colList>
+            <colId>2019499</colId>
+            <colName>Layoutstudien</colName>
+            <description>created by fabianpeters@mailbox.org</description>
+            <crowdsourcing>false</crowdsourcing>
+            <elearning>false</elearning>
+            <nrOfDocuments>0</nrOfDocuments>
+            <isFavorite>false</isFavorite>
+        </colList>
+    </collectionList>
+    <mainColId>2019499</mainColId>
+</trpDocMetadata>
