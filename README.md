@@ -2,6 +2,8 @@
 
 Automatische Analyse von PAGE-XML-Layoutdaten von Papyrusfragmenten mit besonderem Augenmerk auf Maas's Law (Schrägheit der Kolumnen)
 
+Für die Erstellung der Pythonskripte und ihrer Dokumentation wurde zuerst die Hilfe des KI-Modells Claude Haiku 4.5 verwendet. Die Skripte und ihre Dokumentation wurden allerdings ab Juni 2026 vollständig mit Claude Opus 4.7/4.8 in Claude Cowork überarbeitet und erweitert.
+
 Link zur Transkribussammlung: https://app.transkribus.org/invitations/c22ceb11-967c-4cda-b82a-6453340cc983
 
 ## Ablauf
