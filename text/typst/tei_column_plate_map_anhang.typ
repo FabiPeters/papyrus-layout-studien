@@ -7,7 +7,6 @@ Zuordnung der durchnummerierten Kolumnen der TEI-Edition (`<div subtype="column"
 
 TEI-Edition: *75 Kolumnen* (FR7070–FR7528); BKT 2: *76 Kolumnen*.#footnote[Die rekonstruierten Kolumneninhalte von Diels und Schubart wurden nicht in die TEI-Edition übernommen.]
 
-=== Zuordnung pro Platte
 
 #table(
   columns: 6,
@@ -32,8 +31,6 @@ TEI-Edition: *75 Kolumnen* (FR7070–FR7528); BKT 2: *76 Kolumnen*.#footnote[Die
 )
 
 Für alle gelisteten Platten stimmt die Kolumnenzahl mit den Transkribus-Daten überein. „custodialHist“ = über die TEI-`custodialHist` verlinkt; „manuell“ = anhand der PAGE-XML von Hand zugewiesen (G1, N2).
-
-=== Noch nicht zugeordnete Kolumnen
 
 13 Kolumnen (30–41, 72) besitzen FR-IDs, die in `custodialHist` keine `graphic`-Verknüpfung haben und keiner Platte zugeordnet sind.
 
