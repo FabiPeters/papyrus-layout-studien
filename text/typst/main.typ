@@ -1,6 +1,6 @@
 
 
-#set document(title: [Title], author: "Author")
+#set document(title: "Maas's Law Digital. Teilautomatisierte Layoutanalyse einer Buchrolle", author: "Fabian Peters")
 #set heading(numbering: "1.")
 #set par(justify: true, first-line-indent: 1em, leading: 1em)
 #set text(

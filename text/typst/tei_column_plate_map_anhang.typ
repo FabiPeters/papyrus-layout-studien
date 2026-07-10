@@ -5,7 +5,7 @@
 
 Zuordnung der durchnummerierten Kolumnen der TEI-Edition (`<div subtype="column">`)#footnote[vgl. #cite(<DCLP_62580>, form: "full")] zu den Platten. Verknüpfungsschlüssel sind die `corresp`-FR-IDs: in `custodialHist` verweist jede `FR####` über `graphic` auf eine Platten-Bilddatei, in den Kolumnen-divs auf dieselbe FR-ID. Die Platten G1 und N2 sind in `custodialHist` nicht verlinkt; ihre Kolumnen wurden manuell zugeordnet.
 
-TEI-Edition: *75 Kolumnen* (FR7070–FR7528).#footnote[Die rekonstruierten Kolumneninhalte von Diels und Schubart wurden nicht aufgegriffen.]
+TEI-Edition: *75 Kolumnen* (FR7070–FR7528); BKT 2: *76 Kolumnen*.#footnote[Die rekonstruierten Kolumneninhalte von Diels und Schubart wurden nicht in die TEI-Edition übernommen.]
 
 === Zuordnung pro Platte
 
